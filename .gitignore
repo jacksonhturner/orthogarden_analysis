@@ -1,0 +1,8 @@
+analysis/**
+!analysis/**/
+!*.sh
+!*.R
+!*.py
+!*.pdf
+!*.png
+!*.md
