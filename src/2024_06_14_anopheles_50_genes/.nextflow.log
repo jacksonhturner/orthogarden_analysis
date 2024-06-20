@@ -1,0 +1,241 @@
+Jun-14 10:25:06.204 [main] DEBUG nextflow.cli.Launcher - $> nextflow run /home/rkuster/nextflow/orthogarden/main.nf --input metadata.csv --threshold_val 0.9 --publish_dir /pickett_centaur/project/orthogarden_analysis/results/2024_06_14_anopheles_50_genes_0p9 -profile local,eight -resume
+Jun-14 10:25:06.295 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 24.04.1
+Jun-14 10:25:06.315 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/rkuster/.nextflow/plugins; core-plugins: nf-amazon@2.5.2,nf-azure@1.6.0,nf-cloudcache@0.4.1,nf-codecommit@0.2.0,nf-console@1.1.3,nf-ga4gh@1.3.0,nf-google@1.13.2,nf-tower@1.9.1,nf-wave@1.4.2
+Jun-14 10:25:06.351 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Jun-14 10:25:06.352 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Jun-14 10:25:06.354 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.10.0 in 'deployment' mode
+Jun-14 10:25:06.368 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Jun-14 10:25:06.391 [main] DEBUG nextflow.config.ConfigBuilder - Found config base: /home/rkuster/nextflow/orthogarden/nextflow.config
+Jun-14 10:25:06.395 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/rkuster/nextflow/orthogarden/nextflow.config
+Jun-14 10:25:06.421 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/rkuster/.nextflow/secrets/store.json
+Jun-14 10:25:06.425 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@28952dea] - activable => nextflow.secret.LocalSecretsProvider@28952dea
+Jun-14 10:25:06.438 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `local,eight`
+Jun-14 10:25:07.301 [main] DEBUG nextflow.config.ConfigBuilder - Available config profiles: [slurm, four, local, eight]
+Jun-14 10:25:07.339 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declaration
+Jun-14 10:25:07.355 [main] DEBUG nextflow.cli.CmdRun - Launching `/home/rkuster/nextflow/orthogarden/main.nf` [nauseous_koch] DSL2 - revision: e374266f3f
+Jun-14 10:25:07.357 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Jun-14 10:25:07.357 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Jun-14 10:25:07.412 [main] DEBUG nextflow.Session - Session UUID: 732ac808-42a2-4cab-9820-7c6dc18c6f9c
+Jun-14 10:25:07.413 [main] DEBUG nextflow.Session - Run name: nauseous_koch
+Jun-14 10:25:07.413 [main] DEBUG nextflow.Session - Executor pool size: 96
+Jun-14 10:25:07.421 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Jun-14 10:25:07.435 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=288; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Jun-14 10:25:07.462 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 24.04.1 build 5913
+  Created: 20-05-2024 09:48 UTC (05:48 EDT)
+  System: Linux 4.18.0-513.9.1.el8_9.x86_64
+  Runtime: Groovy 4.0.21 on OpenJDK 64-Bit Server VM 17.0.10+7
+  Encoding: UTF-8 (UTF-8)
+  Process: 3419195@centaur.ag.utk.edu [160.36.238.143]
+  CPUs: 96 - Mem: 503 GB (2 GB) - Swap: 4 GB (0)
+Jun-14 10:25:07.491 [main] DEBUG nextflow.Session - Work-dir: /pickett_centaur/project/orthogarden_analysis/results/2024_06_14_anopheles_50_genes_0p9/work [xfs]
+Jun-14 10:25:07.543 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Jun-14 10:25:07.558 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Jun-14 10:25:07.635 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Jun-14 10:25:07.650 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 97; maxThreads: 1000
+Jun-14 10:25:07.761 [main] DEBUG nextflow.Session - Session start
+Jun-14 10:25:07.766 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow started -- trace file: /pickett_centaur/project/orthogarden_analysis/results/2024_06_14_anopheles_50_genes_0p9/publish/summary/2024-06-14_10-25_trace.html
+Jun-14 10:25:08.192 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Jun-14 10:25:08.969 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:pandas` matches labels `pandas,lil_mem` for process with name PARSE_METADATA
+Jun-14 10:25:08.971 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:lil_mem` matches labels `pandas,lil_mem` for process with name PARSE_METADATA
+Jun-14 10:25:09.003 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jun-14 10:25:09.004 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jun-14 10:25:09.011 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Jun-14 10:25:09.018 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=96; memory=503 GB; capacity=8; pollInterval=100ms; dumpInterval=5m
+Jun-14 10:25:09.022 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+Jun-14 10:25:09.188 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:fastqc` matches labels `fastqc,big_mem` for process with name FASTQC_RAW
+Jun-14 10:25:09.189 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:big_mem` matches labels `fastqc,big_mem` for process with name FASTQC_RAW
+Jun-14 10:25:09.191 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jun-14 10:25:09.191 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jun-14 10:25:09.210 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:multiqc` matches labels `multiqc,lil_mem` for process with name MULTIQC_RAW
+Jun-14 10:25:09.211 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:lil_mem` matches labels `multiqc,lil_mem` for process with name MULTIQC_RAW
+Jun-14 10:25:09.213 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jun-14 10:25:09.214 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jun-14 10:25:09.234 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:cutadapt` matches labels `cutadapt,lil_mem` for process with name CUTADAPT_ADAPTERS
+Jun-14 10:25:09.235 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:lil_mem` matches labels `cutadapt,lil_mem` for process with name CUTADAPT_ADAPTERS
+Jun-14 10:25:09.244 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jun-14 10:25:09.244 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jun-14 10:25:09.253 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:fastqc` matches labels `fastqc,big_mem` for process with name FASTQC_TRIM
+Jun-14 10:25:09.254 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:big_mem` matches labels `fastqc,big_mem` for process with name FASTQC_TRIM
+Jun-14 10:25:09.257 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jun-14 10:25:09.257 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jun-14 10:25:09.266 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:multiqc` matches labels `multiqc,lil_mem` for process with name MULTIQC_TRIM
+Jun-14 10:25:09.268 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:lil_mem` matches labels `multiqc,lil_mem` for process with name MULTIQC_TRIM
+Jun-14 10:25:09.271 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jun-14 10:25:09.271 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jun-14 10:25:09.281 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:megahit` matches labels `megahit,big_mem` for process with name MEGAHIT
+Jun-14 10:25:09.283 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:big_mem` matches labels `megahit,big_mem` for process with name MEGAHIT
+Jun-14 10:25:09.286 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jun-14 10:25:09.287 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jun-14 10:25:09.296 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:augustus` matches labels `augustus,med_mem` for process with name AUGUSTUS_FASTA
+Jun-14 10:25:09.296 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:med_mem` matches labels `augustus,med_mem` for process with name AUGUSTUS_FASTA
+Jun-14 10:25:09.300 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jun-14 10:25:09.300 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jun-14 10:25:09.308 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:augustus` matches labels `augustus,med_mem` for process with name AUGUSTUS_READS
+Jun-14 10:25:09.309 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:med_mem` matches labels `augustus,med_mem` for process with name AUGUSTUS_READS
+Jun-14 10:25:09.312 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jun-14 10:25:09.312 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jun-14 10:25:09.328 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:augustus` matches labels `augustus,lil_mem` for process with name AUGUSTUS_PROT
+Jun-14 10:25:09.329 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:lil_mem` matches labels `augustus,lil_mem` for process with name AUGUSTUS_PROT
+Jun-14 10:25:09.332 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jun-14 10:25:09.332 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jun-14 10:25:09.342 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:orthofinder` matches labels `orthofinder,big_time` for process with name ORTHOFINDER
+Jun-14 10:25:09.343 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:big_time` matches labels `orthofinder,big_time` for process with name ORTHOFINDER
+Jun-14 10:25:09.345 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jun-14 10:25:09.345 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jun-14 10:25:09.360 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:pandas` matches labels `pandas,lil_mem` for process with name ORTHOFINDER_FINDER
+Jun-14 10:25:09.360 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:lil_mem` matches labels `pandas,lil_mem` for process with name ORTHOFINDER_FINDER
+Jun-14 10:25:09.362 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jun-14 10:25:09.363 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jun-14 10:25:09.375 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:pandas` matches labels `pandas,lil_mem` for process with name FIX_FRAMES
+Jun-14 10:25:09.376 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:lil_mem` matches labels `pandas,lil_mem` for process with name FIX_FRAMES
+Jun-14 10:25:09.378 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jun-14 10:25:09.378 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jun-14 10:25:09.386 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:pandas` matches labels `summary_table,pandas,lil_mem` for process with name SUMMARY_TABLE
+Jun-14 10:25:09.387 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:lil_mem` matches labels `summary_table,pandas,lil_mem` for process with name SUMMARY_TABLE
+Jun-14 10:25:09.388 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jun-14 10:25:09.388 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jun-14 10:25:09.415 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:mafft` matches labels `mafft,big_mem` for process with name MAFFT
+Jun-14 10:25:09.416 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:big_mem` matches labels `mafft,big_mem` for process with name MAFFT
+Jun-14 10:25:09.418 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jun-14 10:25:09.418 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jun-14 10:25:09.453 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:lil_mem` matches labels `translatorx,lil_mem` for process with name TRANSLATORX
+Jun-14 10:25:09.455 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jun-14 10:25:09.455 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jun-14 10:25:09.469 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:trimal` matches labels `trimal,lil_mem` for process with name TRIMAL
+Jun-14 10:25:09.469 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:lil_mem` matches labels `trimal,lil_mem` for process with name TRIMAL
+Jun-14 10:25:09.471 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jun-14 10:25:09.471 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jun-14 10:25:09.482 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:pandas` matches labels `pandas,lil_mem` for process with name REMOVE_THIRDS
+Jun-14 10:25:09.483 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:lil_mem` matches labels `pandas,lil_mem` for process with name REMOVE_THIRDS
+Jun-14 10:25:09.485 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jun-14 10:25:09.485 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jun-14 10:25:09.494 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:iqtree` matches labels `iqtree,sup_mem` for process with name IQTREE
+Jun-14 10:25:09.495 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:sup_mem` matches labels `iqtree,sup_mem` for process with name IQTREE
+Jun-14 10:25:09.496 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jun-14 10:25:09.496 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jun-14 10:25:09.501 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: FASTQC, FASTQC_TRIM, MEGAHIT, SUMMARY_TABLE, MULTIQC, PRE_MAFFT, AUGUSTUS_FASTA, AUGUSTUS_PROT, MULTIQC_TRIM, IQTREE_WITH_THIRDS, MAFFT, CUTADAPT_ADAPTERS, REMOVE_THIRDS, OLD_MAFFT, FASTQC_RAW, TRANSLATORX, IQTREE, MULTIQC_RAW, AUGUSTUS_READS, KRAKEN2, TRIMAL, ORTHOFINDER, FIX_FRAMES, ORTHOFINDER_FINDER, AUGUSTUS, PARSE_METADATA
+Jun-14 10:25:09.502 [main] DEBUG nextflow.Session - Igniting dataflow network (19)
+Jun-14 10:25:09.503 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PARSE_METADATA
+Jun-14 10:25:09.503 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > FASTQC_RAW
+Jun-14 10:25:09.504 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > MULTIQC_RAW
+Jun-14 10:25:09.504 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > CUTADAPT_ADAPTERS
+Jun-14 10:25:09.504 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > FASTQC_TRIM
+Jun-14 10:25:09.504 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > MULTIQC_TRIM
+Jun-14 10:25:09.504 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > MEGAHIT
+Jun-14 10:25:09.505 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > AUGUSTUS_FASTA
+Jun-14 10:25:09.505 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > AUGUSTUS_READS
+Jun-14 10:25:09.505 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > AUGUSTUS_PROT
+Jun-14 10:25:09.505 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > ORTHOFINDER
+Jun-14 10:25:09.506 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > ORTHOFINDER_FINDER
+Jun-14 10:25:09.506 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > FIX_FRAMES
+Jun-14 10:25:09.506 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SUMMARY_TABLE
+Jun-14 10:25:09.506 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > MAFFT
+Jun-14 10:25:09.507 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > TRANSLATORX
+Jun-14 10:25:09.508 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > TRIMAL
+Jun-14 10:25:09.508 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > REMOVE_THIRDS
+Jun-14 10:25:09.509 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > IQTREE
+Jun-14 10:25:09.510 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_5657a875717fc582: /home/rkuster/nextflow/orthogarden/./modules/fastqc.nf
+  Script_21c781cc9e6e1933: /home/rkuster/nextflow/orthogarden/./modules/megahit.nf
+  Script_09409a584b2eedb6: /home/rkuster/nextflow/orthogarden/./modules/kraken2.nf
+  Script_d285c688856d8ad0: /home/rkuster/nextflow/orthogarden/./modules/cutadapt.nf
+  Script_c85f0e1d8cdd8d30: /home/rkuster/nextflow/orthogarden/./modules/translatorx.nf
+  Script_a243aa298bfe7221: /home/rkuster/nextflow/orthogarden/./modules/seq_utils.nf
+  Script_bc82e209909020e1: /home/rkuster/nextflow/orthogarden/./modules/iqtree.nf
+  Script_964784bc2f550eea: /home/rkuster/nextflow/orthogarden/./modules/summary_table.nf
+  Script_0ade8215ea2e7fd4: /home/rkuster/nextflow/orthogarden/./modules/augustus.nf
+  Script_c33cd1665d9c8fea: /home/rkuster/nextflow/orthogarden/./modules/metadata.nf
+  Script_eec04bb34a82e6a2: /home/rkuster/nextflow/orthogarden/./modules/trimal.nf
+  Script_0bd50de291c8cf00: /home/rkuster/nextflow/orthogarden/./modules/multiqc.nf
+  Script_b1db382443b5adae: /home/rkuster/nextflow/orthogarden/./modules/orthofinder.nf
+  Script_9bf7af531b919ec3: /home/rkuster/nextflow/orthogarden/main.nf
+  Script_7e5424223eece2f5: /home/rkuster/nextflow/orthogarden/./modules/mafft.nf
+Jun-14 10:25:09.510 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Jun-14 10:25:09.510 [main] DEBUG nextflow.Session - Session await
+Jun-14 10:25:09.580 [Actor Thread 54] DEBUG nextflow.container.SingularityCache - Singularity found local store for image=docker://quay.io/biocontainers/pandas:1.5.2; path=/home/rkuster/singularity/quay.io-biocontainers-pandas-1.5.2.img
+Jun-14 10:25:09.673 [Actor Thread 52] INFO  nextflow.processor.TaskProcessor - [ae/eac5d2] Cached process > PARSE_METADATA
+Jun-14 10:25:09.719 [Actor Thread 61] DEBUG nextflow.container.SingularityCache - Singularity found local store for image=docker://quay.io/biocontainers/augustus:3.3.3--pl5321h700735d_12; path=/home/rkuster/singularity/quay.io-biocontainers-augustus-3.3.3--pl5321h700735d_12.img
+Jun-14 10:25:09.724 [Actor Thread 52] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'PublishDir' minSize=10; maxSize=288; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Jun-14 10:25:09.767 [Actor Thread 87] INFO  nextflow.processor.TaskProcessor - [9f/bb6217] Cached process > AUGUSTUS_FASTA (4)
+Jun-14 10:25:09.767 [Actor Thread 88] INFO  nextflow.processor.TaskProcessor - [a8/625453] Cached process > AUGUSTUS_FASTA (15)
+Jun-14 10:25:09.767 [Actor Thread 96] INFO  nextflow.processor.TaskProcessor - [ba/5e1aea] Cached process > AUGUSTUS_FASTA (9)
+Jun-14 10:25:09.767 [Actor Thread 82] INFO  nextflow.processor.TaskProcessor - [a0/2f80ff] Cached process > AUGUSTUS_FASTA (3)
+Jun-14 10:25:09.767 [Actor Thread 77] INFO  nextflow.processor.TaskProcessor - [51/c35b6b] Cached process > AUGUSTUS_FASTA (21)
+Jun-14 10:25:09.767 [Actor Thread 93] INFO  nextflow.processor.TaskProcessor - [be/3954a1] Cached process > AUGUSTUS_FASTA (13)
+Jun-14 10:25:09.767 [Actor Thread 89] INFO  nextflow.processor.TaskProcessor - [68/95f2f0] Cached process > AUGUSTUS_FASTA (16)
+Jun-14 10:25:09.767 [Actor Thread 85] INFO  nextflow.processor.TaskProcessor - [28/78d5b5] Cached process > AUGUSTUS_FASTA (20)
+Jun-14 10:25:09.767 [Actor Thread 91] INFO  nextflow.processor.TaskProcessor - [35/0a90bf] Cached process > AUGUSTUS_FASTA (12)
+Jun-14 10:25:09.767 [Actor Thread 73] INFO  nextflow.processor.TaskProcessor - [09/f74fa3] Cached process > AUGUSTUS_FASTA (1)
+Jun-14 10:25:09.767 [Actor Thread 95] INFO  nextflow.processor.TaskProcessor - [94/530613] Cached process > AUGUSTUS_FASTA (8)
+Jun-14 10:25:09.767 [Actor Thread 78] INFO  nextflow.processor.TaskProcessor - [61/0eaeca] Cached process > AUGUSTUS_FASTA (2)
+Jun-14 10:25:09.767 [Actor Thread 86] INFO  nextflow.processor.TaskProcessor - [89/b24581] Cached process > AUGUSTUS_FASTA (14)
+Jun-14 10:25:09.767 [Actor Thread 83] INFO  nextflow.processor.TaskProcessor - [4e/ac535b] Cached process > AUGUSTUS_FASTA (19)
+Jun-14 10:25:09.767 [Actor Thread 60] INFO  nextflow.processor.TaskProcessor - [a8/c06d8f] Cached process > AUGUSTUS_FASTA (11)
+Jun-14 10:25:09.767 [Actor Thread 84] INFO  nextflow.processor.TaskProcessor - [6b/2241ff] Cached process > AUGUSTUS_FASTA (17)
+Jun-14 10:25:09.768 [Actor Thread 94] INFO  nextflow.processor.TaskProcessor - [0a/b973ed] Cached process > AUGUSTUS_FASTA (7)
+Jun-14 10:25:09.768 [Actor Thread 79] INFO  nextflow.processor.TaskProcessor - [2d/acf8fe] Cached process > AUGUSTUS_FASTA (18)
+Jun-14 10:25:09.769 [Actor Thread 90] INFO  nextflow.processor.TaskProcessor - [94/b8072d] Cached process > AUGUSTUS_FASTA (5)
+Jun-14 10:25:09.769 [Actor Thread 92] INFO  nextflow.processor.TaskProcessor - [41/d5cfa5] Cached process > AUGUSTUS_FASTA (6)
+Jun-14 10:25:09.769 [Actor Thread 97] INFO  nextflow.processor.TaskProcessor - [6a/7c65a1] Cached process > AUGUSTUS_FASTA (10)
+Jun-14 10:25:09.785 [Actor Thread 77] INFO  nextflow.processor.TaskProcessor - [af/e32069] Cached process > AUGUSTUS_PROT (1)
+Jun-14 10:25:09.786 [Actor Thread 96] INFO  nextflow.processor.TaskProcessor - [53/acbe27] Cached process > AUGUSTUS_PROT (2)
+Jun-14 10:25:09.787 [Actor Thread 52] INFO  nextflow.processor.TaskProcessor - [08/be299b] Cached process > AUGUSTUS_PROT (4)
+Jun-14 10:25:09.788 [Actor Thread 91] INFO  nextflow.processor.TaskProcessor - [80/8f8f2b] Cached process > AUGUSTUS_PROT (9)
+Jun-14 10:25:09.788 [Actor Thread 73] INFO  nextflow.processor.TaskProcessor - [d5/3eaaf1] Cached process > AUGUSTUS_PROT (6)
+Jun-14 10:25:09.793 [Actor Thread 82] INFO  nextflow.processor.TaskProcessor - [c3/2abd3a] Cached process > AUGUSTUS_PROT (12)
+Jun-14 10:25:09.795 [Actor Thread 93] INFO  nextflow.processor.TaskProcessor - [a2/d6ed1e] Cached process > AUGUSTUS_PROT (14)
+Jun-14 10:25:09.795 [Actor Thread 80] INFO  nextflow.processor.TaskProcessor - [04/910527] Cached process > AUGUSTUS_PROT (3)
+Jun-14 10:25:09.797 [Actor Thread 89] INFO  nextflow.processor.TaskProcessor - [e7/89ed5a] Cached process > AUGUSTUS_PROT (11)
+Jun-14 10:25:09.797 [Actor Thread 60] INFO  nextflow.processor.TaskProcessor - [c2/0da78f] Cached process > AUGUSTUS_PROT (15)
+Jun-14 10:25:09.800 [Actor Thread 86] INFO  nextflow.processor.TaskProcessor - [6b/9d9eea] Cached process > AUGUSTUS_PROT (10)
+Jun-14 10:25:09.801 [Actor Thread 88] INFO  nextflow.processor.TaskProcessor - [23/a08f87] Cached process > AUGUSTUS_PROT (16)
+Jun-14 10:25:09.801 [Actor Thread 78] INFO  nextflow.processor.TaskProcessor - [40/5e8b06] Cached process > AUGUSTUS_PROT (19)
+Jun-14 10:25:09.801 [Actor Thread 74] INFO  nextflow.processor.TaskProcessor - [7f/c7e3b2] Cached process > AUGUSTUS_PROT (5)
+Jun-14 10:25:09.802 [Actor Thread 81] INFO  nextflow.processor.TaskProcessor - [45/c2f52d] Cached process > AUGUSTUS_PROT (13)
+Jun-14 10:25:09.802 [Actor Thread 94] INFO  nextflow.processor.TaskProcessor - [5f/512aad] Cached process > AUGUSTUS_PROT (7)
+Jun-14 10:25:09.802 [Actor Thread 79] INFO  nextflow.processor.TaskProcessor - [20/f69646] Cached process > AUGUSTUS_PROT (8)
+Jun-14 10:25:09.802 [Actor Thread 87] INFO  nextflow.processor.TaskProcessor - [9d/bb0c4e] Cached process > AUGUSTUS_PROT (18)
+Jun-14 10:25:09.803 [Actor Thread 32] INFO  nextflow.processor.TaskProcessor - [8b/b45fda] Cached process > AUGUSTUS_PROT (21)
+Jun-14 10:25:09.803 [Actor Thread 92] INFO  nextflow.processor.TaskProcessor - [1c/81bd2f] Cached process > AUGUSTUS_PROT (20)
+Jun-14 10:25:09.803 [Actor Thread 84] INFO  nextflow.processor.TaskProcessor - [fa/6966d2] Cached process > AUGUSTUS_PROT (17)
+Jun-14 10:25:09.823 [Actor Thread 84] DEBUG nextflow.container.SingularityCache - Singularity found local store for image=https://depot.galaxyproject.org/singularity/orthofinder:2.5.5--hdfd78af_1; path=/home/rkuster/singularity/depot.galaxyproject.org-singularity-orthofinder-2.5.5--hdfd78af_1.img
+Jun-14 10:25:09.830 [Actor Thread 93] INFO  nextflow.processor.TaskProcessor - [1a/918f19] Cached process > ORTHOFINDER
+Jun-14 10:25:09.879 [Actor Thread 92] INFO  nextflow.processor.TaskProcessor - [ee/6d9887] Cached process > ORTHOFINDER_FINDER
+Jun-14 10:25:09.898 [Actor Thread 87] DEBUG nextflow.container.SingularityCache - Singularity found local store for image=docker://quay.io/biocontainers/mafft:7.475--h516909a_0; path=/home/rkuster/singularity/quay.io-biocontainers-mafft-7.475--h516909a_0.img
+Jun-14 10:25:10.039 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jun-14 10:25:10.042 [Task submitter] INFO  nextflow.Session - [fc/04ba8e] Submitted process > FIX_FRAMES
+Jun-14 10:25:10.065 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jun-14 10:25:10.066 [Task submitter] INFO  nextflow.Session - [1f/2593ea] Submitted process > MAFFT (1)
+Jun-14 10:25:10.085 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jun-14 10:25:10.086 [Task submitter] INFO  nextflow.Session - [32/d5472c] Submitted process > SUMMARY_TABLE
+Jun-14 10:25:11.863 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 47; name: FIX_FRAMES; status: COMPLETED; exit: 0; error: -; workDir: /pickett_centaur/project/orthogarden_analysis/results/2024_06_14_anopheles_50_genes_0p9/work/fc/04ba8e3e53f3e3c84f908eaafc2250]
+Jun-14 10:25:11.864 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'TaskFinalizer' minSize=10; maxSize=288; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Jun-14 10:25:12.159 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 46; name: SUMMARY_TABLE; status: COMPLETED; exit: 0; error: -; workDir: /pickett_centaur/project/orthogarden_analysis/results/2024_06_14_anopheles_50_genes_0p9/work/32/d5472c032ffcbd7d86c729cb209967]
+Jun-14 10:25:37.467 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 48; name: MAFFT (1); status: COMPLETED; exit: 0; error: -; workDir: /pickett_centaur/project/orthogarden_analysis/results/2024_06_14_anopheles_50_genes_0p9/work/1f/2593ea716cc0c837fc3e341d4eb01c]
+Jun-14 10:25:37.534 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jun-14 10:25:37.535 [Task submitter] INFO  nextflow.Session - [49/9117e8] Submitted process > TRANSLATORX (1)
+Jun-14 10:25:42.231 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 49; name: TRANSLATORX (1); status: COMPLETED; exit: 0; error: -; workDir: /pickett_centaur/project/orthogarden_analysis/results/2024_06_14_anopheles_50_genes_0p9/work/49/9117e8a56a161743bf6fe46368201f]
+Jun-14 10:25:42.281 [Actor Thread 79] DEBUG nextflow.container.SingularityCache - Singularity found local store for image=docker://quay.io/biocontainers/trimal:1.4.1--h4ac6f70_8; path=/home/rkuster/singularity/quay.io-biocontainers-trimal-1.4.1--h4ac6f70_8.img
+Jun-14 10:25:42.329 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jun-14 10:25:42.330 [Task submitter] INFO  nextflow.Session - [5a/506ecc] Submitted process > TRIMAL (1)
+Jun-14 10:25:43.344 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 50; name: TRIMAL (1); status: COMPLETED; exit: 0; error: -; workDir: /pickett_centaur/project/orthogarden_analysis/results/2024_06_14_anopheles_50_genes_0p9/work/5a/506ecc269a5334f0dd114f1185de0c]
+Jun-14 10:25:43.389 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jun-14 10:25:43.390 [Task submitter] INFO  nextflow.Session - [6a/6309ed] Submitted process > REMOVE_THIRDS (1)
+Jun-14 10:25:44.752 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 51; name: REMOVE_THIRDS (1); status: COMPLETED; exit: 0; error: -; workDir: /pickett_centaur/project/orthogarden_analysis/results/2024_06_14_anopheles_50_genes_0p9/work/6a/6309edfc0baae78c52ee495ac50921]
+Jun-14 10:25:44.771 [Actor Thread 79] DEBUG nextflow.container.SingularityCache - Singularity found local store for image=docker://quay.io/biocontainers/iqtree:2.2.2.7--h21ec9f0_2; path=/home/rkuster/singularity/quay.io-biocontainers-iqtree-2.2.2.7--h21ec9f0_2.img
+Jun-14 10:25:44.798 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jun-14 10:25:44.799 [Task submitter] INFO  nextflow.Session - [13/e30d33] Submitted process > IQTREE
+Jun-14 10:29:30.570 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 52; name: IQTREE; status: COMPLETED; exit: 0; error: -; workDir: /pickett_centaur/project/orthogarden_analysis/results/2024_06_14_anopheles_50_genes_0p9/work/13/e30d3360e2c1239d2aab083f062683]
+Jun-14 10:29:30.583 [main] DEBUG nextflow.Session - Session await > all processes finished
+Jun-14 10:29:30.671 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
+Jun-14 10:29:30.671 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Jun-14 10:29:30.677 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'TaskFinalizer' shutdown completed (hard=false)
+Jun-14 10:29:30.687 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'PublishDir' shutdown completed (hard=false)
+Jun-14 10:29:30.694 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=7; failedCount=0; ignoredCount=0; cachedCount=45; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=33m 47s; failedDuration=0ms; cachedDuration=1h 7m 2s;loadCpus=0; loadMemory=0; peakRunning=3; peakCpus=12; peakMemory=100 GB; ]
+Jun-14 10:29:30.694 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow completed -- saving trace file
+Jun-14 10:29:30.695 [main] DEBUG nextflow.trace.ReportObserver - Workflow completed -- rendering execution report
+Jun-14 10:29:31.226 [main] DEBUG nextflow.trace.TimelineObserver - Workflow completed -- rendering execution timeline
+Jun-14 10:29:31.413 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Jun-14 10:29:31.428 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+Jun-14 10:29:31.428 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye
