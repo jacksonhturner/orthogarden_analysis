@@ -1,0 +1,358 @@
+IQ-TREE 2.2.2.7 COVID-edition built Jun  7 2023
+
+Partition file name: run_iqtree
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 757192
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+Since you used partition models please also cite:
+
+Olga Chernomor, Arndt von Haeseler, and Bui Quang Minh (2016)
+Terrace aware data structure for phylogenomic inference from
+supermatrices. Syst. Biol., 65:997-1008.
+https://doi.org/10.1093/sysbio/syw037
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 21 taxa with 47 partitions and 774906 total sites (0% missing data)
+
+  ID	Type	Seq	Site	Unique	Infor	Invar	Const	Name
+   1	DNA	21	34275	3943	4554	25330	25330	OG0008941.mapped.nt_ali.fasta.masked.no3rds+OG0009098.mapped.nt_ali.fasta.masked.no3rds+OG0009291.mapped.nt_ali.fasta.masked.no3rds+OG0009346.mapped.nt_ali.fasta.masked.no3rds+OG0009382.mapped.nt_ali.fasta.masked.no3rds+OG0009416.mapped.nt_ali.fasta.masked.no3rds+OG0009499.mapped.nt_ali.fasta.masked.no3rds+OG0009664.mapped.nt_ali.fasta.masked.no3rds+OG0009691.mapped.nt_ali.fasta.masked.no3rds+OG0009695.mapped.nt_ali.fasta.masked.no3rds+OG0009709.mapped.nt_ali.fasta.masked.no3rds+OG0009870.mapped.nt_ali.fasta.masked.no3rds+OG0009911.mapped.nt_ali.fasta.masked.no3rds
+   2	DNA	21	22482	1346	1275	19692	19692	OG0008942.mapped.nt_ali.fasta.masked.no3rds+OG0009081.mapped.nt_ali.fasta.masked.no3rds+OG0009151.mapped.nt_ali.fasta.masked.no3rds+OG0009165.mapped.nt_ali.fasta.masked.no3rds+OG0009241.mapped.nt_ali.fasta.masked.no3rds+OG0009251.mapped.nt_ali.fasta.masked.no3rds+OG0009303.mapped.nt_ali.fasta.masked.no3rds+OG0009497.mapped.nt_ali.fasta.masked.no3rds+OG0009539.mapped.nt_ali.fasta.masked.no3rds+OG0009549.mapped.nt_ali.fasta.masked.no3rds+OG0009558.mapped.nt_ali.fasta.masked.no3rds+OG0009611.mapped.nt_ali.fasta.masked.no3rds+OG0009632.mapped.nt_ali.fasta.masked.no3rds+OG0009758.mapped.nt_ali.fasta.masked.no3rds+OG0009812.mapped.nt_ali.fasta.masked.no3rds+OG0009861.mapped.nt_ali.fasta.masked.no3rds+OG0009966.mapped.nt_ali.fasta.masked.no3rds
+   3	DNA	21	18570	4150	2904	12675	12675	OG0008943.mapped.nt_ali.fasta.masked.no3rds+OG0009002.mapped.nt_ali.fasta.masked.no3rds+OG0009037.mapped.nt_ali.fasta.masked.no3rds+OG0009213.mapped.nt_ali.fasta.masked.no3rds+OG0009329.mapped.nt_ali.fasta.masked.no3rds+OG0009384.mapped.nt_ali.fasta.masked.no3rds+OG0009486.mapped.nt_ali.fasta.masked.no3rds+OG0009592.mapped.nt_ali.fasta.masked.no3rds+OG0009713.mapped.nt_ali.fasta.masked.no3rds
+   4	DNA	21	14517	1599	1468	11776	11776	OG0008944.mapped.nt_ali.fasta.masked.no3rds+OG0009136.mapped.nt_ali.fasta.masked.no3rds+OG0009163.mapped.nt_ali.fasta.masked.no3rds+OG0009451.mapped.nt_ali.fasta.masked.no3rds+OG0009559.mapped.nt_ali.fasta.masked.no3rds+OG0009620.mapped.nt_ali.fasta.masked.no3rds+OG0009681.mapped.nt_ali.fasta.masked.no3rds+OG0009705.mapped.nt_ali.fasta.masked.no3rds
+   5	DNA	21	37479	10516	9068	23395	23395	OG0008945.mapped.nt_ali.fasta.masked.no3rds+OG0008956.mapped.nt_ali.fasta.masked.no3rds+OG0009035.mapped.nt_ali.fasta.masked.no3rds+OG0009045.mapped.nt_ali.fasta.masked.no3rds+OG0009117.mapped.nt_ali.fasta.masked.no3rds+OG0009173.mapped.nt_ali.fasta.masked.no3rds+OG0009221.mapped.nt_ali.fasta.masked.no3rds+OG0009230.mapped.nt_ali.fasta.masked.no3rds+OG0009240.mapped.nt_ali.fasta.masked.no3rds+OG0009260.mapped.nt_ali.fasta.masked.no3rds+OG0009268.mapped.nt_ali.fasta.masked.no3rds+OG0009453.mapped.nt_ali.fasta.masked.no3rds+OG0009466.mapped.nt_ali.fasta.masked.no3rds+OG0009528.mapped.nt_ali.fasta.masked.no3rds+OG0009582.mapped.nt_ali.fasta.masked.no3rds+OG0009613.mapped.nt_ali.fasta.masked.no3rds+OG0009623.mapped.nt_ali.fasta.masked.no3rds+OG0009625.mapped.nt_ali.fasta.masked.no3rds+OG0009629.mapped.nt_ali.fasta.masked.no3rds+OG0009821.mapped.nt_ali.fasta.masked.no3rds+OG0009844.mapped.nt_ali.fasta.masked.no3rds+OG0009937.mapped.nt_ali.fasta.masked.no3rds
+   6	DNA	21	40467	8465	7511	28010	28010	OG0008946.mapped.nt_ali.fasta.masked.no3rds+OG0008949.mapped.nt_ali.fasta.masked.no3rds+OG0008958.mapped.nt_ali.fasta.masked.no3rds+OG0008985.mapped.nt_ali.fasta.masked.no3rds+OG0009024.mapped.nt_ali.fasta.masked.no3rds+OG0009099.mapped.nt_ali.fasta.masked.no3rds+OG0009103.mapped.nt_ali.fasta.masked.no3rds+OG0009108.mapped.nt_ali.fasta.masked.no3rds+OG0009128.mapped.nt_ali.fasta.masked.no3rds+OG0009257.mapped.nt_ali.fasta.masked.no3rds+OG0009551.mapped.nt_ali.fasta.masked.no3rds+OG0009585.mapped.nt_ali.fasta.masked.no3rds+OG0009598.mapped.nt_ali.fasta.masked.no3rds+OG0009624.mapped.nt_ali.fasta.masked.no3rds+OG0009736.mapped.nt_ali.fasta.masked.no3rds+OG0009815.mapped.nt_ali.fasta.masked.no3rds+OG0009910.mapped.nt_ali.fasta.masked.no3rds+OG0009925.mapped.nt_ali.fasta.masked.no3rds+OG0009971.mapped.nt_ali.fasta.masked.no3rds
+   7	DNA	21	21651	2797	3055	15112	15112	OG0008947.mapped.nt_ali.fasta.masked.no3rds+OG0009060.mapped.nt_ali.fasta.masked.no3rds+OG0009239.mapped.nt_ali.fasta.masked.no3rds+OG0009293.mapped.nt_ali.fasta.masked.no3rds+OG0009338.mapped.nt_ali.fasta.masked.no3rds+OG0009741.mapped.nt_ali.fasta.masked.no3rds+OG0009754.mapped.nt_ali.fasta.masked.no3rds+OG0009825.mapped.nt_ali.fasta.masked.no3rds+OG0009841.mapped.nt_ali.fasta.masked.no3rds+OG0009976.mapped.nt_ali.fasta.masked.no3rds
+   8	DNA	21	18936	6501	5557	11301	11301	OG0008952.mapped.nt_ali.fasta.masked.no3rds+OG0009021.mapped.nt_ali.fasta.masked.no3rds+OG0009152.mapped.nt_ali.fasta.masked.no3rds+OG0009247.mapped.nt_ali.fasta.masked.no3rds+OG0009264.mapped.nt_ali.fasta.masked.no3rds+OG0009333.mapped.nt_ali.fasta.masked.no3rds+OG0009522.mapped.nt_ali.fasta.masked.no3rds+OG0009565.mapped.nt_ali.fasta.masked.no3rds+OG0009665.mapped.nt_ali.fasta.masked.no3rds+OG0009901.mapped.nt_ali.fasta.masked.no3rds
+   9	DNA	21	33876	6085	5971	23648	23648	OG0008975.mapped.nt_ali.fasta.masked.no3rds+OG0009201.mapped.nt_ali.fasta.masked.no3rds+OG0009343.mapped.nt_ali.fasta.masked.no3rds+OG0009393.mapped.nt_ali.fasta.masked.no3rds+OG0009412.mapped.nt_ali.fasta.masked.no3rds+OG0009488.mapped.nt_ali.fasta.masked.no3rds+OG0009506.mapped.nt_ali.fasta.masked.no3rds+OG0009533.mapped.nt_ali.fasta.masked.no3rds+OG0009579.mapped.nt_ali.fasta.masked.no3rds+OG0009580.mapped.nt_ali.fasta.masked.no3rds+OG0009583.mapped.nt_ali.fasta.masked.no3rds+OG0009601.mapped.nt_ali.fasta.masked.no3rds+OG0009610.mapped.nt_ali.fasta.masked.no3rds+OG0009643.mapped.nt_ali.fasta.masked.no3rds+OG0009658.mapped.nt_ali.fasta.masked.no3rds+OG0009685.mapped.nt_ali.fasta.masked.no3rds+OG0009752.mapped.nt_ali.fasta.masked.no3rds+OG0009962.mapped.nt_ali.fasta.masked.no3rds+OG0009969.mapped.nt_ali.fasta.masked.no3rds
+  10	DNA	21	21513	4442	4201	14327	14327	OG0008977.mapped.nt_ali.fasta.masked.no3rds+OG0009461.mapped.nt_ali.fasta.masked.no3rds+OG0009532.mapped.nt_ali.fasta.masked.no3rds+OG0009822.mapped.nt_ali.fasta.masked.no3rds+OG0009848.mapped.nt_ali.fasta.masked.no3rds+OG0009869.mapped.nt_ali.fasta.masked.no3rds+OG0009895.mapped.nt_ali.fasta.masked.no3rds+OG0009905.mapped.nt_ali.fasta.masked.no3rds+OG0009954.mapped.nt_ali.fasta.masked.no3rds
+  11	DNA	21	26538	6457	5329	17339	17339	OG0008981.mapped.nt_ali.fasta.masked.no3rds+OG0009088.mapped.nt_ali.fasta.masked.no3rds+OG0009139.mapped.nt_ali.fasta.masked.no3rds+OG0009282.mapped.nt_ali.fasta.masked.no3rds+OG0009355.mapped.nt_ali.fasta.masked.no3rds+OG0009684.mapped.nt_ali.fasta.masked.no3rds+OG0009688.mapped.nt_ali.fasta.masked.no3rds+OG0009751.mapped.nt_ali.fasta.masked.no3rds+OG0009802.mapped.nt_ali.fasta.masked.no3rds
+  12	DNA	21	26967	2760	2437	22108	22108	OG0008983.mapped.nt_ali.fasta.masked.no3rds+OG0009023.mapped.nt_ali.fasta.masked.no3rds+OG0009025.mapped.nt_ali.fasta.masked.no3rds+OG0009090.mapped.nt_ali.fasta.masked.no3rds+OG0009258.mapped.nt_ali.fasta.masked.no3rds+OG0009292.mapped.nt_ali.fasta.masked.no3rds+OG0009306.mapped.nt_ali.fasta.masked.no3rds+OG0009485.mapped.nt_ali.fasta.masked.no3rds+OG0009584.mapped.nt_ali.fasta.masked.no3rds+OG0009630.mapped.nt_ali.fasta.masked.no3rds+OG0009753.mapped.nt_ali.fasta.masked.no3rds+OG0009778.mapped.nt_ali.fasta.masked.no3rds+OG0009789.mapped.nt_ali.fasta.masked.no3rds+OG0009795.mapped.nt_ali.fasta.masked.no3rds+OG0009883.mapped.nt_ali.fasta.masked.no3rds+OG0009914.mapped.nt_ali.fasta.masked.no3rds+OG0009983.mapped.nt_ali.fasta.masked.no3rds
+  13	DNA	21	40746	8892	8992	25483	25483	OG0008984.mapped.nt_ali.fasta.masked.no3rds+OG0009120.mapped.nt_ali.fasta.masked.no3rds+OG0009158.mapped.nt_ali.fasta.masked.no3rds+OG0009207.mapped.nt_ali.fasta.masked.no3rds+OG0009233.mapped.nt_ali.fasta.masked.no3rds+OG0009248.mapped.nt_ali.fasta.masked.no3rds+OG0009519.mapped.nt_ali.fasta.masked.no3rds+OG0009594.mapped.nt_ali.fasta.masked.no3rds+OG0009621.mapped.nt_ali.fasta.masked.no3rds+OG0009638.mapped.nt_ali.fasta.masked.no3rds+OG0009654.mapped.nt_ali.fasta.masked.no3rds+OG0009680.mapped.nt_ali.fasta.masked.no3rds+OG0009702.mapped.nt_ali.fasta.masked.no3rds+OG0009703.mapped.nt_ali.fasta.masked.no3rds+OG0009720.mapped.nt_ali.fasta.masked.no3rds+OG0009726.mapped.nt_ali.fasta.masked.no3rds+OG0009734.mapped.nt_ali.fasta.masked.no3rds+OG0009735.mapped.nt_ali.fasta.masked.no3rds+OG0009747.mapped.nt_ali.fasta.masked.no3rds+OG0009897.mapped.nt_ali.fasta.masked.no3rds+OG0009964.mapped.nt_ali.fasta.masked.no3rds
+  14	DNA	21	21114	1551	1581	17890	17890	OG0008992.mapped.nt_ali.fasta.masked.no3rds+OG0009298.mapped.nt_ali.fasta.masked.no3rds+OG0009360.mapped.nt_ali.fasta.masked.no3rds+OG0009448.mapped.nt_ali.fasta.masked.no3rds+OG0009647.mapped.nt_ali.fasta.masked.no3rds+OG0009651.mapped.nt_ali.fasta.masked.no3rds+OG0009725.mapped.nt_ali.fasta.masked.no3rds+OG0009785.mapped.nt_ali.fasta.masked.no3rds+OG0009857.mapped.nt_ali.fasta.masked.no3rds+OG0009879.mapped.nt_ali.fasta.masked.no3rds+OG0009933.mapped.nt_ali.fasta.masked.no3rds
+  15	DNA	21	20679	3541	4017	13118	13118	OG0008998.mapped.nt_ali.fasta.masked.no3rds+OG0009022.mapped.nt_ali.fasta.masked.no3rds+OG0009065.mapped.nt_ali.fasta.masked.no3rds+OG0009137.mapped.nt_ali.fasta.masked.no3rds+OG0009265.mapped.nt_ali.fasta.masked.no3rds+OG0009373.mapped.nt_ali.fasta.masked.no3rds+OG0009415.mapped.nt_ali.fasta.masked.no3rds+OG0009567.mapped.nt_ali.fasta.masked.no3rds+OG0009590.mapped.nt_ali.fasta.masked.no3rds+OG0009853.mapped.nt_ali.fasta.masked.no3rds
+  16	DNA	21	2250	583	426	1606	1606	OG0009000.mapped.nt_ali.fasta.masked.no3rds+OG0009001.mapped.nt_ali.fasta.masked.no3rds
+  17	DNA	21	25059	3669	3454	18288	18288	OG0009003.mapped.nt_ali.fasta.masked.no3rds+OG0009086.mapped.nt_ali.fasta.masked.no3rds+OG0009131.mapped.nt_ali.fasta.masked.no3rds+OG0009141.mapped.nt_ali.fasta.masked.no3rds+OG0009171.mapped.nt_ali.fasta.masked.no3rds+OG0009220.mapped.nt_ali.fasta.masked.no3rds+OG0009279.mapped.nt_ali.fasta.masked.no3rds+OG0009287.mapped.nt_ali.fasta.masked.no3rds+OG0009442.mapped.nt_ali.fasta.masked.no3rds+OG0009622.mapped.nt_ali.fasta.masked.no3rds+OG0009642.mapped.nt_ali.fasta.masked.no3rds+OG0009863.mapped.nt_ali.fasta.masked.no3rds
+  18	DNA	21	5547	2371	1957	2924	2924	OG0009007.mapped.nt_ali.fasta.masked.no3rds
+  19	DNA	21	18108	6766	6282	9360	9360	OG0009013.mapped.nt_ali.fasta.masked.no3rds+OG0009028.mapped.nt_ali.fasta.masked.no3rds+OG0009138.mapped.nt_ali.fasta.masked.no3rds+OG0009536.mapped.nt_ali.fasta.masked.no3rds+OG0009547.mapped.nt_ali.fasta.masked.no3rds+OG0009781.mapped.nt_ali.fasta.masked.no3rds+OG0009804.mapped.nt_ali.fasta.masked.no3rds+OG0009876.mapped.nt_ali.fasta.masked.no3rds
+  20	DNA	21	8274	333	254	7690	7690	OG0009016.mapped.nt_ali.fasta.masked.no3rds+OG0009449.mapped.nt_ali.fasta.masked.no3rds+OG0009452.mapped.nt_ali.fasta.masked.no3rds+OG0009458.mapped.nt_ali.fasta.masked.no3rds+OG0009476.mapped.nt_ali.fasta.masked.no3rds+OG0009493.mapped.nt_ali.fasta.masked.no3rds+OG0009653.mapped.nt_ali.fasta.masked.no3rds+OG0009902.mapped.nt_ali.fasta.masked.no3rds
+  21	DNA	21	17478	1399	1164	14017	14017	OG0009059.mapped.nt_ali.fasta.masked.no3rds+OG0009082.mapped.nt_ali.fasta.masked.no3rds+OG0009280.mapped.nt_ali.fasta.masked.no3rds+OG0009295.mapped.nt_ali.fasta.masked.no3rds+OG0009353.mapped.nt_ali.fasta.masked.no3rds+OG0009390.mapped.nt_ali.fasta.masked.no3rds+OG0009457.mapped.nt_ali.fasta.masked.no3rds+OG0009480.mapped.nt_ali.fasta.masked.no3rds+OG0009893.mapped.nt_ali.fasta.masked.no3rds
+  22	DNA	21	5559	1302	990	3923	3923	OG0009061.mapped.nt_ali.fasta.masked.no3rds+OG0009728.mapped.nt_ali.fasta.masked.no3rds+OG0009915.mapped.nt_ali.fasta.masked.no3rds
+  23	DNA	21	31644	7010	6207	21487	21487	OG0009066.mapped.nt_ali.fasta.masked.no3rds+OG0009149.mapped.nt_ali.fasta.masked.no3rds+OG0009179.mapped.nt_ali.fasta.masked.no3rds+OG0009246.mapped.nt_ali.fasta.masked.no3rds+OG0009277.mapped.nt_ali.fasta.masked.no3rds+OG0009334.mapped.nt_ali.fasta.masked.no3rds+OG0009509.mapped.nt_ali.fasta.masked.no3rds+OG0009510.mapped.nt_ali.fasta.masked.no3rds+OG0009537.mapped.nt_ali.fasta.masked.no3rds+OG0009587.mapped.nt_ali.fasta.masked.no3rds+OG0009660.mapped.nt_ali.fasta.masked.no3rds+OG0009678.mapped.nt_ali.fasta.masked.no3rds+OG0009693.mapped.nt_ali.fasta.masked.no3rds+OG0009744.mapped.nt_ali.fasta.masked.no3rds+OG0009794.mapped.nt_ali.fasta.masked.no3rds+OG0009868.mapped.nt_ali.fasta.masked.no3rds+OG0009906.mapped.nt_ali.fasta.masked.no3rds
+  24	DNA	21	9588	834	733	7880	7880	OG0009074.mapped.nt_ali.fasta.masked.no3rds+OG0009283.mapped.nt_ali.fasta.masked.no3rds+OG0009294.mapped.nt_ali.fasta.masked.no3rds+OG0009350.mapped.nt_ali.fasta.masked.no3rds+OG0009482.mapped.nt_ali.fasta.masked.no3rds+OG0009540.mapped.nt_ali.fasta.masked.no3rds+OG0009541.mapped.nt_ali.fasta.masked.no3rds+OG0009589.mapped.nt_ali.fasta.masked.no3rds+OG0009600.mapped.nt_ali.fasta.masked.no3rds+OG0009776.mapped.nt_ali.fasta.masked.no3rds
+  25	DNA	21	22926	6926	6302	12964	12964	OG0009096.mapped.nt_ali.fasta.masked.no3rds+OG0009116.mapped.nt_ali.fasta.masked.no3rds+OG0009150.mapped.nt_ali.fasta.masked.no3rds+OG0009189.mapped.nt_ali.fasta.masked.no3rds+OG0009198.mapped.nt_ali.fasta.masked.no3rds+OG0009208.mapped.nt_ali.fasta.masked.no3rds+OG0009278.mapped.nt_ali.fasta.masked.no3rds+OG0009379.mapped.nt_ali.fasta.masked.no3rds+OG0009546.mapped.nt_ali.fasta.masked.no3rds+OG0009704.mapped.nt_ali.fasta.masked.no3rds+OG0009892.mapped.nt_ali.fasta.masked.no3rds+OG0009972.mapped.nt_ali.fasta.masked.no3rds+OG0009980.mapped.nt_ali.fasta.masked.no3rds
+  26	DNA	21	31536	4409	3942	23999	23999	OG0009110.mapped.nt_ali.fasta.masked.no3rds+OG0009238.mapped.nt_ali.fasta.masked.no3rds+OG0009398.mapped.nt_ali.fasta.masked.no3rds+OG0009404.mapped.nt_ali.fasta.masked.no3rds+OG0009455.mapped.nt_ali.fasta.masked.no3rds+OG0009463.mapped.nt_ali.fasta.masked.no3rds+OG0009495.mapped.nt_ali.fasta.masked.no3rds+OG0009511.mapped.nt_ali.fasta.masked.no3rds+OG0009520.mapped.nt_ali.fasta.masked.no3rds+OG0009560.mapped.nt_ali.fasta.masked.no3rds+OG0009666.mapped.nt_ali.fasta.masked.no3rds+OG0009717.mapped.nt_ali.fasta.masked.no3rds+OG0009731.mapped.nt_ali.fasta.masked.no3rds+OG0009896.mapped.nt_ali.fasta.masked.no3rds
+  27	DNA	21	4584	540	346	3374	3374	OG0009118.mapped.nt_ali.fasta.masked.no3rds+OG0009347.mapped.nt_ali.fasta.masked.no3rds+OG0009777.mapped.nt_ali.fasta.masked.no3rds+OG0009938.mapped.nt_ali.fasta.masked.no3rds
+  28	DNA	21	38637	4533	4737	29642	29642	OG0009119.mapped.nt_ali.fasta.masked.no3rds+OG0009127.mapped.nt_ali.fasta.masked.no3rds+OG0009140.mapped.nt_ali.fasta.masked.no3rds+OG0009211.mapped.nt_ali.fasta.masked.no3rds+OG0009299.mapped.nt_ali.fasta.masked.no3rds+OG0009309.mapped.nt_ali.fasta.masked.no3rds+OG0009377.mapped.nt_ali.fasta.masked.no3rds+OG0009405.mapped.nt_ali.fasta.masked.no3rds+OG0009459.mapped.nt_ali.fasta.masked.no3rds+OG0009500.mapped.nt_ali.fasta.masked.no3rds+OG0009523.mapped.nt_ali.fasta.masked.no3rds+OG0009531.mapped.nt_ali.fasta.masked.no3rds+OG0009576.mapped.nt_ali.fasta.masked.no3rds+OG0009636.mapped.nt_ali.fasta.masked.no3rds+OG0009637.mapped.nt_ali.fasta.masked.no3rds+OG0009682.mapped.nt_ali.fasta.masked.no3rds+OG0009768.mapped.nt_ali.fasta.masked.no3rds+OG0009784.mapped.nt_ali.fasta.masked.no3rds+OG0009799.mapped.nt_ali.fasta.masked.no3rds+OG0009846.mapped.nt_ali.fasta.masked.no3rds+OG0009928.mapped.nt_ali.fasta.masked.no3rds+OG0009941.mapped.nt_ali.fasta.masked.no3rds
+  29	DNA	21	23547	6717	5545	14494	14494	OG0009121.mapped.nt_ali.fasta.masked.no3rds+OG0009197.mapped.nt_ali.fasta.masked.no3rds+OG0009270.mapped.nt_ali.fasta.masked.no3rds+OG0009588.mapped.nt_ali.fasta.masked.no3rds+OG0009650.mapped.nt_ali.fasta.masked.no3rds+OG0009652.mapped.nt_ali.fasta.masked.no3rds+OG0009742.mapped.nt_ali.fasta.masked.no3rds+OG0009891.mapped.nt_ali.fasta.masked.no3rds
+  30	DNA	21	25395	2599	2588	19983	19983	OG0009122.mapped.nt_ali.fasta.masked.no3rds+OG0009167.mapped.nt_ali.fasta.masked.no3rds+OG0009210.mapped.nt_ali.fasta.masked.no3rds+OG0009256.mapped.nt_ali.fasta.masked.no3rds+OG0009370.mapped.nt_ali.fasta.masked.no3rds+OG0009429.mapped.nt_ali.fasta.masked.no3rds+OG0009447.mapped.nt_ali.fasta.masked.no3rds+OG0009456.mapped.nt_ali.fasta.masked.no3rds+OG0009514.mapped.nt_ali.fasta.masked.no3rds+OG0009515.mapped.nt_ali.fasta.masked.no3rds+OG0009530.mapped.nt_ali.fasta.masked.no3rds+OG0009548.mapped.nt_ali.fasta.masked.no3rds+OG0009566.mapped.nt_ali.fasta.masked.no3rds+OG0009739.mapped.nt_ali.fasta.masked.no3rds+OG0009765.mapped.nt_ali.fasta.masked.no3rds+OG0009801.mapped.nt_ali.fasta.masked.no3rds+OG0009809.mapped.nt_ali.fasta.masked.no3rds+OG0009824.mapped.nt_ali.fasta.masked.no3rds+OG0009836.mapped.nt_ali.fasta.masked.no3rds+OG0009873.mapped.nt_ali.fasta.masked.no3rds+OG0009942.mapped.nt_ali.fasta.masked.no3rds+OG0009955.mapped.nt_ali.fasta.masked.no3rds+OG0009975.mapped.nt_ali.fasta.masked.no3rds
+  31	DNA	21	10980	1399	996	8516	8516	OG0009129.mapped.nt_ali.fasta.masked.no3rds+OG0009164.mapped.nt_ali.fasta.masked.no3rds+OG0009166.mapped.nt_ali.fasta.masked.no3rds+OG0009172.mapped.nt_ali.fasta.masked.no3rds+OG0009188.mapped.nt_ali.fasta.masked.no3rds+OG0009222.mapped.nt_ali.fasta.masked.no3rds+OG0009667.mapped.nt_ali.fasta.masked.no3rds+OG0009900.mapped.nt_ali.fasta.masked.no3rds+OG0009929.mapped.nt_ali.fasta.masked.no3rds
+  32	DNA	21	4137	2073	1703	1917	1917	OG0009156.mapped.nt_ali.fasta.masked.no3rds+OG0009378.mapped.nt_ali.fasta.masked.no3rds+OG0009646.mapped.nt_ali.fasta.masked.no3rds
+  33	DNA	21	15837	3204	3317	10083	10083	OG0009174.mapped.nt_ali.fasta.masked.no3rds+OG0009634.mapped.nt_ali.fasta.masked.no3rds+OG0009913.mapped.nt_ali.fasta.masked.no3rds+OG0009981.mapped.nt_ali.fasta.masked.no3rds
+  34	DNA	21	7614	1410	1015	5766	5766	OG0009177.mapped.nt_ali.fasta.masked.no3rds+OG0009196.mapped.nt_ali.fasta.masked.no3rds+OG0009973.mapped.nt_ali.fasta.masked.no3rds+OG0009977.mapped.nt_ali.fasta.masked.no3rds
+  35	DNA	21	5157	1675	1279	2960	2960	OG0009212.mapped.nt_ali.fasta.masked.no3rds+OG0009352.mapped.nt_ali.fasta.masked.no3rds+OG0009444.mapped.nt_ali.fasta.masked.no3rds+OG0009889.mapped.nt_ali.fasta.masked.no3rds
+  36	DNA	21	6180	1744	1423	3837	3837	OG0009229.mapped.nt_ali.fasta.masked.no3rds+OG0009344.mapped.nt_ali.fasta.masked.no3rds+OG0009817.mapped.nt_ali.fasta.masked.no3rds
+  37	DNA	21	7866	2232	1574	5228	5228	OG0009231.mapped.nt_ali.fasta.masked.no3rds+OG0009542.mapped.nt_ali.fasta.masked.no3rds+OG0009918.mapped.nt_ali.fasta.masked.no3rds
+  38	DNA	21	7671	3095	2592	3892	3892	OG0009250.mapped.nt_ali.fasta.masked.no3rds+OG0009332.mapped.nt_ali.fasta.masked.no3rds+OG0009851.mapped.nt_ali.fasta.masked.no3rds
+  39	DNA	21	4509	851	626	3237	3237	OG0009406.mapped.nt_ali.fasta.masked.no3rds+OG0009644.mapped.nt_ali.fasta.masked.no3rds+OG0009732.mapped.nt_ali.fasta.masked.no3rds+OG0009845.mapped.nt_ali.fasta.masked.no3rds
+  40	DNA	21	16221	2282	2219	11772	11772	OG0009472.mapped.nt_ali.fasta.masked.no3rds+OG0009525.mapped.nt_ali.fasta.masked.no3rds+OG0009535.mapped.nt_ali.fasta.masked.no3rds+OG0009553.mapped.nt_ali.fasta.masked.no3rds+OG0009908.mapped.nt_ali.fasta.masked.no3rds
+  41	DNA	21	9561	2615	2420	5803	5803	OG0009516.mapped.nt_ali.fasta.masked.no3rds+OG0009526.mapped.nt_ali.fasta.masked.no3rds+OG0009552.mapped.nt_ali.fasta.masked.no3rds+OG0009743.mapped.nt_ali.fasta.masked.no3rds+OG0009838.mapped.nt_ali.fasta.masked.no3rds+OG0009916.mapped.nt_ali.fasta.masked.no3rds+OG0009940.mapped.nt_ali.fasta.masked.no3rds
+  42	DNA	21	3324	397	293	2802	2802	OG0009529.mapped.nt_ali.fasta.masked.no3rds+OG0009800.mapped.nt_ali.fasta.masked.no3rds
+  43	DNA	21	2214	854	649	1232	1232	OG0009618.mapped.nt_ali.fasta.masked.no3rds
+  44	DNA	21	1428	237	170	1128	1128	OG0009690.mapped.nt_ali.fasta.masked.no3rds
+  45	DNA	21	600	175	139	404	404	OG0009803.mapped.nt_ali.fasta.masked.no3rds
+  46	DNA	21	984	157	71	842	842	OG0009833.mapped.nt_ali.fasta.masked.no3rds
+  47	DNA	21	681	258	189	396	396	OG0009951.mapped.nt_ali.fasta.masked.no3rds
+
+Column meanings:
+  Unique: Number of unique site patterns
+  Infor:  Number of parsimony-informative sites
+  Invar:  Number of invariant sites
+  Const:  Number of constant sites (can be subset of invariant sites)
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: GTR+F+I+R2:OG0008941.mapped.nt_ali.fasta.masked.no3rds+OG0009098.mapped.nt_ali.fasta.masked.no3rds+OG0009291.mapped.nt_ali.fasta.masked.no3rds+OG0009346.mapped.nt_ali.fasta.masked.no3rds+OG0009382.mapped.nt_ali.fasta.masked.no3rds+OG0009416.mapped.nt_ali.fasta.masked.no3rds+OG0009499.mapped.nt_ali.fasta.masked.no3rds+OG0009664.mapped.nt_ali.fasta.masked.no3rds+OG0009691.mapped.nt_ali.fasta.masked.no3rds+OG0009695.mapped.nt_ali.fasta.masked.no3rds+OG0009709.mapped.nt_ali.fasta.masked.no3rds+OG0009870.mapped.nt_ali.fasta.masked.no3rds+OG0009911.mapped.nt_ali.fasta.masked.no3rds,GTR+F+I+R2:OG0008942.mapped.nt_ali.fasta.masked.no3rds+OG0009081.mapped.nt_ali.fasta.masked.no3rds+OG0009151.mapped.nt_ali.fasta.masked.no3rds+OG0009165.mapped.nt_ali.fasta.masked.no3rds+OG0009241.mapped.nt_ali.fasta.masked.no3rds+OG0009251.mapped.nt_ali.fasta.masked.no3rds+OG0009303.mapped.nt_ali.fasta.masked.no3rds+OG0009497.mapped.nt_ali.fasta.masked.no3rds+OG0009539.mapped.nt_ali.fasta.masked.no3rds+OG0009549.mapped.nt_ali.fasta.masked.no3rds+OG0009558.mapped.nt_ali.fasta.masked.no3rds+OG0009611.mapped.nt_ali.fasta.masked.no3rds+OG0009632.mapped.nt_ali.fasta.masked.no3rds+OG0009758.mapped.nt_ali.fasta.masked.no3rds+OG0009812.mapped.nt_ali.fasta.masked.no3rds+OG0009861.mapped.nt_ali.fasta.masked.no3rds+OG0009966.mapped.nt_ali.fasta.masked.no3rds,TIM3+F+I+R2:OG0008943.mapped.nt_ali.fasta.masked.no3rds+OG0009002.mapped.nt_ali.fasta.masked.no3rds+OG0009037.mapped.nt_ali.fasta.masked.no3rds+OG0009213.mapped.nt_ali.fasta.masked.no3rds+OG0009329.mapped.nt_ali.fasta.masked.no3rds+OG0009384.mapped.nt_ali.fasta.masked.no3rds+OG0009486.mapped.nt_ali.fasta.masked.no3rds+OG0009592.mapped.nt_ali.fasta.masked.no3rds+OG0009713.mapped.nt_ali.fasta.masked.no3rds,GTR+F+I+R2:OG0008944.mapped.nt_ali.fasta.masked.no3rds+OG0009136.mapped.nt_ali.fasta.masked.no3rds+OG0009163.mapped.nt_ali.fasta.masked.no3rds+OG0009451.mapped.nt_ali.fasta.masked.no3rds+OG0009559.mapped.nt_ali.fasta.masked.no3rds+OG0009620.mapped.nt_ali.fasta.masked.no3rds+OG0009681.mapped.nt_ali.fasta.masked.no3rds+OG0009705.mapped.nt_ali.fasta.masked.no3rds,TVM+F+I+R3:OG0008945.mapped.nt_ali.fasta.masked.no3rds+OG0008956.mapped.nt_ali.fasta.masked.no3rds+OG0009035.mapped.nt_ali.fasta.masked.no3rds+OG0009045.mapped.nt_ali.fasta.masked.no3rds+OG0009117.mapped.nt_ali.fasta.masked.no3rds+OG0009173.mapped.nt_ali.fasta.masked.no3rds+OG0009221.mapped.nt_ali.fasta.masked.no3rds+OG0009230.mapped.nt_ali.fasta.masked.no3rds+OG0009240.mapped.nt_ali.fasta.masked.no3rds+OG0009260.mapped.nt_ali.fasta.masked.no3rds+OG0009268.mapped.nt_ali.fasta.masked.no3rds+OG0009453.mapped.nt_ali.fasta.masked.no3rds+OG0009466.mapped.nt_ali.fasta.masked.no3rds+OG0009528.mapped.nt_ali.fasta.masked.no3rds+OG0009582.mapped.nt_ali.fasta.masked.no3rds+OG0009613.mapped.nt_ali.fasta.masked.no3rds+OG0009623.mapped.nt_ali.fasta.masked.no3rds+OG0009625.mapped.nt_ali.fasta.masked.no3rds+OG0009629.mapped.nt_ali.fasta.masked.no3rds+OG0009821.mapped.nt_ali.fasta.masked.no3rds+OG0009844.mapped.nt_ali.fasta.masked.no3rds+OG0009937.mapped.nt_ali.fasta.masked.no3rds,TPM3u+F+I+R3:OG0008946.mapped.nt_ali.fasta.masked.no3rds+OG0008949.mapped.nt_ali.fasta.masked.no3rds+OG0008958.mapped.nt_ali.fasta.masked.no3rds+OG0008985.mapped.nt_ali.fasta.masked.no3rds+OG0009024.mapped.nt_ali.fasta.masked.no3rds+OG0009099.mapped.nt_ali.fasta.masked.no3rds+OG0009103.mapped.nt_ali.fasta.masked.no3rds+OG0009108.mapped.nt_ali.fasta.masked.no3rds+OG0009128.mapped.nt_ali.fasta.masked.no3rds+OG0009257.mapped.nt_ali.fasta.masked.no3rds+OG0009551.mapped.nt_ali.fasta.masked.no3rds+OG0009585.mapped.nt_ali.fasta.masked.no3rds+OG0009598.mapped.nt_ali.fasta.masked.no3rds+OG0009624.mapped.nt_ali.fasta.masked.no3rds+OG0009736.mapped.nt_ali.fasta.masked.no3rds+OG0009815.mapped.nt_ali.fasta.masked.no3rds+OG0009910.mapped.nt_ali.fasta.masked.no3rds+OG0009925.mapped.nt_ali.fasta.masked.no3rds+OG0009971.mapped.nt_ali.fasta.masked.no3rds,TVM+F+I+R2:OG0008947.mapped.nt_ali.fasta.masked.no3rds+OG0009060.mapped.nt_ali.fasta.masked.no3rds+OG0009239.mapped.nt_ali.fasta.masked.no3rds+OG0009293.mapped.nt_ali.fasta.masked.no3rds+OG0009338.mapped.nt_ali.fasta.masked.no3rds+OG0009741.mapped.nt_ali.fasta.masked.no3rds+OG0009754.mapped.nt_ali.fasta.masked.no3rds+OG0009825.mapped.nt_ali.fasta.masked.no3rds+OG0009841.mapped.nt_ali.fasta.masked.no3rds+OG0009976.mapped.nt_ali.fasta.masked.no3rds,TVM+F+I+R3:OG0008952.mapped.nt_ali.fasta.masked.no3rds+OG0009021.mapped.nt_ali.fasta.masked.no3rds+OG0009152.mapped.nt_ali.fasta.masked.no3rds+OG0009247.mapped.nt_ali.fasta.masked.no3rds+OG0009264.mapped.nt_ali.fasta.masked.no3rds+OG0009333.mapped.nt_ali.fasta.masked.no3rds+OG0009522.mapped.nt_ali.fasta.masked.no3rds+OG0009565.mapped.nt_ali.fasta.masked.no3rds+OG0009665.mapped.nt_ali.fasta.masked.no3rds+OG0009901.mapped.nt_ali.fasta.masked.no3rds,GTR+F+I+R4:OG0008975.mapped.nt_ali.fasta.masked.no3rds+OG0009201.mapped.nt_ali.fasta.masked.no3rds+OG0009343.mapped.nt_ali.fasta.masked.no3rds+OG0009393.mapped.nt_ali.fasta.masked.no3rds+OG0009412.mapped.nt_ali.fasta.masked.no3rds+OG0009488.mapped.nt_ali.fasta.masked.no3rds+OG0009506.mapped.nt_ali.fasta.masked.no3rds+OG0009533.mapped.nt_ali.fasta.masked.no3rds+OG0009579.mapped.nt_ali.fasta.masked.no3rds+OG0009580.mapped.nt_ali.fasta.masked.no3rds+OG0009583.mapped.nt_ali.fasta.masked.no3rds+OG0009601.mapped.nt_ali.fasta.masked.no3rds+OG0009610.mapped.nt_ali.fasta.masked.no3rds+OG0009643.mapped.nt_ali.fasta.masked.no3rds+OG0009658.mapped.nt_ali.fasta.masked.no3rds+OG0009685.mapped.nt_ali.fasta.masked.no3rds+OG0009752.mapped.nt_ali.fasta.masked.no3rds+OG0009962.mapped.nt_ali.fasta.masked.no3rds+OG0009969.mapped.nt_ali.fasta.masked.no3rds,GTR+F+R4:OG0008977.mapped.nt_ali.fasta.masked.no3rds+OG0009461.mapped.nt_ali.fasta.masked.no3rds+OG0009532.mapped.nt_ali.fasta.masked.no3rds+OG0009822.mapped.nt_ali.fasta.masked.no3rds+OG0009848.mapped.nt_ali.fasta.masked.no3rds+OG0009869.mapped.nt_ali.fasta.masked.no3rds+OG0009895.mapped.nt_ali.fasta.masked.no3rds+OG0009905.mapped.nt_ali.fasta.masked.no3rds+OG0009954.mapped.nt_ali.fasta.masked.no3rds,TVM+F+R3:OG0008981.mapped.nt_ali.fasta.masked.no3rds+OG0009088.mapped.nt_ali.fasta.masked.no3rds+OG0009139.mapped.nt_ali.fasta.masked.no3rds+OG0009282.mapped.nt_ali.fasta.masked.no3rds+OG0009355.mapped.nt_ali.fasta.masked.no3rds+OG0009684.mapped.nt_ali.fasta.masked.no3rds+OG0009688.mapped.nt_ali.fasta.masked.no3rds+OG0009751.mapped.nt_ali.fasta.masked.no3rds+OG0009802.mapped.nt_ali.fasta.masked.no3rds,GTR+F+I+R2:OG0008983.mapped.nt_ali.fasta.masked.no3rds+OG0009023.mapped.nt_ali.fasta.masked.no3rds+OG0009025.mapped.nt_ali.fasta.masked.no3rds+OG0009090.mapped.nt_ali.fasta.masked.no3rds+OG0009258.mapped.nt_ali.fasta.masked.no3rds+OG0009292.mapped.nt_ali.fasta.masked.no3rds+OG0009306.mapped.nt_ali.fasta.masked.no3rds+OG0009485.mapped.nt_ali.fasta.masked.no3rds+OG0009584.mapped.nt_ali.fasta.masked.no3rds+OG0009630.mapped.nt_ali.fasta.masked.no3rds+OG0009753.mapped.nt_ali.fasta.masked.no3rds+OG0009778.mapped.nt_ali.fasta.masked.no3rds+OG0009789.mapped.nt_ali.fasta.masked.no3rds+OG0009795.mapped.nt_ali.fasta.masked.no3rds+OG0009883.mapped.nt_ali.fasta.masked.no3rds+OG0009914.mapped.nt_ali.fasta.masked.no3rds+OG0009983.mapped.nt_ali.fasta.masked.no3rds,TVM+F+I+R4:OG0008984.mapped.nt_ali.fasta.masked.no3rds+OG0009120.mapped.nt_ali.fasta.masked.no3rds+OG0009158.mapped.nt_ali.fasta.masked.no3rds+OG0009207.mapped.nt_ali.fasta.masked.no3rds+OG0009233.mapped.nt_ali.fasta.masked.no3rds+OG0009248.mapped.nt_ali.fasta.masked.no3rds+OG0009519.mapped.nt_ali.fasta.masked.no3rds+OG0009594.mapped.nt_ali.fasta.masked.no3rds+OG0009621.mapped.nt_ali.fasta.masked.no3rds+OG0009638.mapped.nt_ali.fasta.masked.no3rds+OG0009654.mapped.nt_ali.fasta.masked.no3rds+OG0009680.mapped.nt_ali.fasta.masked.no3rds+OG0009702.mapped.nt_ali.fasta.masked.no3rds+OG0009703.mapped.nt_ali.fasta.masked.no3rds+OG0009720.mapped.nt_ali.fasta.masked.no3rds+OG0009726.mapped.nt_ali.fasta.masked.no3rds+OG0009734.mapped.nt_ali.fasta.masked.no3rds+OG0009735.mapped.nt_ali.fasta.masked.no3rds+OG0009747.mapped.nt_ali.fasta.masked.no3rds+OG0009897.mapped.nt_ali.fasta.masked.no3rds+OG0009964.mapped.nt_ali.fasta.masked.no3rds,GTR+F+I+R2:OG0008992.mapped.nt_ali.fasta.masked.no3rds+OG0009298.mapped.nt_ali.fasta.masked.no3rds+OG0009360.mapped.nt_ali.fasta.masked.no3rds+OG0009448.mapped.nt_ali.fasta.masked.no3rds+OG0009647.mapped.nt_ali.fasta.masked.no3rds+OG0009651.mapped.nt_ali.fasta.masked.no3rds+OG0009725.mapped.nt_ali.fasta.masked.no3rds+OG0009785.mapped.nt_ali.fasta.masked.no3rds+OG0009857.mapped.nt_ali.fasta.masked.no3rds+OG0009879.mapped.nt_ali.fasta.masked.no3rds+OG0009933.mapped.nt_ali.fasta.masked.no3rds,TIM3+F+R3:OG0008998.mapped.nt_ali.fasta.masked.no3rds+OG0009022.mapped.nt_ali.fasta.masked.no3rds+OG0009065.mapped.nt_ali.fasta.masked.no3rds+OG0009137.mapped.nt_ali.fasta.masked.no3rds+OG0009265.mapped.nt_ali.fasta.masked.no3rds+OG0009373.mapped.nt_ali.fasta.masked.no3rds+OG0009415.mapped.nt_ali.fasta.masked.no3rds+OG0009567.mapped.nt_ali.fasta.masked.no3rds+OG0009590.mapped.nt_ali.fasta.masked.no3rds+OG0009853.mapped.nt_ali.fasta.masked.no3rds,TPM3u+F+I+R3:OG0009000.mapped.nt_ali.fasta.masked.no3rds+OG0009001.mapped.nt_ali.fasta.masked.no3rds,TVM+F+I+R2:OG0009003.mapped.nt_ali.fasta.masked.no3rds+OG0009086.mapped.nt_ali.fasta.masked.no3rds+OG0009131.mapped.nt_ali.fasta.masked.no3rds+OG0009141.mapped.nt_ali.fasta.masked.no3rds+OG0009171.mapped.nt_ali.fasta.masked.no3rds+OG0009220.mapped.nt_ali.fasta.masked.no3rds+OG0009279.mapped.nt_ali.fasta.masked.no3rds+OG0009287.mapped.nt_ali.fasta.masked.no3rds+OG0009442.mapped.nt_ali.fasta.masked.no3rds+OG0009622.mapped.nt_ali.fasta.masked.no3rds+OG0009642.mapped.nt_ali.fasta.masked.no3rds+OG0009863.mapped.nt_ali.fasta.masked.no3rds,GTR+F+G4:OG0009007.mapped.nt_ali.fasta.masked.no3rds,GTR+F+I+R3:OG0009013.mapped.nt_ali.fasta.masked.no3rds+OG0009028.mapped.nt_ali.fasta.masked.no3rds+OG0009138.mapped.nt_ali.fasta.masked.no3rds+OG0009536.mapped.nt_ali.fasta.masked.no3rds+OG0009547.mapped.nt_ali.fasta.masked.no3rds+OG0009781.mapped.nt_ali.fasta.masked.no3rds+OG0009804.mapped.nt_ali.fasta.masked.no3rds+OG0009876.mapped.nt_ali.fasta.masked.no3rds,TN+F+I+R2:OG0009016.mapped.nt_ali.fasta.masked.no3rds+OG0009449.mapped.nt_ali.fasta.masked.no3rds+OG0009452.mapped.nt_ali.fasta.masked.no3rds+OG0009458.mapped.nt_ali.fasta.masked.no3rds+OG0009476.mapped.nt_ali.fasta.masked.no3rds+OG0009493.mapped.nt_ali.fasta.masked.no3rds+OG0009653.mapped.nt_ali.fasta.masked.no3rds+OG0009902.mapped.nt_ali.fasta.masked.no3rds,GTR+F+I+R2:OG0009059.mapped.nt_ali.fasta.masked.no3rds+OG0009082.mapped.nt_ali.fasta.masked.no3rds+OG0009280.mapped.nt_ali.fasta.masked.no3rds+OG0009295.mapped.nt_ali.fasta.masked.no3rds+OG0009353.mapped.nt_ali.fasta.masked.no3rds+OG0009390.mapped.nt_ali.fasta.masked.no3rds+OG0009457.mapped.nt_ali.fasta.masked.no3rds+OG0009480.mapped.nt_ali.fasta.masked.no3rds+OG0009893.mapped.nt_ali.fasta.masked.no3rds,TPM3u+F+I+R3:OG0009061.mapped.nt_ali.fasta.masked.no3rds+OG0009728.mapped.nt_ali.fasta.masked.no3rds+OG0009915.mapped.nt_ali.fasta.masked.no3rds,GTR+F+I+R3:OG0009066.mapped.nt_ali.fasta.masked.no3rds+OG0009149.mapped.nt_ali.fasta.masked.no3rds+OG0009179.mapped.nt_ali.fasta.masked.no3rds+OG0009246.mapped.nt_ali.fasta.masked.no3rds+OG0009277.mapped.nt_ali.fasta.masked.no3rds+OG0009334.mapped.nt_ali.fasta.masked.no3rds+OG0009509.mapped.nt_ali.fasta.masked.no3rds+OG0009510.mapped.nt_ali.fasta.masked.no3rds+OG0009537.mapped.nt_ali.fasta.masked.no3rds+OG0009587.mapped.nt_ali.fasta.masked.no3rds+OG0009660.mapped.nt_ali.fasta.masked.no3rds+OG0009678.mapped.nt_ali.fasta.masked.no3rds+OG0009693.mapped.nt_ali.fasta.masked.no3rds+OG0009744.mapped.nt_ali.fasta.masked.no3rds+OG0009794.mapped.nt_ali.fasta.masked.no3rds+OG0009868.mapped.nt_ali.fasta.masked.no3rds+OG0009906.mapped.nt_ali.fasta.masked.no3rds,GTR+F+I+R2:OG0009074.mapped.nt_ali.fasta.masked.no3rds+OG0009283.mapped.nt_ali.fasta.masked.no3rds+OG0009294.mapped.nt_ali.fasta.masked.no3rds+OG0009350.mapped.nt_ali.fasta.masked.no3rds+OG0009482.mapped.nt_ali.fasta.masked.no3rds+OG0009540.mapped.nt_ali.fasta.masked.no3rds+OG0009541.mapped.nt_ali.fasta.masked.no3rds+OG0009589.mapped.nt_ali.fasta.masked.no3rds+OG0009600.mapped.nt_ali.fasta.masked.no3rds+OG0009776.mapped.nt_ali.fasta.masked.no3rds,GTR+F+I+R3:OG0009096.mapped.nt_ali.fasta.masked.no3rds+OG0009116.mapped.nt_ali.fasta.masked.no3rds+OG0009150.mapped.nt_ali.fasta.masked.no3rds+OG0009189.mapped.nt_ali.fasta.masked.no3rds+OG0009198.mapped.nt_ali.fasta.masked.no3rds+OG0009208.mapped.nt_ali.fasta.masked.no3rds+OG0009278.mapped.nt_ali.fasta.masked.no3rds+OG0009379.mapped.nt_ali.fasta.masked.no3rds+OG0009546.mapped.nt_ali.fasta.masked.no3rds+OG0009704.mapped.nt_ali.fasta.masked.no3rds+OG0009892.mapped.nt_ali.fasta.masked.no3rds+OG0009972.mapped.nt_ali.fasta.masked.no3rds+OG0009980.mapped.nt_ali.fasta.masked.no3rds,TPM3u+F+I+R3:OG0009110.mapped.nt_ali.fasta.masked.no3rds+OG0009238.mapped.nt_ali.fasta.masked.no3rds+OG0009398.mapped.nt_ali.fasta.masked.no3rds+OG0009404.mapped.nt_ali.fasta.masked.no3rds+OG0009455.mapped.nt_ali.fasta.masked.no3rds+OG0009463.mapped.nt_ali.fasta.masked.no3rds+OG0009495.mapped.nt_ali.fasta.masked.no3rds+OG0009511.mapped.nt_ali.fasta.masked.no3rds+OG0009520.mapped.nt_ali.fasta.masked.no3rds+OG0009560.mapped.nt_ali.fasta.masked.no3rds+OG0009666.mapped.nt_ali.fasta.masked.no3rds+OG0009717.mapped.nt_ali.fasta.masked.no3rds+OG0009731.mapped.nt_ali.fasta.masked.no3rds+OG0009896.mapped.nt_ali.fasta.masked.no3rds,TPM3u+F+I+R2:OG0009118.mapped.nt_ali.fasta.masked.no3rds+OG0009347.mapped.nt_ali.fasta.masked.no3rds+OG0009777.mapped.nt_ali.fasta.masked.no3rds+OG0009938.mapped.nt_ali.fasta.masked.no3rds,GTR+F+I+R2:OG0009119.mapped.nt_ali.fasta.masked.no3rds+OG0009127.mapped.nt_ali.fasta.masked.no3rds+OG0009140.mapped.nt_ali.fasta.masked.no3rds+OG0009211.mapped.nt_ali.fasta.masked.no3rds+OG0009299.mapped.nt_ali.fasta.masked.no3rds+OG0009309.mapped.nt_ali.fasta.masked.no3rds+OG0009377.mapped.nt_ali.fasta.masked.no3rds+OG0009405.mapped.nt_ali.fasta.masked.no3rds+OG0009459.mapped.nt_ali.fasta.masked.no3rds+OG0009500.mapped.nt_ali.fasta.masked.no3rds+OG0009523.mapped.nt_ali.fasta.masked.no3rds+OG0009531.mapped.nt_ali.fasta.masked.no3rds+OG0009576.mapped.nt_ali.fasta.masked.no3rds+OG0009636.mapped.nt_ali.fasta.masked.no3rds+OG0009637.mapped.nt_ali.fasta.masked.no3rds+OG0009682.mapped.nt_ali.fasta.masked.no3rds+OG0009768.mapped.nt_ali.fasta.masked.no3rds+OG0009784.mapped.nt_ali.fasta.masked.no3rds+OG0009799.mapped.nt_ali.fasta.masked.no3rds+OG0009846.mapped.nt_ali.fasta.masked.no3rds+OG0009928.mapped.nt_ali.fasta.masked.no3rds+OG0009941.mapped.nt_ali.fasta.masked.no3rds,TIM3+F+R4:OG0009121.mapped.nt_ali.fasta.masked.no3rds+OG0009197.mapped.nt_ali.fasta.masked.no3rds+OG0009270.mapped.nt_ali.fasta.masked.no3rds+OG0009588.mapped.nt_ali.fasta.masked.no3rds+OG0009650.mapped.nt_ali.fasta.masked.no3rds+OG0009652.mapped.nt_ali.fasta.masked.no3rds+OG0009742.mapped.nt_ali.fasta.masked.no3rds+OG0009891.mapped.nt_ali.fasta.masked.no3rds,GTR+F+I+R2:OG0009122.mapped.nt_ali.fasta.masked.no3rds+OG0009167.mapped.nt_ali.fasta.masked.no3rds+OG0009210.mapped.nt_ali.fasta.masked.no3rds+OG0009256.mapped.nt_ali.fasta.masked.no3rds+OG0009370.mapped.nt_ali.fasta.masked.no3rds+OG0009429.mapped.nt_ali.fasta.masked.no3rds+OG0009447.mapped.nt_ali.fasta.masked.no3rds+OG0009456.mapped.nt_ali.fasta.masked.no3rds+OG0009514.mapped.nt_ali.fasta.masked.no3rds+OG0009515.mapped.nt_ali.fasta.masked.no3rds+OG0009530.mapped.nt_ali.fasta.masked.no3rds+OG0009548.mapped.nt_ali.fasta.masked.no3rds+OG0009566.mapped.nt_ali.fasta.masked.no3rds+OG0009739.mapped.nt_ali.fasta.masked.no3rds+OG0009765.mapped.nt_ali.fasta.masked.no3rds+OG0009801.mapped.nt_ali.fasta.masked.no3rds+OG0009809.mapped.nt_ali.fasta.masked.no3rds+OG0009824.mapped.nt_ali.fasta.masked.no3rds+OG0009836.mapped.nt_ali.fasta.masked.no3rds+OG0009873.mapped.nt_ali.fasta.masked.no3rds+OG0009942.mapped.nt_ali.fasta.masked.no3rds+OG0009955.mapped.nt_ali.fasta.masked.no3rds+OG0009975.mapped.nt_ali.fasta.masked.no3rds,GTR+F+I+R2:OG0009129.mapped.nt_ali.fasta.masked.no3rds+OG0009164.mapped.nt_ali.fasta.masked.no3rds+OG0009166.mapped.nt_ali.fasta.masked.no3rds+OG0009172.mapped.nt_ali.fasta.masked.no3rds+OG0009188.mapped.nt_ali.fasta.masked.no3rds+OG0009222.mapped.nt_ali.fasta.masked.no3rds+OG0009667.mapped.nt_ali.fasta.masked.no3rds+OG0009900.mapped.nt_ali.fasta.masked.no3rds+OG0009929.mapped.nt_ali.fasta.masked.no3rds,TVM+F+R3:OG0009156.mapped.nt_ali.fasta.masked.no3rds+OG0009378.mapped.nt_ali.fasta.masked.no3rds+OG0009646.mapped.nt_ali.fasta.masked.no3rds,TIM3+F+R3:OG0009174.mapped.nt_ali.fasta.masked.no3rds+OG0009634.mapped.nt_ali.fasta.masked.no3rds+OG0009913.mapped.nt_ali.fasta.masked.no3rds+OG0009981.mapped.nt_ali.fasta.masked.no3rds,TIM3+F+I+R3:OG0009177.mapped.nt_ali.fasta.masked.no3rds+OG0009196.mapped.nt_ali.fasta.masked.no3rds+OG0009973.mapped.nt_ali.fasta.masked.no3rds+OG0009977.mapped.nt_ali.fasta.masked.no3rds,TPM3u+F+G4:OG0009212.mapped.nt_ali.fasta.masked.no3rds+OG0009352.mapped.nt_ali.fasta.masked.no3rds+OG0009444.mapped.nt_ali.fasta.masked.no3rds+OG0009889.mapped.nt_ali.fasta.masked.no3rds,HKY+F+I+R4:OG0009229.mapped.nt_ali.fasta.masked.no3rds+OG0009344.mapped.nt_ali.fasta.masked.no3rds+OG0009817.mapped.nt_ali.fasta.masked.no3rds,TPM3u+F+I+R3:OG0009231.mapped.nt_ali.fasta.masked.no3rds+OG0009542.mapped.nt_ali.fasta.masked.no3rds+OG0009918.mapped.nt_ali.fasta.masked.no3rds,GTR+F+R3:OG0009250.mapped.nt_ali.fasta.masked.no3rds+OG0009332.mapped.nt_ali.fasta.masked.no3rds+OG0009851.mapped.nt_ali.fasta.masked.no3rds,TPM3u+F+I+R2:OG0009406.mapped.nt_ali.fasta.masked.no3rds+OG0009644.mapped.nt_ali.fasta.masked.no3rds+OG0009732.mapped.nt_ali.fasta.masked.no3rds+OG0009845.mapped.nt_ali.fasta.masked.no3rds,TIM3+F+I+R2:OG0009472.mapped.nt_ali.fasta.masked.no3rds+OG0009525.mapped.nt_ali.fasta.masked.no3rds+OG0009535.mapped.nt_ali.fasta.masked.no3rds+OG0009553.mapped.nt_ali.fasta.masked.no3rds+OG0009908.mapped.nt_ali.fasta.masked.no3rds,GTR+F+R3:OG0009516.mapped.nt_ali.fasta.masked.no3rds+OG0009526.mapped.nt_ali.fasta.masked.no3rds+OG0009552.mapped.nt_ali.fasta.masked.no3rds+OG0009743.mapped.nt_ali.fasta.masked.no3rds+OG0009838.mapped.nt_ali.fasta.masked.no3rds+OG0009916.mapped.nt_ali.fasta.masked.no3rds+OG0009940.mapped.nt_ali.fasta.masked.no3rds,TIM3+F+I+R2:OG0009529.mapped.nt_ali.fasta.masked.no3rds+OG0009800.mapped.nt_ali.fasta.masked.no3rds,TIM3+F+R3:OG0009618.mapped.nt_ali.fasta.masked.no3rds,K2P+I+R3:OG0009690.mapped.nt_ali.fasta.masked.no3rds,JC+R3:OG0009803.mapped.nt_ali.fasta.masked.no3rds,TIM3+F+R2:OG0009833.mapped.nt_ali.fasta.masked.no3rds,TIM3e+R3:OG0009951.mapped.nt_ali.fasta.masked.no3rds
+
+List of best-fit models per partition:
+
+  ID  Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+   1  GTR+F+I+R2      -106073.351  212170.702 + 4.68e-310  212170.711 + 6.95e-310  212272.008 + 4.1e-320
+   2  GTR+F+I+R2       -45246.886   90517.772 + 4.68e-310   90517.786 + 6.95e-310   90614.018 + 4.1e-320
+   3  TIM3+F+I+R2      -68350.427  136720.853 + 4.68e-310  136720.865 + 6.95e-310  136799.146 + 4.1e-320
+   4  GTR+F+I+R2       -38979.983   77983.967 + 4.68e-310   77983.988 + 6.95e-310   78074.964 + 4.1e-320
+   5  TVM+F+I+R3      -181588.786  363203.573 + 4.68e-310  363203.582 + 6.95e-310  363314.483 + 4.1e-320
+   6  TPM3u+F+I+R3    -161554.431  323130.862 + 4.68e-310  323130.868 + 6.95e-310  323225.552 + 4.1e-320
+   7  TVM+F+I+R2       -71390.403  142802.806 + 4.68e-310  142802.818 + 6.95e-310  142890.617 + 4.1e-320
+   8  TVM+F+I+R3      -103138.293  206302.585 + 4.68e-310  206302.604 + 6.95e-310  206404.620 + 4.1e-320
+   9  GTR+F+I+R4      -128849.698  257731.397 + 4.68e-310  257731.413 + 6.95e-310  257866.284 + 4.1e-320
+  10  GTR+F+R4         -89160.945  178351.890 + 4.68e-310  178351.913 + 6.95e-310  178471.537 + 4.1e-320
+  11  TVM+F+R3        -106605.394  213234.788 + 4.68e-310  213234.800 + 6.95e-310  213333.024 + 4.1e-320
+  12  GTR+F+I+R2       -70542.197  141108.393 + 4.68e-310  141108.405 + 6.95e-310  141206.822 + 4.1e-320
+  13  TVM+F+I+R4      -178648.880  357327.760 + 4.68e-310  357327.772 + 6.95e-310  357456.986 + 4.1e-320
+  14  GTR+F+I+R2       -48108.174   96240.347 + 4.68e-310   96240.362 + 6.95e-310   96335.839 + 4.1e-320
+  15  TIM3+F+R3        -81911.740  163845.479 + 4.68e-310  163845.492 + 6.95e-310  163932.785 + 4.1e-320
+  16  TPM3u+F+I+R3      -9344.862   18711.723 + 4.68e-310   18711.841 + 6.95e-310   18774.629 + 4.1e-320
+  17  TVM+F+I+R2       -82782.252  165586.503 + 4.68e-310  165586.514 + 6.95e-310  165675.922 + 4.1e-320
+  18  GTR+F+G4         -31746.522   63513.043 + 4.68e-310   63513.083 + 6.95e-310   63579.254 + 4.1e-320
+  19  GTR+F+I+R3      -112632.698  225293.396 + 4.68e-310  225293.419 + 6.95e-310  225402.653 + 4.1e-320
+  20  TN+F+I+R2        -13142.795   26303.591 + 4.68e-310   26303.612 + 6.95e-310   26366.778 + 4.1e-320
+  21  GTR+F+I+R2       -42878.654   85781.308 + 4.68e-310   85781.326 + 6.95e-310   85874.532 + 4.1e-320
+  22  TPM3u+F+I+R3     -22055.140   44132.279 + 4.68e-310   44132.327 + 6.95e-310   44205.134 + 4.1e-320
+  23  GTR+F+I+R3      -133724.913  267477.826 + 4.68e-310  267477.839 + 6.95e-310  267594.898 + 4.1e-320
+  24  GTR+F+I+R2       -22631.479   45286.957 + 4.68e-310   45286.990 + 6.95e-310   45372.976 + 4.1e-320
+  25  GTR+F+I+R3      -119606.038  239240.077 + 4.68e-310  239240.095 + 6.95e-310  239352.637 + 4.1e-320
+  26  TPM3u+F+I+R3     -99787.304  199596.607 + 4.68e-310  199596.615 + 6.95e-310  199688.555 + 4.1e-320
+  27  TPM3u+F+I+R2     -11834.108   23686.217 + 4.68e-310   23686.256 + 6.95e-310   23744.090 + 4.1e-320
+  28  GTR+F+I+R2      -118594.574  237213.149 + 4.68e-310  237213.157 + 6.95e-310  237315.892 + 4.1e-320
+  29  TIM3+F+R4       -109418.445  218862.890 + 4.68e-310  218862.905 + 6.95e-310  218967.757 + 4.1e-320
+  30  GTR+F+I+R2       -68885.492  137794.984 + 4.68e-310  137794.997 + 6.95e-310  137892.692 + 4.1e-320
+  31  GTR+F+I+R2       -30360.686   60745.372 + 4.68e-310   60745.400 + 6.95e-310   60833.018 + 4.1e-320
+  32  TVM+F+R3         -30039.995   60103.989 + 4.68e-310   60104.065 + 6.95e-310   60179.922 + 4.1e-320
+  33  TIM3+F+R3        -66578.258  133178.516 + 4.68e-310  133178.532 + 6.95e-310  133262.887 + 4.1e-320
+  34  TIM3+F+I+R3      -25104.417   50232.835 + 4.68e-310   50232.876 + 6.95e-310   50316.087 + 4.1e-320
+  35  TPM3u+F+G4       -23944.546   47903.092 + 4.68e-310   47903.114 + 6.95e-310   47948.929 + 4.1e-320
+  36  HKY+F+I+R4       -29539.814   59103.628 + 4.68e-310   59103.679 + 6.95e-310   59184.377 + 4.1e-320
+  37  TPM3u+F+I+R3     -33209.564   66441.128 + 4.68e-310   66441.161 + 6.95e-310   66517.801 + 4.1e-320
+  38  GTR+F+R3         -46939.751   93905.501 + 4.68e-310   93905.549 + 6.95e-310   93995.789 + 4.1e-320
+  39  TPM3u+F+I+R2     -15785.484   31588.968 + 4.68e-310   31589.008 + 6.95e-310   31646.692 + 4.1e-320
+  40  TIM3+F+I+R2      -52024.765  104069.530 + 4.68e-310  104069.544 + 6.95e-310  104146.471 + 4.1e-320
+  41  GTR+F+R3         -46552.134   93130.268 + 4.68e-310   93130.306 + 6.95e-310   93223.419 + 4.1e-320
+  42  TIM3+F+I+R2       -8671.351   17362.703 + 4.68e-310   17362.769 + 6.95e-310   17423.792 + 4.1e-320
+  43  TIM3+F+R3        -13290.673   26603.347 + 4.68e-310   26603.466 + 6.95e-310   26666.075 + 4.1e-320
+  44  K2P+I+R3          -4486.910    8987.819 + 4.68e-310    8987.898 + 6.95e-310    9024.668 + 4.1e-320
+  45  JC+R3             -3046.520    6103.041 + 4.68e-310    6103.142 + 6.95e-310    6125.025 + 4.1e-320
+  46  TIM3+F+R2         -2604.974    5227.948 + 4.68e-310    5228.133 + 6.95e-310    5271.972 + 4.1e-320
+  47  TIM3e+R3          -3954.847    7925.695 + 4.68e-310    7925.909 + 6.95e-310    7961.883 + 4.1e-320
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Edge-linked-proportional partition model with separate substitution models and separate rates across sites
+
+  ID  Model           Speed  Parameters
+   1  GTR+F+I+R2     0.4634  GTR{2.68963,3.46546,1.17298,1.82783,5.20192}+F{0.304388,0.22498,0.232216,0.238416}+I{0.418551}+R2{0.504035,0.978985,0.0774148,6.54342}
+   2  GTR+F+I+R2     0.1800  GTR{2.17423,2.33016,1.10675,1.3337,7.04756}+F{0.303571,0.225329,0.238598,0.232501}+I{0.650661}+R2{0.308864,1.59995,0.0404742,12.4976}
+   3  TIM3+F+I+R2    0.7407  TIM3{1.7567,2.41327,2.09378}+F{0.283697,0.258864,0.253396,0.204043}+I{0.308903}+R2{0.564299,0.628776,0.126798,5.08827}
+   4  GTR+F+I+R2     0.3547  GTR{2.69091,3.65607,1.19898,1.77796,6.39337}+F{0.279743,0.218931,0.257196,0.244129}+I{0.572077}+R2{0.360106,1.16431,0.0678162,8.56323}
+   5  TVM+F+I+R3     1.4264  TVM{2.07586,3.07113,1.33042,1.74584}+F{0.288686,0.239728,0.255514,0.216072}+I{0.294547}+R3{0.427219,0.366903,0.236676,2.31292,0.0415577,7.11878}
+   6  TPM3u+F+I+R3   1.0073  TPM3u{1.61642,2.50924}+F{0.274746,0.252954,0.260929,0.211371}+I{0.35942}+R3{0.436928,0.401514,0.168303,3.00878,0.0353485,9.00121}
+   7  TVM+F+I+R2     0.4917  TVM{2.30291,3.6516,1.21273,1.98727}+F{0.290923,0.230824,0.216381,0.261871}+I{0.305688}+R2{0.619219,0.858135,0.0750923,6.24067}
+   8  TVM+F+I+R3     1.9911  TVM{2.49902,3.59068,1.44571,2.24746}+F{0.313723,0.237779,0.243296,0.205203}+I{0.215776}+R3{0.377643,0.20593,0.289911,1.51439,0.11667,4.14155}
+   9  GTR+F+I+R4     0.7908  GTR{1.89774,3.03969,1.37292,1.75306,3.71752}+F{0.294628,0.235644,0.246418,0.223309}+I{0.355713}+R4{0.230216,0.426597,0.218231,0.561213,0.161721,3.02786,0.0341195,8.48924}
+  10  GTR+F+R4       0.9299  GTR{2.80025,4.37775,1.3483,2.42871,3.53003}+F{0.258381,0.238769,0.241605,0.261245}+R4{0.42157,0.0569744,0.398818,0.577063,0.146318,3.11225,0.033294,8.72414}
+  11  TVM+F+R3       0.9681  TVM{1.37652,2.53962,0.942223,1.65184}+F{0.302066,0.250982,0.245994,0.200957}+R3{0.568872,0.125235,0.318405,1.14289,0.112723,5.011}
+  12  GTR+F+I+R2     0.3687  GTR{1.571,1.82809,0.915556,1.0572,3.66085}+F{0.310503,0.234347,0.257464,0.197687}+I{0.597533}+R2{0.333524,1.1337,0.0689426,9.02032}
+  13  TVM+F+I+R4     0.9609  TVM{2.36734,3.5169,1.47263,1.90797}+F{0.295788,0.232145,0.246419,0.225647}+I{0.238754}+R4{0.269171,0.453369,0.276192,0.512537,0.189402,2.77883,0.0264801,7.93391}
+  14  GTR+F+I+R2     0.2526  GTR{2.77318,3.07855,1.86163,1.65581,7.80198}+F{0.300707,0.232257,0.254598,0.212439}+I{0.640114}+R2{0.315444,1.5561,0.0444423,11.4562}
+  15  TIM3+F+R3      0.7475  TIM3{2.20581,3.36385,3.74385}+F{0.300883,0.233984,0.232793,0.23234}+R3{0.525851,0.190156,0.395703,1.09493,0.0784463,5.94981}
+  16  TPM3u+F+I+R3   7.5903  TPM3u{1.95347,2.44135}+F{0.295357,0.26453,0.243618,0.196495}+I{0.477209}+R3{0.322503,0.0738748,0.177961,1.24375,0.0223265,33.8089}
+  17  TVM+F+I+R2     0.5501  TVM{2.63132,3.28501,1.56008,2.08229}+F{0.289869,0.241961,0.256413,0.211757}+I{0.432723}+R2{0.486717,0.919562,0.0805602,6.8574}
+  18  GTR+F+G4       2.2258  GTR{1.13391,1.69352,0.891137,1.45913,2.73513}+F{0.284382,0.280809,0.274531,0.160278}+G4{0.533716}
+  19  GTR+F+I+R3     2.1557  GTR{1.59644,2.56209,1.27203,1.63736,3.10746}+F{0.324412,0.249076,0.23995,0.186563}+I{0.114746}+R3{0.402416,0.20775,0.347107,1.29045,0.135732,3.45146}
+  20  TN+F+I+R2      0.1130  TN{1.54307,7.66603}+F{0.320137,0.21014,0.235986,0.233736}+I{0.80734}+R2{0.178722,3.02149,0.013938,33.0028}
+  21  GTR+F+I+R2     0.2538  GTR{2.11253,2.47562,1.24635,1.41175,4.7822}+F{0.289138,0.232268,0.223601,0.254993}+I{0.443031}+R2{0.514913,1.18048,0.0420556,9.32469}
+  22  TPM3u+F+I+R3   1.4975  TPM3u{1.67586,2.73998}+F{0.265523,0.258834,0.239212,0.236431}+I{0.354619}+R3{0.436702,0.231753,0.172068,2.55659,0.0366115,12.534}
+  23  GTR+F+I+R3     1.0331  GTR{2.56606,3.61841,1.37607,1.77788,4.54063}+F{0.300775,0.223952,0.251763,0.22351}+I{0.362844}+R3{0.42549,0.448581,0.181953,3.00096,0.0297136,8.85448}
+  24  GTR+F+I+R2     0.2409  GTR{2.49672,2.29686,1.59278,1.68651,4.01329}+F{0.306501,0.22078,0.266475,0.206244}+I{0.526795}+R2{0.433501,1.34214,0.0397043,10.5324}
+  25  GTR+F+I+R3     1.4416  GTR{2.14844,3.31616,1.41305,2.07168,2.92148}+F{0.282365,0.244246,0.248582,0.224806}+I{0.171175}+R3{0.506549,0.350546,0.257974,1.93765,0.0643025,5.01644}
+  26  TPM3u+F+I+R3   0.6543  TPM3u{1.7792,2.94247}+F{0.283538,0.24714,0.240651,0.228671}+I{0.471542}+R3{0.424183,0.638469,0.0989281,5.31157,0.0053471,38.097}
+  27  TPM3u+F+I+R2   0.2934  TPM3u{1.70901,2.01287}+F{0.295287,0.216393,0.257945,0.230375}+I{0.20409}+R2{0.772778,0.969225,0.0231323,10.8508}
+  28  GTR+F+I+R2     0.4827  GTR{2.39449,3.28101,1.47779,1.82548,4.37099}+F{0.298932,0.221695,0.262457,0.216916}+I{0.493896}+R2{0.424187,0.912122,0.0819173,7.48425}
+  29  TIM3+F+R4      1.4347  TIM3{1.41428,1.95014,2.49896}+F{0.305441,0.26321,0.262631,0.168718}+R4{0.324588,0.0328767,0.426222,0.393365,0.19674,2.53422,0.0524498,6.15988}
+  30  GTR+F+I+R2     0.3357  GTR{2.41526,3.23742,1.38055,1.80848,4.86922}+F{0.32666,0.211852,0.236195,0.225293}+I{0.473505}+R2{0.463684,1.05529,0.0628112,8.13041}
+  31  GTR+F+I+R2     0.3695  GTR{2.44742,2.60592,1.35947,1.7464,3.45145}+F{0.278331,0.250167,0.243536,0.227965}+I{0.427667}+R2{0.501487,0.889721,0.0708457,7.81722}
+  32  TVM+F+R3       3.3739  TVM{2.54681,3.14385,1.42239,1.64683}+F{0.325497,0.237388,0.249195,0.187919}+R3{0.359835,0.0884742,0.390392,0.841305,0.249773,2.56122}
+  33  TIM3+F+R3      0.8994  TIM3{1.57505,2.76377,3.56353}+F{0.288265,0.241345,0.236942,0.233448}+R3{0.600541,0.16887,0.29736,1.21039,0.102099,5.27588}
+  34  TIM3+F+I+R3    1.8263  TIM3{1.73179,2.34972,4.27826}+F{0.327396,0.229694,0.228626,0.214284}+I{0.485163}+R3{0.406505,0.255292,0.100174,2.83402,0.00815827,75.0559}
+  35  TPM3u+F+G4     1.1306  TPM3u{1.24997,1.75392}+F{0.288716,0.287446,0.260453,0.163385}+G4{0.695649}
+  36  HKY+F+I+R4     4.1705  HKY{1.83905}+F{0.314207,0.307179,0.204367,0.174247}+I{0.244764}+R4{0.508363,0.114381,0.142772,0.70574,0.085237,2.17599,0.0188637,34.7556}
+  37  TPM3u+F+I+R3   1.5618  TPM3u{1.2224,1.72518}+F{0.265154,0.297266,0.257019,0.180562}+I{0.278269}+R3{0.495174,0.25394,0.184843,2.44427,0.0417133,10.1274}
+  38  GTR+F+R3       1.9994  GTR{2.4163,3.83543,1.59904,2.03744,3.15275}+F{0.304099,0.240368,0.223789,0.231743}+R3{0.512559,0.17068,0.399494,1.29921,0.0879474,4.47416}
+  39  TPM3u+F+I+R2   0.6105  TPM3u{2.12207,3.51978}+F{0.260035,0.216403,0.218488,0.305074}+I{0.383224}+R2{0.506796,0.740248,0.10998,5.68142}
+  40  TIM3+F+I+R2    0.5233  TIM3{1.22734,1.77687,3.11871}+F{0.312104,0.238896,0.245169,0.203831}+I{0.39831}+R2{0.512678,0.863058,0.0890123,6.26351}
+  41  GTR+F+R3       1.1498  GTR{2.43713,2.88599,1.17338,1.76198,3.38457}+F{0.31431,0.23499,0.256906,0.193794}+R3{0.52533,0.12854,0.336921,1.01814,0.137748,4.27911}
+  42  TIM3+F+I+R2    0.5065  TIM3{2.99104,3.12322,5.94752}+F{0.334596,0.206922,0.250571,0.20791}+I{0.662944}+R2{0.264453,0.853615,0.0726027,10.6643}
+  43  TIM3+F+R3      3.0302  TIM3{1.59147,2.13832,2.98538}+F{0.334274,0.224498,0.261196,0.180032}+R3{0.551841,0.0791914,0.194957,0.791212,0.253201,3.16762}
+  44  K2P+I+R3       3.2032  K2P{2.69755}+FQ+I{0.577781}+R3{0.315891,0.149697,0.0696172,1.32424,0.036711,23.4405}
+  45  JC+R3          81.6605  JC+R3{0.660095,0.00137116,0.135348,0.0283476,0.204558,4.86542}
+  46  TIM3+F+R2      0.3941  TIM3{3.08179,2.19596,4.15386}+F{0.214283,0.216595,0.392494,0.176628}+R2{0.876051,0.122421,0.123949,7.20259}
+  47  TIM3e+R3       20.8791  TIM3e{2.42006,4.21792,1.50326}+FQ+R3{0.618297,0.0106963,0.11989,0.13317,0.261813,3.73328}
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -2915086.1116 (s.e. 4537.8863)
+Unconstrained log-likelihood (without tree): -3252041.5533
+Number of free parameters (#branches + #model parameters): 572
+Akaike information criterion (AIC) score: 5831316.2231
+Corrected Akaike information criterion (AICc) score: 5831317.0697
+Bayesian information criterion (BIC) score: 5837928.8274
+
+Total tree length (sum of branch lengths): 2.4708
+Sum of internal branch lengths: 0.6363 (25.7548% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'A_aegypti' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++-----A_aegypti
+|
+|               +--A_albimanus
+|          +----| (100)
+|          |    +--A_darlingi
+|    +-----| (100)
+|    |     |                          +--A_arabiensis
+|    |     |                       +--| (100)
+|    |     |                       |  +--A_gambiae
+|    |     |                    +--| (100)
+|    |     |                    |  +--A_quadriannulatus
+|    |     |                 +--| (56)
+|    |     |                 |  +--A_merus
+|    |     |              +--| (100)
+|    |     |              |  +--A_melas
+|    |     |           +--| (100)
+|    |     |           |  +--A_christyi
+|    |     |        +--| (100)
+|    |     |        |  +--A_epiroticus
+|    |     |     +--| (100)
+|    |     |     |  |        +--A_culicifacies
+|    |     |     |  |     +--| (100)
+|    |     |     |  |     |  +--A_minimus
+|    |     |     |  |  +--| (100)
+|    |     |     |  |  |  +--A_funestus
+|    |     |     |  +--| (100)
+|    |     |     |     |  +--A_maculatus
+|    |     |     |     +--| (100)
+|    |     |     |        +--A_stephensi
+|    |     |  +--| (100)
+|    |     |  |  |  +--A_dirus
+|    |     |  |  +--| (100)
+|    |     |  |     +--A_farauti
+|    |     +--| (100)
+|    |        |  +--A_atroparvus
+|    |        +--| (100)
+|    |           +--A_sinensis
++----| (100)
+|    +-----------------------------------------------------D_melanogaster
+|
++----C_quinquefasciatus
+
+Tree in newick format:
+
+(A_aegypti:0.1389236179,(((A_albimanus:0.0207703404,A_darlingi:0.0208218705)100:0.1131929816,(((((((((A_arabiensis:0.0031714496,A_gambiae:0.0032486794)100:0.0008062940,A_quadriannulatus:0.0032167211)100:0.0006326888,A_merus:0.0048234199)56:0.0007492648,A_melas:0.0053491723)100:0.0279694442,A_christyi:0.0313346550)100:0.0067148361,A_epiroticus:0.0398499642)100:0.0175915591,(((A_culicifacies:0.0206035806,A_minimus:0.0189875338)100:0.0100076399,A_funestus:0.0252375362)100:0.0139244504,(A_maculatus:0.0244281341,A_stephensi:0.0229178414)100:0.0182690534)100:0.0163868001)100:0.0168842753,(A_dirus:0.0264776576,A_farauti:0.0372974167)100:0.0331390384)100:0.0370553179,(A_atroparvus:0.0413801118,A_sinensis:0.0489372292)100:0.0513590883)100:0.0252334432)100:0.1315735031,D_melanogaster:1.1860032723)100:0.1148536594,C_quinquefasciatus:0.1106532548);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -2915086.111592
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++-----A_aegypti
+|
+|               +--A_albimanus
+|          +----| (100)
+|          |    +--A_darlingi
+|    +-----| (100)
+|    |     |                          +--A_arabiensis
+|    |     |                       +--| (100)
+|    |     |                       |  +--A_gambiae
+|    |     |                    +--| (100)
+|    |     |                    |  +--A_quadriannulatus
+|    |     |                 +--| (56)
+|    |     |                 |  +--A_merus
+|    |     |              +--| (100)
+|    |     |              |  +--A_melas
+|    |     |           +--| (100)
+|    |     |           |  +--A_christyi
+|    |     |        +--| (100)
+|    |     |        |  +--A_epiroticus
+|    |     |     +--| (100)
+|    |     |     |  |        +--A_culicifacies
+|    |     |     |  |     +--| (100)
+|    |     |     |  |     |  +--A_minimus
+|    |     |     |  |  +--| (100)
+|    |     |     |  |  |  +--A_funestus
+|    |     |     |  +--| (100)
+|    |     |     |     |  +--A_maculatus
+|    |     |     |     +--| (100)
+|    |     |     |        +--A_stephensi
+|    |     |  +--| (100)
+|    |     |  |  |  +--A_dirus
+|    |     |  |  +--| (100)
+|    |     |  |     +--A_farauti
+|    |     +--| (100)
+|    |        |  +--A_atroparvus
+|    |        +--| (100)
+|    |           +--A_sinensis
++----| (100)
+|    +-----------------------------------------------------D_melanogaster
+|
++----C_quinquefasciatus
+
+
+Consensus tree in newick format: 
+
+(A_aegypti:0.1389293412,(((A_albimanus:0.0207720920,A_darlingi:0.0208234724)100:0.1131985323,(((((((((A_arabiensis:0.0031701350,A_gambiae:0.0032485986)100:0.0008062111,A_quadriannulatus:0.0032165860)100:0.0006319724,A_merus:0.0048229437)56:0.0007508825,A_melas:0.0053496112)100:0.0279706571,A_christyi:0.0313367746)100:0.0067152037,A_epiroticus:0.0398518118)100:0.0175938920,(((A_culicifacies:0.0206052905,A_minimus:0.0189892016)100:0.0100089161,A_funestus:0.0252384631)100:0.0139261733,(A_maculatus:0.0244307470,A_stephensi:0.0229189703)100:0.0182706945)100:0.0163883173)100:0.0168855128,(A_dirus:0.0264796559,A_farauti:0.0372993265)100:0.0331406944)100:0.0370575515,(A_atroparvus:0.0413814911,A_sinensis:0.0489404375)100:0.0513616542)100:0.0252332648)100:0.1316026479,D_melanogaster:1.1860283721)100:0.1148435045,C_quinquefasciatus:0.1106576183);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t run_iqtree.treefile -p run_iqtree.best_model.nex
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s <alignment.phy> --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s <alignment.phy> --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Sat Jun 29 12:17:10 2024
+Total CPU time used: 7861.755959 seconds (2h:11m:1s)
+Total wall-clock time used: 1185.253924 seconds (0h:19m:45s)
+

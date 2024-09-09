@@ -5963,3 +5963,46 @@
 2024-06-20 10:29:16,595 - read2tree.OGSet - DEBUG - OG665560 was left only with a single entry and hence not used for further processing
 2024-06-20 10:29:16,595 - read2tree.OGSet - DEBUG - OG671266 was left only with a single entry and hence not used for further processing
 2024-06-20 10:29:16,595 - read2tree.OGSet - DEBUG - OG673136 was left only with a single entry and hence not used for further processing
+2024-06-20 13:08:23,487 - read2tree.OGSet - INFO - merge: Appending 189 reconstructed sequences to present OG took 0.0072176456451416016.
+2024-06-20 13:08:24,047 - read2tree.Aligner - INFO - merge: Appending 159 reconstructed sequences to present Alignments took 0.5595550537109375.
+2024-06-20 13:08:24,328 - read2tree.OGSet - INFO - merge: Appending 200 reconstructed sequences to present OG took 0.006494045257568359.
+2024-06-20 13:08:25,059 - read2tree.Aligner - INFO - merge: Appending 200 reconstructed sequences to present Alignments took 0.7305488586425781.
+2024-06-20 13:08:25,350 - read2tree.OGSet - INFO - merge: Appending 200 reconstructed sequences to present OG took 0.007082462310791016.
+2024-06-20 13:08:26,103 - read2tree.Aligner - INFO - merge: Appending 200 reconstructed sequences to present Alignments took 0.752924919128418.
+2024-06-20 13:08:26,500 - read2tree.OGSet - INFO - merge: Appending 200 reconstructed sequences to present OG took 0.006925821304321289.
+2024-06-20 13:08:27,190 - read2tree.Aligner - INFO - merge: Appending 200 reconstructed sequences to present Alignments took 0.6898140907287598.
+2024-06-20 13:08:27,466 - read2tree.OGSet - INFO - merge: Appending 200 reconstructed sequences to present OG took 0.0072231292724609375.
+2024-06-20 13:08:28,163 - read2tree.Aligner - INFO - merge: Appending 197 reconstructed sequences to present Alignments took 0.6967501640319824.
+2024-06-20 13:08:28,429 - read2tree.OGSet - INFO - merge: Appending 198 reconstructed sequences to present OG took 0.007223606109619141.
+2024-06-20 13:08:29,164 - read2tree.Aligner - INFO - merge: Appending 197 reconstructed sequences to present Alignments took 0.7355213165283203.
+2024-06-20 13:08:29,429 - read2tree.OGSet - INFO - merge: Appending 200 reconstructed sequences to present OG took 0.00730443000793457.
+2024-06-20 13:08:30,121 - read2tree.Aligner - INFO - merge: Appending 200 reconstructed sequences to present Alignments took 0.6912260055541992.
+2024-06-20 13:08:30,447 - read2tree.OGSet - INFO - merge: Appending 200 reconstructed sequences to present OG took 0.007159233093261719.
+2024-06-20 13:08:31,145 - read2tree.Aligner - INFO - merge: Appending 199 reconstructed sequences to present Alignments took 0.6980159282684326.
+2024-06-20 13:08:31,528 - read2tree.OGSet - INFO - merge: Appending 172 reconstructed sequences to present OG took 0.005471706390380859.
+2024-06-20 13:08:31,948 - read2tree.Aligner - INFO - merge: Appending 122 reconstructed sequences to present Alignments took 0.41956162452697754.
+2024-06-20 13:08:32,191 - read2tree.OGSet - INFO - merge: Appending 200 reconstructed sequences to present OG took 0.007197856903076172.
+2024-06-20 13:08:32,888 - read2tree.Aligner - INFO - merge: Appending 200 reconstructed sequences to present Alignments took 0.6968019008636475.
+2024-06-20 13:08:33,152 - read2tree.OGSet - INFO - merge: Appending 200 reconstructed sequences to present OG took 0.0073986053466796875.
+2024-06-20 13:08:33,843 - read2tree.Aligner - INFO - merge: Appending 200 reconstructed sequences to present Alignments took 0.691411018371582.
+2024-06-20 13:08:34,116 - read2tree.OGSet - INFO - merge: Appending 199 reconstructed sequences to present OG took 0.00722503662109375.
+2024-06-20 13:08:34,959 - read2tree.Aligner - INFO - merge: Appending 199 reconstructed sequences to present Alignments took 0.8427720069885254.
+2024-06-20 13:08:35,248 - read2tree.OGSet - INFO - merge: Appending 200 reconstructed sequences to present OG took 0.007520437240600586.
+2024-06-20 13:08:35,969 - read2tree.Aligner - INFO - merge: Appending 200 reconstructed sequences to present Alignments took 0.7201399803161621.
+2024-06-20 13:08:36,222 - read2tree.OGSet - INFO - merge: Appending 200 reconstructed sequences to present OG took 0.0058155059814453125.
+2024-06-20 13:08:36,912 - read2tree.Aligner - INFO - merge: Appending 199 reconstructed sequences to present Alignments took 0.6890952587127686.
+2024-06-20 13:08:37,257 - read2tree.OGSet - INFO - merge: Appending 198 reconstructed sequences to present OG took 0.007523059844970703.
+2024-06-20 13:08:37,957 - read2tree.Aligner - INFO - merge: Appending 198 reconstructed sequences to present Alignments took 0.6997151374816895.
+2024-06-20 13:08:38,238 - read2tree.OGSet - INFO - merge: Appending 200 reconstructed sequences to present OG took 0.006974458694458008.
+2024-06-20 13:08:38,927 - read2tree.Aligner - INFO - merge: Appending 199 reconstructed sequences to present Alignments took 0.6888659000396729.
+2024-06-20 13:08:39,177 - read2tree.OGSet - INFO - merge: Appending 200 reconstructed sequences to present OG took 0.0071527957916259766.
+2024-06-20 13:08:39,930 - read2tree.Aligner - INFO - merge: Appending 200 reconstructed sequences to present Alignments took 0.7532637119293213.
+2024-06-20 13:08:40,172 - read2tree.OGSet - INFO - merge: Appending 200 reconstructed sequences to present OG took 0.00796365737915039.
+2024-06-20 13:08:41,060 - read2tree.Aligner - INFO - merge: Appending 200 reconstructed sequences to present Alignments took 0.8883814811706543.
+2024-06-20 13:08:41,306 - read2tree.OGSet - INFO - merge: Appending 200 reconstructed sequences to present OG took 0.008026599884033203.
+2024-06-20 13:08:41,999 - read2tree.Aligner - INFO - merge: Appending 200 reconstructed sequences to present Alignments took 0.6920144557952881.
+2024-06-20 13:08:42,202 - read2tree.OGSet - INFO - merge: Appending 94 reconstructed sequences to present OG took 0.0027637481689453125.
+2024-06-20 13:08:42,350 - read2tree.Aligner - INFO - merge: Appending 37 reconstructed sequences to present Alignments took 0.14806008338928223.
+2024-06-20 13:08:42,765 - read2tree.OGSet - INFO - merge: Appending 191 reconstructed sequences to present OG took 0.007118701934814453.
+2024-06-20 13:08:43,333 - read2tree.Aligner - INFO - merge: Appending 164 reconstructed sequences to present Alignments took 0.5673320293426514.
+2024-06-20 13:08:45,005 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/iqtree -nt 1 -m LG -mem 4G -pre /tmp/iqtree_u8qqlk2f/tmp_output -s /tmp/iqtree_u8qqlk2f/tmp_output.phy

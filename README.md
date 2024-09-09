@@ -5,13 +5,11 @@ Analyses for Orthogarden publication
 
 ```
 .  
-├── analysis   largely unused, anything that isn't a pipeline output or notebook  
-├── data       raw data and reference genomes  
-├── LICENSE  
-├── notebooks  any exploratory .Rmd or jupyter notebook type steps  
+├── data           raw data and reference genomes  
+    └── derived    intermediate working files
+├── docs           any helpful files for analysis (.pdf, .docx, etc.)  
 ├── README.md  
-├── references any helpful files for analysis (.pdf, .docx, etc.)  
-├── results    contains `publish_dir` from nextflow pipeline  
-└── src        contains run script for nextflow pipeline  
+├── results        contains `publish_dir` from nextflow pipeline  
+└── src            contains run script for nextflow pipeline  
 ```
 

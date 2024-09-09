@@ -1,0 +1,344 @@
+IQ-TREE 2.2.2.7 COVID-edition built Jun  7 2023
+
+Partition file name: run_iqtree
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 133816
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+Since you used partition models please also cite:
+
+Olga Chernomor, Arndt von Haeseler, and Bui Quang Minh (2016)
+Terrace aware data structure for phylogenomic inference from
+supermatrices. Syst. Biol., 65:997-1008.
+https://doi.org/10.1093/sysbio/syw037
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 49 taxa with 5 partitions and 4263 total sites (22.4662% missing data)
+
+  ID	Type	Seq	Site	Unique	Infor	Invar	Const	Name
+   1	DNA	41	1323	399	255	983	983	OG0003832.mapped.nt_ali.fasta.masked.no3rds+OG0006528.mapped.nt_ali.fasta.masked.no3rds
+   2	DNA	44	1386	775	492	716	716	OG0003864.mapped.nt_ali.fasta.masked.no3rds+OG0004861.mapped.nt_ali.fasta.masked.no3rds+OG0007513.mapped.nt_ali.fasta.masked.no3rds
+   3	DNA	26	273	172	145	124	124	OG0005049.mapped.nt_ali.fasta.masked.no3rds
+   4	DNA	33	753	347	169	421	421	OG0005842.mapped.nt_ali.fasta.masked.no3rds
+   5	DNA	28	528	345	282	209	209	OG0006849.mapped.nt_ali.fasta.masked.no3rds
+
+Column meanings:
+  Unique: Number of unique site patterns
+  Infor:  Number of parsimony-informative sites
+  Invar:  Number of invariant sites
+  Const:  Number of constant sites (can be subset of invariant sites)
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TPM3u+F+I+R2:OG0003832.mapped.nt_ali.fasta.masked.no3rds+OG0006528.mapped.nt_ali.fasta.masked.no3rds,GTR+F+G4:OG0003864.mapped.nt_ali.fasta.masked.no3rds+OG0004861.mapped.nt_ali.fasta.masked.no3rds+OG0007513.mapped.nt_ali.fasta.masked.no3rds,GTR+F+I+G4:OG0005049.mapped.nt_ali.fasta.masked.no3rds,GTR+F+I+G4:OG0005842.mapped.nt_ali.fasta.masked.no3rds,GTR+F+I+G4:OG0006849.mapped.nt_ali.fasta.masked.no3rds
+
+List of best-fit models per partition:
+
+  ID  Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+   1  TPM3u+F+I+R2      -5056.636   10131.271 + 4.65e-310   10131.408 + 6.91e-310   10177.960 +        0
+   2  GTR+F+G4         -10097.644   20215.289 + 4.65e-310   20215.449 + 6.91e-310   20267.630 +        0
+   3  GTR+F+I+G4        -3117.570    6257.140 + 4.65e-310    6258.151 + 6.91e-310    6296.844 +        0
+   4  GTR+F+I+G4        -4267.157    8556.315 + 4.65e-310    8556.671 + 6.91e-310    8607.179 +        0
+   5  GTR+F+I+G4        -4631.881    9285.762 + 4.65e-310    9286.273 + 6.91e-310    9332.722 +        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Edge-linked-proportional partition model with separate substitution models and separate rates across sites
+
+  ID  Model           Speed  Parameters
+   1  TPM3u+F+I+R2   0.3092  TPM3u{1.74732,1.88199}+F{0.189943,0.328901,0.29939,0.181766}+I{0.473356}+R2{0.463142,1.37279,0.063502,5.73533}
+   2  GTR+F+G4       1.0753  GTR{2.07207,4.43363,1.76127,2.3628,2.40168}+F{0.310367,0.231775,0.230303,0.227556}+G4{0.928824}
+   3  GTR+F+I+G4     3.5220  GTR{3.69183,3.46196,1.72033,2.32533,3.61858}+F{0.304481,0.239499,0.197249,0.258771}+I{0.176612}+G4{3.14223}
+   4  GTR+F+I+G4     0.5140  GTR{1.1752,1.69966,0.713107,1.12392,0.821746}+F{0.23689,0.305264,0.220113,0.237733}+I{0.105918}+G4{5.20717}
+   5  GTR+F+I+G4     1.9222  GTR{1.12614,1.50937,0.960936,1.20904,1.92821}+F{0.399707,0.208172,0.212686,0.179434}+I{0.0600936}+G4{9.61344}
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -26571.7817 (s.e. 493.8337)
+Unconstrained log-likelihood (without tree): -19092.6763
+Number of free parameters (#branches + #model parameters): 146
+Akaike information criterion (AIC) score: 53435.5634
+Corrected Akaike information criterion (AICc) score: 53445.9920
+Bayesian information criterion (BIC) score: 54363.7918
+
+Total tree length (sum of branch lengths): 4.8654
+Sum of internal branch lengths: 1.8431 (37.8827% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Acromantis_hesione' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++----Acromantis_hesione
+|
+|             +---------Amantis_wuzhishana
+|        +----| (93)
+|        |    |             +--Gonypeta_sp._WJ-2021
+|        |    +-------------| (100)
+|        |                  +--Gonypeta_brunneri
+|     +--| (85)
+|     |  |            +--Anaxarcha_sinensis
+|     |  |        +---| (56)
+|     |  |        |   +--Anaxarcha_sp._WJ-2021
+|     |  +--------| (99)
+|     |           +-------------Theopropus_sp._2_WJ-2021
+|  +--| (76)
+|  |  |                                  +--Arria_pallida
+|  |  |                              +---| (100)
+|  |  |                              |   |       +**Sinomiopteryx_sp._1_WJ-2021_1
+|  |  |                              |   +-------| (100)
+|  |  |                              |           +----------------Sinomiopteryx_sp._1_WJ-2021_2
+|  |  |                           +--| (65)
+|  |  |                           |  +-----Arria_brevifrons
+|  |  |                        +--| (95)
+|  |  |                        |  +--------------Leptomantella_sp._WJ-2021
+|  |  |                     +--| (96)
+|  |  |                     |  +---Arria_pura
+|  |  |              +------| (100)
+|  |  |              |      +--Sinomiopteryx_sp._2_WJ-2021
+|  |  |           +--| (97)
+|  |  |           |  +-----Tenodera_sp._WJ-2021
+|  |  |        +--| (84)
+|  |  |        |  |                                            +**Periplaneta_americana
+|  |  |        |  |       +------------------------------------| (100)
+|  |  |        |  |       |                                    +**Shelfordella_lateralis
+|  |  |        |  +-------| (82)
+|  |  |        |          |                 +--------Zootermopsis_nevadensis
+|  |  |        |          |   +-------------| (96)
+|  |  |        |          |   |             |    +------Coptotermes_gestroi
+|  |  |        |          |   |             +----| (96)
+|  |  |        |          |   |                  +--Reticulitermes_flavipes
+|  |  |        |          +---| (87)
+|  |  |        |              +--------------------Blatella_asahinai
+|  |  +--------| (99)
+|  |           |        +----------Astyliasula_major
+|  |           |  +-----| (100)
+|  |           |  |     +-----Phyllothelys_werneri
+|  |           +--| (71)
+|  |              +--Phyllothelys_sinensis
++--| (92)
+|  |                                +---Anaxarcha_tianmushanensis
+|  |                             +--| (88)
+|  |                             |  +--------Anaxarcha_graminea
+|  |                          +--| (61)
+|  |                          |  +---------Theopropus_sp._1_WJ-2021
+|  |                       +--| (94)
+|  |                       |  +---Pseudempusa_pinnapavonis
+|  |                   +---| (98)
+|  |                   |   +-----Hierodula_zhangi
+|  |                +--| (50)
+|  |                |  |              +------Caliris_sp._WJ-2021
+|  |                |  |           +--| (73)
+|  |                |  |           |  +**Theopropus_sinecus
+|  |                |  |        +--| (72)
+|  |                |  |        |  +--Titanodula_formosana
+|  |                |  |     +--| (81)
+|  |                |  |     |  +--Hierodula_sp._WJ-2021
+|  |                |  |  +--| (49)
+|  |                |  |  |  |     +----Tenodera_angustipennis
+|  |                |  |  |  +-----| (100)
+|  |                |  |  |        |  +--------Tenodera_aridifolia
+|  |                |  |  |        +--| (76)
+|  |                |  |  |           +**Tenodera_sinensis
+|  |                |  +--| (55)
+|  |                |     +---------Hierodula_maculata
+|  |          +-----| (75)
+|  |          |     |           +----Statilia_agresta
+|  |          |     |       +---| (75)
+|  |          |     |       |   +--Statilia_sp._WJ-2021
+|  |          |     +-------| (99)
+|  |          |             +--Hierodula_latipennis
+|  |     +----| (94)
+|  |     |    |  +---------Odontomantis_sp._WJ-2021
+|  |     |    +--| (98)
+|  |     |       +-----Statilia_maculata
+|  +-----| (98)
+|        |     +--Hierodula_chinensis
+|        |  +--| (97)
+|        |  |  +--Hierodula_longa
+|        +--| (98)
+|           |  +-----Statilia_flavobrunnea
+|           +--| (95)
+|              |            +--Theopompa_maculosa_1
+|              |         +--| (86)
+|              |         |  +-------------Theopompa_maculosa_2
+|              +---------| (99)
+|                        +----Theopompa_ophthalmica
+|
++--Acromantis_japonica
+
+Tree in newick format:
+
+(Acromantis_hesione:0.0482847111,((((Amantis_wuzhishana:0.1043902834,(Gonypeta_sp._WJ-2021:0.0155461921,Gonypeta_brunneri:0.0065313599)100:0.1364038621)93:0.0539847032,((Anaxarcha_sinensis:0.0349556654,Anaxarcha_sp._WJ-2021:0.0089745187)56:0.0411314457,Theopropus_sp._2_WJ-2021:0.1406154122)99:0.0920338534)85:0.0102622177,((((((((Arria_pallida:0.0349837518,(Sinomiopteryx_sp._1_WJ-2021_1:0.0000025046,Sinomiopteryx_sp._1_WJ-2021_2:0.1645694556)100:0.0800289964)100:0.0433667259,Arria_brevifrons:0.0596158407)65:0.0118104932,Leptomantella_sp._WJ-2021:0.1485042610)95:0.0306177673,Arria_pura:0.0398305103)96:0.0119404350,Sinomiopteryx_sp._2_WJ-2021:0.0133598437)100:0.0728710053,Tenodera_sp._WJ-2021:0.0614348762)97:0.0201707075,((Periplaneta_americana:0.0000027221,Shelfordella_lateralis:0.0000010443)100:0.3608772033,((Zootermopsis_nevadensis:0.0864726334,(Coptotermes_gestroi:0.0667508073,Reticulitermes_flavipes:0.0048538616)96:0.0523723826)96:0.1413539497,Blatella_asahinai:0.2044655828)87:0.0464962487)82:0.0796716659)84:0.0196837923,((Astyliasula_major:0.1054144199,Phyllothelys_werneri:0.0583551853)100:0.0611516128,Phyllothelys_sinensis:0.0032924852)71:0.0088007315)99:0.0857559228)76:0.0023011672,((((((((Anaxarcha_tianmushanensis:0.0430764144,Anaxarcha_graminea:0.0895045543)88:0.0095294521,Theopropus_sp._1_WJ-2021:0.1008235580)61:0.0025238893,Pseudempusa_pinnapavonis:0.0437879248)94:0.0129258771,Hierodula_zhangi:0.0579517006)98:0.0417020727,(((((Caliris_sp._WJ-2021:0.0675515977,Theopropus_sinecus:0.0000022992)73:0.0065909188,Titanodula_formosana:0.0099750740)72:0.0152496800,Hierodula_sp._WJ-2021:0.0167279836)81:0.0201383166,(Tenodera_angustipennis:0.0522189736,(Tenodera_aridifolia:0.0935313565,Tenodera_sinensis:0.0000021111)76:0.0211197211)100:0.0642076860)49:0.0113382682,Hierodula_maculata:0.0976439018)55:0.0144001381)50:0.0151574699,((Statilia_agresta:0.0537730010,Statilia_sp._WJ-2021:0.0378905653)75:0.0426086294,Hierodula_latipennis:0.0305247582)99:0.0810861700)75:0.0610950274,(Odontomantis_sp._WJ-2021:0.0969455049,Statilia_maculata:0.0602262857)98:0.0318152134)94:0.0525454768,((Hierodula_chinensis:0.0137096886,Hierodula_longa:0.0094928625)97:0.0093804874,(Statilia_flavobrunnea:0.0631181271,((Theopompa_maculosa_1:0.0040079589,Theopompa_maculosa_2:0.1377472162)86:0.0050715643,Theopompa_ophthalmica:0.0510660808)99:0.0992032408)95:0.0210715867)98:0.0212818661)98:0.0575255175)92:0.0233603540,Acromantis_japonica:0.0188639054);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -26571.782275
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++----Acromantis_hesione
+|
+|             +---------Amantis_wuzhishana
+|        +----| (93)
+|        |    |             +--Gonypeta_sp._WJ-2021
+|        |    +-------------| (100)
+|        |                  +--Gonypeta_brunneri
+|     +--| (85)
+|     |  |            +--Anaxarcha_sinensis
+|     |  |        +---| (56)
+|     |  |        |   +--Anaxarcha_sp._WJ-2021
+|     |  +--------| (99)
+|     |           +-------------Theopropus_sp._2_WJ-2021
+|  +--| (76)
+|  |  |                                  +--Arria_pallida
+|  |  |                              +---| (100)
+|  |  |                              |   |       +--Sinomiopteryx_sp._1_WJ-2021_1
+|  |  |                              |   +-------| (100)
+|  |  |                              |           +----------------Sinomiopteryx_sp._1_WJ-2021_2
+|  |  |                           +--| (65)
+|  |  |                           |  +-----Arria_brevifrons
+|  |  |                        +--| (95)
+|  |  |                        |  +--------------Leptomantella_sp._WJ-2021
+|  |  |                     +--| (96)
+|  |  |                     |  +---Arria_pura
+|  |  |              +------| (100)
+|  |  |              |      +--Sinomiopteryx_sp._2_WJ-2021
+|  |  |           +--| (97)
+|  |  |           |  +-----Tenodera_sp._WJ-2021
+|  |  |        +--| (84)
+|  |  |        |  |                                            +--Periplaneta_americana
+|  |  |        |  |       +------------------------------------| (100)
+|  |  |        |  |       |                                    +--Shelfordella_lateralis
+|  |  |        |  +-------| (82)
+|  |  |        |          |                 +--------Zootermopsis_nevadensis
+|  |  |        |          |   +-------------| (96)
+|  |  |        |          |   |             |    +------Coptotermes_gestroi
+|  |  |        |          |   |             +----| (96)
+|  |  |        |          |   |                  +--Reticulitermes_flavipes
+|  |  |        |          +---| (87)
+|  |  |        |              +--------------------Blatella_asahinai
+|  |  +--------| (99)
+|  |           |        +----------Astyliasula_major
+|  |           |  +-----| (100)
+|  |           |  |     +-----Phyllothelys_werneri
+|  |           +--| (71)
+|  |              +--Phyllothelys_sinensis
++--| (92)
+|  |                                +---Anaxarcha_tianmushanensis
+|  |                             +--| (88)
+|  |                             |  +--------Anaxarcha_graminea
+|  |                          +--| (61)
+|  |                          |  +---------Theopropus_sp._1_WJ-2021
+|  |                       +--| (94)
+|  |                       |  +---Pseudempusa_pinnapavonis
+|  |                   +---| (98)
+|  |                   |   +-----Hierodula_zhangi
+|  |                +--| (50)
+|  |                |  |              +------Caliris_sp._WJ-2021
+|  |                |  |           +--| (73)
+|  |                |  |           |  +--Theopropus_sinecus
+|  |                |  |        +--| (72)
+|  |                |  |        |  +--Titanodula_formosana
+|  |                |  |     +--| (81)
+|  |                |  |     |  +--Hierodula_sp._WJ-2021
+|  |                |  |  +--| (49)
+|  |                |  |  |  |     +----Tenodera_angustipennis
+|  |                |  |  |  +-----| (100)
+|  |                |  |  |        |  +--------Tenodera_aridifolia
+|  |                |  |  |        +--| (76)
+|  |                |  |  |           +--Tenodera_sinensis
+|  |                |  +--| (55)
+|  |                |     +---------Hierodula_maculata
+|  |          +-----| (75)
+|  |          |     |           +----Statilia_agresta
+|  |          |     |       +---| (75)
+|  |          |     |       |   +--Statilia_sp._WJ-2021
+|  |          |     +-------| (99)
+|  |          |             +--Hierodula_latipennis
+|  |     +----| (94)
+|  |     |    |  +---------Odontomantis_sp._WJ-2021
+|  |     |    +--| (98)
+|  |     |       +-----Statilia_maculata
+|  +-----| (98)
+|        |     +--Hierodula_chinensis
+|        |  +--| (97)
+|        |  |  +--Hierodula_longa
+|        +--| (98)
+|           |  +-----Statilia_flavobrunnea
+|           +--| (95)
+|              |            +--Theopompa_maculosa_1
+|              |         +--| (86)
+|              |         |  +-------------Theopompa_maculosa_2
+|              +---------| (99)
+|                        +----Theopompa_ophthalmica
+|
++--Acromantis_japonica
+
+
+Consensus tree in newick format: 
+
+(Acromantis_hesione:0.0482782405,((((Amantis_wuzhishana:0.1043905448,(Gonypeta_sp._WJ-2021:0.0155425857,Gonypeta_brunneri:0.0065348314)100:0.1363925152)93:0.0539851458,((Anaxarcha_sinensis:0.0349449913,Anaxarcha_sp._WJ-2021:0.0089801218)56:0.0411916691,Theopropus_sp._2_WJ-2021:0.1406028521)99:0.0919132649)85:0.0102732593,((((((((Arria_pallida:0.0349840598,(Sinomiopteryx_sp._1_WJ-2021_1:0.0000021794,Sinomiopteryx_sp._1_WJ-2021_2:0.1645531792)100:0.0800281958)100:0.0433602435,Arria_brevifrons:0.0596023904)65:0.0118172126,Leptomantella_sp._WJ-2021:0.1484969199)95:0.0306151810,Arria_pura:0.0398302326)96:0.0119403391,Sinomiopteryx_sp._2_WJ-2021:0.0133606578)100:0.0728666935,Tenodera_sp._WJ-2021:0.0614291778)97:0.0201732477,((Periplaneta_americana:0.0000023594,Shelfordella_lateralis:0.0000028236)100:0.3608060933,((Zootermopsis_nevadensis:0.0864648849,(Coptotermes_gestroi:0.0667535164,Reticulitermes_flavipes:0.0048538183)96:0.0523772759)96:0.1413559035,Blatella_asahinai:0.2044641816)87:0.0464353591)82:0.0797603156)84:0.0196807827,((Astyliasula_major:0.1054152621,Phyllothelys_werneri:0.0583640991)100:0.0611300073,Phyllothelys_sinensis:0.0032930144)71:0.0088017905)99:0.0857698779)76:0.0023003168,((((((((Anaxarcha_tianmushanensis:0.0430675113,Anaxarcha_graminea:0.0895023721)88:0.0095563042,Theopropus_sp._1_WJ-2021:0.1008412888)61:0.0024995954,Pseudempusa_pinnapavonis:0.0437859471)94:0.0129427376,Hierodula_zhangi:0.0579371683)98:0.0416805247,(((((Caliris_sp._WJ-2021:0.0675617241,Theopropus_sinecus:0.0000023916)73:0.0065797982,Titanodula_formosana:0.0099779124)72:0.0152788976,Hierodula_sp._WJ-2021:0.0167252466)81:0.0201133965,(Tenodera_angustipennis:0.0522604879,(Tenodera_aridifolia:0.0929198591,Tenodera_sinensis:0.0000021504)76:0.0217353521)100:0.0638939326)49:0.0113937783,Hierodula_maculata:0.0976477093)55:0.0143592301)50:0.0151613922,((Statilia_agresta:0.0537699797,Statilia_sp._WJ-2021:0.0378539425)75:0.0426689816,Hierodula_latipennis:0.0305150973)99:0.0810650012)75:0.0611022841,(Odontomantis_sp._WJ-2021:0.0969340164,Statilia_maculata:0.0602304824)98:0.0318432985)94:0.0525223676,((Hierodula_chinensis:0.0137091826,Hierodula_longa:0.0094895081)97:0.0093792307,(Statilia_flavobrunnea:0.0631223252,((Theopompa_maculosa_1:0.0040060623,Theopompa_maculosa_2:0.1377425438)86:0.0050735780,Theopompa_ophthalmica:0.0510633072)99:0.0991958454)95:0.0210688209)98:0.0212910654)98:0.0575188071)92:0.0233579514,Acromantis_japonica:0.0188672518);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t run_iqtree.treefile -p run_iqtree.best_model.nex
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s <alignment.phy> --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s <alignment.phy> --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Mon Jul 15 10:09:41 2024
+Total CPU time used: 9777.443544 seconds (2h:42m:57s)
+Total wall-clock time used: 3450.783374 seconds (0h:57m:30s)
+

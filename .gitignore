@@ -4,23 +4,15 @@
 results/**
 !results/**/
 
-data/**
-!data/**/
 
 !*.csv
-!*.txt
+!*.tsv
 !*.html
-!*.sh
-!*.sbatch
-!*.R
-!*.py
 !*.pdf
 !*.png
-!*.md
 !*.nwk
 !*.iqtree
 !*.treefile
-!*.log
-!*.tsv
 
 work/
+data/
