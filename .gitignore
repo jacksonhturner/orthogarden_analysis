@@ -4,10 +4,8 @@
 results/**
 !results/**/
 
-
 !*.csv
 !*.tsv
-!*.html
 !*.pdf
 !*.png
 !*.nwk

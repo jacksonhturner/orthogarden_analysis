@@ -1,0 +1,1744 @@
+IQ-TREE 2.2.2.7 COVID-edition built Jun  7 2023
+
+Partition file name: run_iqtree
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 358371
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+Since you used partition models please also cite:
+
+Olga Chernomor, Arndt von Haeseler, and Bui Quang Minh (2016)
+Terrace aware data structure for phylogenomic inference from
+supermatrices. Syst. Biol., 65:997-1008.
+https://doi.org/10.1093/sysbio/syw037
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 401 taxa with 1 partitions and 630 total sites (0% missing data)
+
+  ID	Type	Seq	Site	Unique	Infor	Invar	Const	Name
+   1	DNA	386	630	410	385	237	237	OG0001876.mapped.nt_ali.fasta.masked.no3rds
+
+Column meanings:
+  Unique: Number of unique site patterns
+  Infor:  Number of parsimony-informative sites
+  Invar:  Number of invariant sites
+  Const:  Number of constant sites (can be subset of invariant sites)
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: GTR+F+I+R7:OG0001876.mapped.nt_ali.fasta.masked.no3rds
+
+List of best-fit models per partition:
+
+  ID  Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+   1  GTR+F+I+R7       -58650.820  117345.641 + 4.64e-310  117347.308 + 6.95e-310  117443.447 +        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Edge-linked-proportional partition model with separate substitution models and separate rates across sites
+
+  ID  Model           Speed  Parameters
+   1  GTR+F+I+R7     1.0000  GTR{2.80624,1.63371,1.29783,2.24755,3.73264}+F{0.408655,0.18355,0.253982,0.153813}+I{0.0598751}+R7{0.0928019,0.0523225,0.134945,0.251254,0.102892,0.455218,0.175458,0.794516,0.22358,1.32751,0.133275,1.96681,0.0771733,2.79975}
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -58513.8569 (s.e. 2345.0681)
+Unconstrained log-likelihood (without tree): -2919.6364
+Number of free parameters (#branches + #model parameters): 790
+Akaike information criterion (AIC) score: 118607.7138
+Corrected Akaike information criterion (AICc) score: 1368387.7138
+Bayesian information criterion (BIC) score: 122119.8324
+
+**************************** WARNING ****************************
+Number of parameters (K, model parameters and branch lengths): 790
+Sample size (n, alignment length): 630
+
+Given that K>=n, the parameter estimates might be inaccurate.
+Thus, phylogenetic estimates should be interpreted with caution.
+
+Ideally, it is desirable that n >> K. When selecting optimal models,
+1. use AIC or BIC if n > 40K;
+2. use AICc or BIC if 40K >= n > K;
+3. be extremely cautious if n <= K
+
+To improve the situation (3), consider the following options:
+  1. Increase the sample size (n)
+  2. Decrease the number of parameters (K) to be estimated. If
+     possible:
+     a. Remove the least important sequences from the alignment
+     b. Specify some of the parameter values for the substitution
+        model (e.g., the nucleotide or amino acid frequencies)
+     c. Specify some of the parameter values for the rates-across-
+        sites model (e.g., the shape parameter for the discrete
+        Gamma distribution, the proportion of invariable sites, or
+        the rates of change for different rate categories under
+        the FreeRate model)
+
+Reference:
+Burnham KR, Anderson DR (2002). Model Selection and Multimodel
+Inference: A Practical Information-Theoretic Approach. Springer,
+New York.
+************************ END OF WARNING ***********************
+
+Total tree length (sum of branch lengths): 61.0353
+Sum of internal branch lengths: 23.7141 (38.8531% of tree length)
+
+WARNING: 9 near-zero internal branches (<0.0016) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'DRR030855' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--------------DRR030855
+|
+|                                         +----DRR032472
+|                                      +--| (99)
+|                                      |  |       +--ERR1102659
+|                                      |  |  +----| (100)
+|                                      |  |  |    |  +**ERR2764753
+|                                      |  |  |    +**| (95)
+|                                      |  |  |       +**SRR3927079
+|                                      |  +--| (92)
+|                                      |     +-----SRR6475977
+|                                   +--| (59)
+|                                   |  |  +---------------DRR032476
+|                                   |  +--| (83)
+|                                   |     |                 +--DRR063217
+|                                   |     |              +--| (100)
+|                                   |     |              |  +--SRR071890
+|                                   |     |           +--| (23)
+|                                   |     |           |  |  +---SRR4451748
+|                                   |     |           |  +--| (22)
+|                                   |     |           |     |    +-----SRR6476037
+|                                   |     |           |     +----| (99)
+|                                   |     |           |          +---SRR6476039
+|                                   |     |        +--| (65)
+|                                   |     |        |  +-----SRR6476041
+|                                   |     |     +--| (56)
+|                                   |     |     |  |     +--------SRR5047288
+|                                   |     |     |  |  +--| (36)
+|                                   |     |     |  |  |  +-------SRR6476036
+|                                   |     |     |  +--| (57)
+|                                   |     |     |     +----------SRR6475882
+|                                   |     |  +--| (84)
+|                                   |     |  |  |              +--SRR5559347
+|                                   |     |  |  |           +--| (64)
+|                                   |     |  |  |           |  |  +--SRR6476042
+|                                   |     |  |  |           |  +--| (81)
+|                                   |     |  |  |           |     +---SRR6476045
+|                                   |     |  |  |     +-----| (100)
+|                                   |     |  |  |     |     |  +--SRR6475989
+|                                   |     |  |  |     |     +--| (99)
+|                                   |     |  |  |     |        +--SRR6475997
+|                                   |     |  |  |  +--| (91)
+|                                   |     |  |  |  |  |   +-----SRR6475998
+|                                   |     |  |  |  |  +---| (100)
+|                                   |     |  |  |  |      +------SRR6476043
+|                                   |     |  |  +--| (79)
+|                                   |     |  |     +---------SRR6476040
+|                                   |     +--| (51)
+|                                   |        |     +--SRR6475924
+|                                   |        +-----| (100)
+|                                   |              +--SRR6475927
+|                                +--| (45)
+|                                |  |              +--DRR032473
+|                                |  |           +--| (82)
+|                                |  |           |  |  +--SRR6475975
+|                                |  |           |  +--| (65)
+|                                |  |           |     +--SRR6476010
+|                                |  |        +--| (71)
+|                                |  |        |  |  +---DRR032547
+|                                |  |        |  +--| (65)
+|                                |  |        |     |  +--SRR5559341
+|                                |  |        |     +--| (82)
+|                                |  |        |        |  +--SRR6475973
+|                                |  |        |        +--| (40)
+|                                |  |        |           +--SRR6475983
+|                                |  |     +--| (81)
+|                                |  |     |  +---SRR6476009
+|                                |  |  +--| (19)
+|                                |  |  |  |          +--DRR043254
+|                                |  |  |  |     +----| (100)
+|                                |  |  |  |     |    +--SRR6475944
+|                                |  |  |  |  +--| (40)
+|                                |  |  |  |  |  +-------SRR427168
+|                                |  |  |  +--| (63)
+|                                |  |  |     |  +--SRR6475855
+|                                |  |  |     +--| (100)
+|                                |  |  |        +--SRR6475952
+|                                |  +--| (58)
+|                                |     |                 +**SRR072065
+|                                |     |              +--| (99)
+|                                |     |              |  +**SRR3926513
+|                                |     |           +--| (100)
+|                                |     |           |  +--SRR6148363
+|                                |     |        +--| (74)
+|                                |     |        |  +--SRR6475945
+|                                |     |     +--| (99)
+|                                |     |     |  |     +-----SRR6475947
+|                                |     |     |  |  +--| (66)
+|                                |     |     |  |  |  +--SRR6475988
+|                                |     |     |  +--| (87)
+|                                |     |     |     +--SRR6475980
+|                                |     |  +--| (59)
+|                                |     |  |  |        +--SRR6475943
+|                                |     |  |  |     +--| (47)
+|                                |     |  |  |     |  |  +--SRR6475951
+|                                |     |  |  |     |  +--| (96)
+|                                |     |  |  |     |     +--SRR6475974
+|                                |     |  |  |  +--| (95)
+|                                |     |  |  |  |  +--SRR6475946
+|                                |     |  |  +--| (68)
+|                                |     |  |     +--SRR6475949
+|                                |     +--| (69)
+|                                |        +--SRR6475856
+|                             +--| (45)
+|                             |  |        +-----DRR032485
+|                             |  |     +--| (56)
+|                             |  |     |  +--SRR6475948
+|                             |  |  +--| (71)
+|                             |  |  |  +-------SRR6475950
+|                             |  +--| (50)
+|                             |     +-------SRR6475987
+|                          +--| (98)
+|                          |  +------DRR032489
+|                       +--| (45)
+|                       |  |              +**ERR9924606
+|                       |  |           +--| (100)
+|                       |  |           |  +**SRR3242030
+|                       |  |        +--| (88)
+|                       |  |        |  +--SRR3228419
+|                       |  +--------| (100)
+|                       |           |  +--SRR6475984
+|                       |           +--| (75)
+|                       |              +--SRR6475992
+|                    +--| (36)
+|                    |  |                          +----DRR032475
+|                    |  |                       +--| (24)
+|                    |  |                       |  |     +--SRR6475888
+|                    |  |                       |  |  +--| (100)
+|                    |  |                       |  |  |  +--SRR6475922
+|                    |  |                       |  +--| (99)
+|                    |  |                       |     +--SRR6475923
+|                    |  |                    +--| (60)
+|                    |  |                    |  +--SRR427166
+|                    |  |                 +--| (66)
+|                    |  |                 |  |           +---DRR032537
+|                    |  |                 |  |        +--| (71)
+|                    |  |                 |  |        |  +--SRR6475906
+|                    |  |                 |  |     +--| (100)
+|                    |  |                 |  |     |  +--SRR6475999
+|                    |  |                 |  |  +--| (98)
+|                    |  |                 |  |  |  +--SRR6475907
+|                    |  |                 |  +--| (41)
+|                    |  |                 |     |     +----DRR037283
+|                    |  |                 |     |  +--| (78)
+|                    |  |                 |     |  |  |        +**ERR946881
+|                    |  |                 |     |  |  |     +--| (100)
+|                    |  |                 |     |  |  |     |  +**SRR19837491
+|                    |  |                 |     |  |  |  +--| (90)
+|                    |  |                 |     |  |  |  |  |        +**SRR3594711
+|                    |  |                 |     |  |  |  |  |     +--| (100)
+|                    |  |                 |     |  |  |  |  |     |  +**SRR6476023
+|                    |  |                 |     |  |  |  |  |  +--| (60)
+|                    |  |                 |     |  |  |  |  |  |  +--SRR6476031
+|                    |  |                 |     |  |  |  |  +--| (98)
+|                    |  |                 |     |  |  |  |     +--SRR6475868
+|                    |  |                 |     |  |  +--| (68)
+|                    |  |                 |     |  |     |  +---SRR6475870
+|                    |  |                 |     |  |     +--| (78)
+|                    |  |                 |     |  |        +--SRR6475871
+|                    |  |                 |     +--| (61)
+|                    |  |                 |        |        +--ERR246509
+|                    |  |                 |        |     +--| (59)
+|                    |  |                 |        |     |  |     +--ERR247405
+|                    |  |                 |        |     |  |  +--| (48)
+|                    |  |                 |        |     |  |  |  +------SRR6476035
+|                    |  |                 |        |     |  +--| (26)
+|                    |  |                 |        |     |     +--SRR3547558
+|                    |  |                 |        |  +--| (69)
+|                    |  |                 |        |  |  +--SRR6659927
+|                    |  |                 |        +--| (96)
+|                    |  |                 |           |       +--SRR10766640
+|                    |  |                 |           |  +----| (100)
+|                    |  |                 |           |  |    +--SRR868710
+|                    |  |                 |           +--| (89)
+|                    |  |                 |              |     +**SRR1656204
+|                    |  |                 |              |  +--| (100)
+|                    |  |                 |              |  |  +--SRR28960502
+|                    |  |                 |              +--| (100)
+|                    |  |                 |                 +--SRR771366
+|                    |  |              +--| (23)
+|                    |  |              |  |                 +--DRR032477
+|                    |  |              |  |              +--| (83)
+|                    |  |              |  |              |  +--SRR6475890
+|                    |  |              |  |           +--| (58)
+|                    |  |              |  |           |  |                       +**SRR3257847
+|                    |  |              |  |           |  |                    +--| (100)
+|                    |  |              |  |           |  |                    |  +--SRR3257865
+|                    |  |              |  |           |  |                 +--| (80)
+|                    |  |              |  |           |  |                 |  |              +--SRR3257848
+|                    |  |              |  |           |  |                 |  |           +--| (84)
+|                    |  |              |  |           |  |                 |  |           |  +--SRR3257850
+|                    |  |              |  |           |  |                 |  |        +--| (64)
+|                    |  |              |  |           |  |                 |  |        |  |        +--SRR3257853
+|                    |  |              |  |           |  |                 |  |        |  |     +**| (34)
+|                    |  |              |  |           |  |                 |  |        |  |     |  +--SRR3257884
+|                    |  |              |  |           |  |                 |  |        |  |  +--| (63)
+|                    |  |              |  |           |  |                 |  |        |  |  |  +--SRR3257872
+|                    |  |              |  |           |  |                 |  |        |  +--| (78)
+|                    |  |              |  |           |  |                 |  |        |     |     +--SRR3257870
+|                    |  |              |  |           |  |                 |  |        |     |  +--| (94)
+|                    |  |              |  |           |  |                 |  |        |     |  |  |     +--SRR3257876
+|                    |  |              |  |           |  |                 |  |        |     |  |  |  +--| (51)
+|                    |  |              |  |           |  |                 |  |        |     |  |  |  |  |  +--SRR5802931
+|                    |  |              |  |           |  |                 |  |        |     |  |  |  |  +**| (34)
+|                    |  |              |  |           |  |                 |  |        |     |  |  |  |     +--SRR5802933
+|                    |  |              |  |           |  |                 |  |        |     |  |  +--| (74)
+|                    |  |              |  |           |  |                 |  |        |     |  |     |  +--SRR5802927
+|                    |  |              |  |           |  |                 |  |        |     |  |     +--| (96)
+|                    |  |              |  |           |  |                 |  |        |     |  |        +**SRR5802929
+|                    |  |              |  |           |  |                 |  |        |     +**| (56)
+|                    |  |              |  |           |  |                 |  |        |        +--SRR5802887
+|                    |  |              |  |           |  |                 |  |     +--| (98)
+|                    |  |              |  |           |  |                 |  |     |  |  +--SRR3257880
+|                    |  |              |  |           |  |                 |  |     |  +--| (57)
+|                    |  |              |  |           |  |                 |  |     |     +--SRR5802924
+|                    |  |              |  |           |  |                 |  |  +--| (76)
+|                    |  |              |  |           |  |                 |  |  |  |     +--SRR3257854
+|                    |  |              |  |           |  |                 |  |  |  |  +--| (100)
+|                    |  |              |  |           |  |                 |  |  |  |  |  |  +**SRR3257858
+|                    |  |              |  |           |  |                 |  |  |  |  |  +--| (86)
+|                    |  |              |  |           |  |                 |  |  |  |  |     +--SRR3257868
+|                    |  |              |  |           |  |                 |  |  |  +--| (50)
+|                    |  |              |  |           |  |                 |  |  |     |     +--SRR3257879
+|                    |  |              |  |           |  |                 |  |  |     |  +--| (89)
+|                    |  |              |  |           |  |                 |  |  |     |  |  +--SRR5802926
+|                    |  |              |  |           |  |                 |  |  |     +--| (48)
+|                    |  |              |  |           |  |                 |  |  |        +--SRR5806845
+|                    |  |              |  |           |  |                 |  +--| (65)
+|                    |  |              |  |           |  |                 |     |  +--SRR5802886
+|                    |  |              |  |           |  |                 |     +--| (45)
+|                    |  |              |  |           |  |                 |        +--SRR5802922
+|                    |  |              |  |           |  |              +--| (76)
+|                    |  |              |  |           |  |              |  |     +--SRR3257864
+|                    |  |              |  |           |  |              |  |  +--| (96)
+|                    |  |              |  |           |  |              |  |  |  +--SRR3257882
+|                    |  |              |  |           |  |              |  +--| (99)
+|                    |  |              |  |           |  |              |     +--SRR3257873
+|                    |  |              |  |           |  |           +--| (100)
+|                    |  |              |  |           |  |           |  |  +--SRR6061621
+|                    |  |              |  |           |  |           |  +--| (100)
+|                    |  |              |  |           |  |           |     +--SRR6061622
+|                    |  |              |  |           |  |        +--| (55)
+|                    |  |              |  |           |  |        |  |    +--SRR6061619
+|                    |  |              |  |           |  |        |  +----| (100)
+|                    |  |              |  |           |  |        |       +--SRR6061623
+|                    |  |              |  |           |  |     +--| (76)
+|                    |  |              |  |           |  |     |  |     +--SRR400293
+|                    |  |              |  |           |  |     |  |  +--| (100)
+|                    |  |              |  |           |  |     |  |  |  +--SRR6476018
+|                    |  |              |  |           |  |     |  +--| (82)
+|                    |  |              |  |           |  |     |     +---SRR6476046
+|                    |  |              |  |           |  |  +--| (71)
+|                    |  |              |  |           |  |  |  +----SRR4125809
+|                    |  |              |  |           |  +--| (72)
+|                    |  |              |  |           |     |  +---SRR6476015
+|                    |  |              |  |           |     +--| (68)
+|                    |  |              |  |           |        |  +--SRR6476016
+|                    |  |              |  |           |        +--| (97)
+|                    |  |              |  |           |           +--SRR6749948
+|                    |  |              |  |        +--| (95)
+|                    |  |              |  |        |  |   +--SRR10059691
+|                    |  |              |  |        |  +---| (100)
+|                    |  |              |  |        |      |  +--SRR6475942
+|                    |  |              |  |        |      +--| (94)
+|                    |  |              |  |        |         +--SRR6911173
+|                    |  |              |  |     +--| (74)
+|                    |  |              |  |     |  +-----SRR6476011
+|                    |  |              |  |  +--| (74)
+|                    |  |              |  |  |  |                 +--DRR032484
+|                    |  |              |  |  |  |              +--| (94)
+|                    |  |              |  |  |  |              |  +--ERR2067897
+|                    |  |              |  |  |  |           +--| (100)
+|                    |  |              |  |  |  |           |  +--ERR2722036
+|                    |  |              |  |  |  |        +--| (100)
+|                    |  |              |  |  |  |        |  +--SRR6475853
+|                    |  |              |  |  |  |     +--| (82)
+|                    |  |              |  |  |  |     |  +----SRR6476033
+|                    |  |              |  |  |  |  +--| (83)
+|                    |  |              |  |  |  |  |  +--------SRR6352886
+|                    |  |              |  |  |  +--| (52)
+|                    |  |              |  |  |     |     +--SRR6475859
+|                    |  |              |  |  |     |  +--| (97)
+|                    |  |              |  |  |     |  |  +--SRR6475925
+|                    |  |              |  |  |     +--| (96)
+|                    |  |              |  |  |        |  +--SRR6475860
+|                    |  |              |  |  |        +--| (32)
+|                    |  |              |  |  |           +----SRR6475879
+|                    |  |              |  +--| (37)
+|                    |  |              |     |              +--SRR5273181
+|                    |  |              |     |           +--| (63)
+|                    |  |              |     |           |  +-----SRR6475887
+|                    |  |              |     |        +--| (97)
+|                    |  |              |     |        |  |  +--SRR6475886
+|                    |  |              |     |        |  +--| (98)
+|                    |  |              |     |        |     +--SRR6475911
+|                    |  |              |     |     +--| (44)
+|                    |  |              |     |     |  |  +----SRR6476017
+|                    |  |              |     |     |  +--| (98)
+|                    |  |              |     |     |     +--SRR6476025
+|                    |  |              |     |  +--| (85)
+|                    |  |              |     |  |  +----SRR6117447
+|                    |  |              |     +--| (38)
+|                    |  |              |        |  +---SRR6475857
+|                    |  |              |        +--| (94)
+|                    |  |              |           |   +--SRR6475883
+|                    |  |              |           +---| (100)
+|                    |  |              |               +--SRR6475930
+|                    |  |           +--| (34)
+|                    |  |           |  |              +**DRR032492
+|                    |  |           |  |           +--| (100)
+|                    |  |           |  |           |  +**SRR26351257
+|                    |  |           |  |        +--| (100)
+|                    |  |           |  |        |  +--DRR088700
+|                    |  |           |  |     +--| (100)
+|                    |  |           |  |     |  +--SRR191910
+|                    |  |           |  |  +--| (52)
+|                    |  |           |  |  |  |  +--SRR6476029
+|                    |  |           |  |  |  +--| (99)
+|                    |  |           |  |  |     |  +--SRR6476030
+|                    |  |           |  |  |     +--| (92)
+|                    |  |           |  |  |        +--SRR6476032
+|                    |  |           |  +--| (70)
+|                    |  |           |     |     +--SRR427167
+|                    |  |           |     |  +--| (87)
+|                    |  |           |     |  |  |  +--SRR6476027
+|                    |  |           |     |  |  +--| (48)
+|                    |  |           |     |  |     +---SRR6476028
+|                    |  |           |     +--| (96)
+|                    |  |           |        +-----SRR6475990
+|                    |  |        +--| (52)
+|                    |  |        |  |      +--SRR3047628
+|                    |  |        |  |  +---| (100)
+|                    |  |        |  |  |   +--SRR3047631
+|                    |  |        |  +--| (93)
+|                    |  |        |     |     +--SRR3047629
+|                    |  |        |     |  +--| (75)
+|                    |  |        |     |  |  +--SRR7983514
+|                    |  |        |     +--| (100)
+|                    |  |        |        |  +**SRR401406
+|                    |  |        |        +--| (100)
+|                    |  |        |           +**SRR6653446
+|                    |  |     +--| (99)
+|                    |  |     |  +------DRR032478
+|                    |  |  +--| (81)
+|                    |  |  |  +--------SRR3928140
+|                    |  +--| (59)
+|                    |     |  +----DRR032490
+|                    |     +--| (90)
+|                    |        |     +---SRR058891
+|                    |        |  +--| (84)
+|                    |        |  |  |   +--SRR5559345
+|                    |        |  |  +---| (100)
+|                    |        |  |      +--SRR6475918
+|                    |        +--| (75)
+|                    |           |  +---SRR5559344
+|                    |           +--| (99)
+|                    |              +---SRR6475979
+|                 +--| (34)
+|                 |  |         +---DRR032487
+|                 |  |     +---| (100)
+|                 |  |     |   +--SRR6475993
+|                 |  |  +--| (45)
+|                 |  |  |  +---------DRR043257
+|                 |  +--| (50)
+|                 |     |      +--ERR321999
+|                 |     |  +---| (100)
+|                 |     |  |   +---SRR6475981
+|                 |     +--| (81)
+|                 |        +----SRR6475982
+|              +--| (82)
+|              |  |                                                                              +--DRR032482
+|              |  |                                                                           +--| (44)
+|              |  |                                                                           |  +--SRR6475968
+|              |  |                                                                        +--| (67)
+|              |  |                                                                        |  +--SRR6475889
+|              |  |                                                                     +--| (65)
+|              |  |                                                                     |  +--SRR6475941
+|              |  |                                                                  +--| (89)
+|              |  |                                                                  |  +--SRR6475969
+|              |  |                                                               +--| (67)
+|              |  |                                                               |  +-----SRR6475905
+|              |  |                                                            +--| (37)
+|              |  |                                                            |  +--SRR6476014
+|              |  |                                                         +--| (96)
+|              |  |                                                         |  |         +--SRR6475963
+|              |  |                                                         |  |     +---| (100)
+|              |  |                                                         |  |     |   +--SRR6476047
+|              |  |                                                         |  |  +--| (98)
+|              |  |                                                         |  |  |  +----SRR892042
+|              |  |                                                         |  +--| (99)
+|              |  |                                                         |     |  +--SRR6475970
+|              |  |                                                         |     +--| (91)
+|              |  |                                                         |        |  +--SRR6475971
+|              |  |                                                         |        +--| (65)
+|              |  |                                                         |           +--SRR6476044
+|              |  |                                                      +--| (71)
+|              |  |                                                      |  |  +--GCF_000313485.1_ASM31348v1_genomic.iss
+|              |  |                                                      |  +--| (57)
+|              |  |                                                      |     +--SRR072088
+|              |  |                                                   +--| (57)
+|              |  |                                                   |  |  +-----SRR6475910
+|              |  |                                                   |  +--| (82)
+|              |  |                                                   |     |     +-----SRR6475954
+|              |  |                                                   |     |  +--| (92)
+|              |  |                                                   |     |  |  +---SRR6475996
+|              |  |                                                   |     +--| (76)
+|              |  |                                                   |        +-----SRR6475995
+|              |  |                                                +--| (79)
+|              |  |                                                |  |     +--SRR6475885
+|              |  |                                                |  |  +--| (100)
+|              |  |                                                |  |  |  +--SRR6475908
+|              |  |                                                |  +--| (99)
+|              |  |                                                |     +--SRR6475903
+|              |  |                                             +--| (73)
+|              |  |                                             |  |  +--SRR6475904
+|              |  |                                             |  +--| (82)
+|              |  |                                             |     +---SRR6476007
+|              |  |                                 +-----------| (100)
+|              |  |                                 |           |        +--SRR6475926
+|              |  |                                 |           |     +--| (100)
+|              |  |                                 |           |     |  +**SRR6475929
+|              |  |                                 |           |  +--| (94)
+|              |  |                                 |           |  |  |  +--SRR6475928
+|              |  |                                 |           |  |  +--| (93)
+|              |  |                                 |           |  |     +--SRR6475931
+|              |  |                                 |           +--| (58)
+|              |  |                                 |              |     +--SRR6475940
+|              |  |                                 |              |  +--| (32)
+|              |  |                                 |              |  |  |  +--SRR6476001
+|              |  |                                 |              |  |  +--| (99)
+|              |  |                                 |              |  |     +--SRR6476003
+|              |  |                                 |              +--| (19)
+|              |  |                                 |                 +--SRR6476002
+|              |  |                              +--| (51)
+|              |  |                              |  +-----SRR6475933
+|              |  |                           +--| (26)
+|              |  |                           |  |        +--ERR664801
+|              |  |                           |  |     +--| (72)
+|              |  |                           |  |     |  |     +--SRR1924553
+|              |  |                           |  |     |  |  +--| (100)
+|              |  |                           |  |     |  |  |  |  +--SRR6475920
+|              |  |                           |  |     |  |  |  +--| (96)
+|              |  |                           |  |     |  |  |     +--SRR6475978
+|              |  |                           |  |     |  +--| (99)
+|              |  |                           |  |     |     +--SRR6475960
+|              |  |                           |  |  +--| (63)
+|              |  |                           |  |  |  |    +--SRR6475916
+|              |  |                           |  |  |  +----| (100)
+|              |  |                           |  |  |       +--SRR6475917
+|              |  |                           |  +--| (49)
+|              |  |                           |     |   +--SRR6475912
+|              |  |                           |     +---| (100)
+|              |  |                           |         +---SRR6475991
+|              |  |                        +--| (46)
+|              |  |                        |  |                       +**DRR040637
+|              |  |                        |  |                    +--| (95)
+|              |  |                        |  |                    |  +**DRR040654
+|              |  |                        |  |                 +--| (49)
+|              |  |                        |  |                 |  |                 +**DRR040641
+|              |  |                        |  |                 |  |              +**| (47)
+|              |  |                        |  |                 |  |              |  +**SRR9336600
+|              |  |                        |  |                 |  |           +--| (100)
+|              |  |                        |  |                 |  |           |  +**DRR040667
+|              |  |                        |  |                 |  |        +--| (100)
+|              |  |                        |  |                 |  |        |  |  +**SRR173084
+|              |  |                        |  |                 |  |        |  +--| (98)
+|              |  |                        |  |                 |  |        |     +**SRR5165548
+|              |  |                        |  |                 |  |     +--| (62)
+|              |  |                        |  |                 |  |     |  +--SRR1594141
+|              |  |                        |  |                 |  |  +**| (19)
+|              |  |                        |  |                 |  |  |  +--SRR173086
+|              |  |                        |  |                 |  +--| (76)
+|              |  |                        |  |                 |     |  +--ERR2348785
+|              |  |                        |  |                 |     +--| (98)
+|              |  |                        |  |                 |        |  +**SRR173087
+|              |  |                        |  |                 |        +**| (56)
+|              |  |                        |  |                 |           +--SRR5106252
+|              |  |                        |  |              +--| (97)
+|              |  |                        |  |              |  +--SRR4351084
+|              |  |                        |  |           +--| (54)
+|              |  |                        |  |           |  +---------SRR6475862
+|              |  |                        |  |        +--| (54)
+|              |  |                        |  |        |  +------SRR5807887
+|              |  |                        |  |     +--| (42)
+|              |  |                        |  |     |  +--SRR6470147
+|              |  |                        |  |  +--| (35)
+|              |  |                        |  |  |  |         +--ERR1404484
+|              |  |                        |  |  |  |      +--| (35)
+|              |  |                        |  |  |  |      |  |          +--ERR2886539
+|              |  |                        |  |  |  |      |  |       +--| (97)
+|              |  |                        |  |  |  |      |  |       |  |  +--ERR2886542
+|              |  |                        |  |  |  |      |  |       |  +**| (60)
+|              |  |                        |  |  |  |      |  |       |     +--SRR4453455
+|              |  |                        |  |  |  |      |  |  +----| (100)
+|              |  |                        |  |  |  |      |  |  |    +--ERR993614
+|              |  |                        |  |  |  |      |  +--| (38)
+|              |  |                        |  |  |  |      |     +--SRR5807840
+|              |  |                        |  |  |  |  +---| (100)
+|              |  |                        |  |  |  |  |   +--SRR5807831
+|              |  |                        |  |  |  +--| (76)
+|              |  |                        |  |  |     +---GCF_000304475.1_Ka_CBS2517_genomic.iss
+|              |  |                        |  +--| (43)
+|              |  |                        |     |  +--SRR5807861
+|              |  |                        |     +--| (100)
+|              |  |                        |        +--SRR5807874
+|              |  |                     +--| (53)
+|              |  |                     |  |                  +---DRR185904
+|              |  |                     |  |               +--| (68)
+|              |  |                     |  |               |  +-------GCF_001548555.1_ASM154855v1_genomic.iss
+|              |  |                     |  |            +--| (73)
+|              |  |                     |  |            |  +--GCF_000235365.1_ASM23536v1_genomic.iss
+|              |  |                     |  |        +---| (100)
+|              |  |                     |  |        |   +-----GCA_000710315.1_Eremothecium_coryli_genomic.iss
+|              |  |                     |  |     +--| (26)
+|              |  |                     |  |     |  |        +--GCA_001039675.1_AGH_PRJEB150_V1_genomic.iss
+|              |  |                     |  |     |  |     +--| (75)
+|              |  |                     |  |     |  |     |  +--GCA_017309295.1_JHU_Cniv_v1_genomic.iss
+|              |  |                     |  |     |  |  +--| (99)
+|              |  |                     |  |     |  |  |  |  +**SRR27912245
+|              |  |                     |  |     |  |  |  +--| (100)
+|              |  |                     |  |     |  |  |     +**SRR27912247
+|              |  |                     |  |     |  +--| (24)
+|              |  |                     |  |     |     +------SRR6475936
+|              |  |                     |  |  +--| (36)
+|              |  |                     |  |  |  |           +--ERR2881732
+|              |  |                     |  |  |  |        +--| (48)
+|              |  |                     |  |  |  |        |  +--SRR6475900
+|              |  |                     |  |  |  |     +--| (92)
+|              |  |                     |  |  |  |     |  |  +**ERR9706993
+|              |  |                     |  |  |  |     |  +--| (100)
+|              |  |                     |  |  |  |     |     +**SRR6660862
+|              |  |                     |  |  |  |  +--| (98)
+|              |  |                     |  |  |  |  |  +-----SRR6475893
+|              |  |                     |  |  |  +--| (28)
+|              |  |                     |  |  |     |     +----SRR6475864
+|              |  |                     |  |  |     |  +--| (72)
+|              |  |                     |  |  |     |  |  |  +---SRR6475869
+|              |  |                     |  |  |     |  |  +--| (78)
+|              |  |                     |  |  |     |  |     +------SRR6475935
+|              |  |                     |  |  |     +--| (28)
+|              |  |                     |  |  |        |     +---SRR6475866
+|              |  |                     |  |  |        |  +--| (52)
+|              |  |                     |  |  |        |  |  +-----SRR8838460
+|              |  |                     |  |  |        +--| (64)
+|              |  |                     |  |  |           +--SRR6475938
+|              |  |                     |  +--| (41)
+|              |  |                     |     |  +-------SRR26351259
+|              |  |                     |     +--| (48)
+|              |  |                     |        |  +----SRR6475863
+|              |  |                     |        +--| (56)
+|              |  |                     |           |      +--SRR6475865
+|              |  |                     |           |   +--| (55)
+|              |  |                     |           |   |  +--SRR6475867
+|              |  |                     |           +---| (100)
+|              |  |                     |               |  +--SRR6475937
+|              |  |                     |               +--| (82)
+|              |  |                     |                  +--SRR6475939
+|              |  |                  +--| (24)
+|              |  |                  |  |  +--SRR4733725
+|              |  |                  |  +--| (96)
+|              |  |                  |     +----SRR6475891
+|              |  |               +--| (54)
+|              |  |               |  |           +--GCF_000236905.1_ASM23690v1_genomic.iss
+|              |  |               |  |        +--| (98)
+|              |  |               |  |        |  |  +--SRR6475915
+|              |  |               |  |        |  +--| (87)
+|              |  |               |  |        |     +--SRR6475921
+|              |  |               |  |     +--| (99)
+|              |  |               |  |     |  +--SRR6475914
+|              |  |               |  |  +--| (42)
+|              |  |               |  |  |  |      +--SRR6475932
+|              |  |               |  |  |  +------| (100)
+|              |  |               |  |  |         +--SRR6475934
+|              |  |               |  +**| (11)
+|              |  |               |     +----SRR16974700
+|              |  |            +--| (83)
+|              |  |            |  |            +--ERR3456267
+|              |  |            |  |         +--| (65)
+|              |  |            |  |         |  |        +--SRR3927284
+|              |  |            |  |         |  |     +--| (89)
+|              |  |            |  |         |  |     |  +---SRR6475964
+|              |  |            |  |         |  |  +--| (82)
+|              |  |            |  |         |  |  |  +--SRR6475972
+|              |  |            |  |         |  +--| (67)
+|              |  |            |  |         |     +--SRR6475965
+|              |  |            |  +---------| (100)
+|              |  |            |            +--SRR6476013
+|              |  |     +------| (100)
+|              |  |     |      |    +--SRR6476020
+|              |  |     |      +----| (100)
+|              |  |     |           +--SRR8830816
+|              |  |  +--| (37)
+|              |  |  |  |           +--SRR5559343
+|              |  |  |  +-----------| (100)
+|              |  |  |              +--SRR6475985
+|              |  +--| (71)
+|              |     |              +--DRR032483
+|              |     |           +--| (56)
+|              |     |           |  +----SRR4125827
+|              |     |        +--| (100)
+|              |     |        |  +--SRR5559346
+|              |     |  +-----| (100)
+|              |     |  |     |  +---DRR042681
+|              |     |  |     +--| (100)
+|              |     |  |        +---SRR3927538
+|              |     +--| (53)
+|              |        |    +----SRR4125838
+|              |        +----| (100)
+|              |             +-------SRR4996385
+|           +--| (22)
+|           |  |             +--SRR3927530
+|           |  +-------------| (100)
+|           |                +--SRR6475854
+|        +--| (37)
+|        |  |                    +**ERR169335
+|        |  |                 +--| (100)
+|        |  |                 |  +**ERR1865257
+|        |  |              +--| (93)
+|        |  |              |  |  +--SRR6475875
+|        |  |              |  +--| (87)
+|        |  |              |     +--SRR6475892
+|        |  |           +--| (84)
+|        |  |           |  |        +--SRR4128940
+|        |  |           |  |     +--| (45)
+|        |  |           |  |     |  +---SRR6475874
+|        |  |           |  |  +--| (83)
+|        |  |           |  |  |  +--SRR6475880
+|        |  |           |  +--| (91)
+|        |  |           |     |  +------SRR4131951
+|        |  |           |     +--| (36)
+|        |  |           |        +----SRR6475878
+|        |  |        +--| (63)
+|        |  |        |  +----SRR6475876
+|        |  |     +--| (68)
+|        |  |     |  |  +---ERR2799377
+|        |  |     |  +--| (80)
+|        |  |     |     |  +--GCF_001640025.1_ASM164002v2_genomic.iss
+|        |  |     |     +--| (100)
+|        |  |     |        +---SRR4128931
+|        |  |  +--| (65)
+|        |  |  |  |                    +**ERR2737224
+|        |  |  |  |                 +--| (100)
+|        |  |  |  |                 |  +**ERR2752133
+|        |  |  |  |           +-----| (100)
+|        |  |  |  |           |     +--ERR339465
+|        |  |  |  |        +--| (98)
+|        |  |  |  |        |  |    +--ERR2752260
+|        |  |  |  |        |  +----| (100)
+|        |  |  |  |        |       +**ERR2752261
+|        |  |  |  |     +--| (93)
+|        |  |  |  |     |  |  +--SRR4171246
+|        |  |  |  |     |  +--| (96)
+|        |  |  |  |     |     |  +--SRR6475872
+|        |  |  |  |     |     +--| (100)
+|        |  |  |  |     |        +--SRR6476024
+|        |  |  |  |  +--| (22)
+|        |  |  |  |  |  |  +------SRR6475994
+|        |  |  |  |  |  +--| (51)
+|        |  |  |  |  |     |    +--SRR6476006
+|        |  |  |  |  |     +----| (100)
+|        |  |  |  |  |          +----SRR6476012
+|        |  |  |  +--| (27)
+|        |  |  |     |  +--SRR6475873
+|        |  |  |     +--| (61)
+|        |  |  |        +------SRR6475955
+|        |  +--| (38)
+|        |     |         +--SRR4128934
+|        |     |     +---| (100)
+|        |     |     |   +--SRR6476005
+|        |     |  +--| (96)
+|        |     |  |  +---SRR6476008
+|        |     +--| (83)
+|        |        +-----SRR6475966
+|     +--| (68)
+|     |  |                   +**DRR032554
+|     |  |                +--| (79)
+|     |  |                |  +--SRR6475961
+|     |  |          +-----| (99)
+|     |  |          |     |           +**DRR032561
+|     |  |          |     |        +--| (92)
+|     |  |          |     |        |  +**DRR037291
+|     |  |          |     |     +--| (84)
+|     |  |          |     |     |  +**DRR032583
+|     |  |          |     |  +--| (48)
+|     |  |          |     |  |  |  +**DRR032582
+|     |  |          |     |  |  +--| (100)
+|     |  |          |     |  |     +--SRR6475962
+|     |  |          |     +--| (60)
+|     |  |          |        +--SRR27547032
+|     |  |  +-------| (100)
+|     |  |  |       +------SRR6475884
+|     |  +--| (44)
+|     |     +-------SRR6475877
+|  +--| (38)
+|  |  |    +-----SRR6475909
+|  |  +----| (100)
+|  |       +-----SRR6475958
++--| (41)
+|  |                    +---DRR032488
+|  |                 +--| (71)
+|  |                 |  |        +----------DRR042669
+|  |                 |  |     +--| (36)
+|  |                 |  |     |  +------SRR6117452
+|  |                 |  |  +--| (37)
+|  |                 |  |  |  |    +--ERR2799359
+|  |                 |  |  |  +----| (100)
+|  |                 |  |  |       |  +--ERR2799366
+|  |                 |  |  |       +--| (51)
+|  |                 |  |  |          +--ERR2799373
+|  |                 |  +--| (33)
+|  |                 |     +---SRR1924581
+|  |              +--| (76)
+|  |              |  +----SRR4128937
+|  |  +-----------| (100)
+|  |  |           +--------SRR6475858
+|  +--| (51)
+|     |          +--SRR065672
+|     |       +--| (99)
+|     |       |  +--SRR6475959
+|     |    +--| (95)
+|     |    |  +---------SRR6475902
+|     +----| (94)
+|          +--------SRR6475861
+|
+|                           +--DRR060260
+|                        +--| (99)
+|                        |  +--SRR25759133
+|                     +--| (51)
+|                     |  +--SRR3928103
+|                  +--| (80)
+|                  |  +-------------------SRR8530937
+|               +--| (53)
+|               |  |   +--SRR14280050
+|               |  +---| (100)
+|               |      +--SRR3110861
+|            +--| (29)
+|            |  |       +--SRR22394500
+|            |  |  +----| (87)
+|            |  |  |    +--SRR25343506
+|            |  +--| (32)
+|            |     +------SRR7630458
+|       +----| (96)
+|       |    |  +--SRR1772870
+|       |    +--| (34)
+|       |       |  +--SRR1796786
+|       |       +--| (54)
+|       |          |  +---------SRR1798060
+|       |          +--| (22)
+|       |             +--SRR28962293
+|    +--| (54)
+|    |  |    +----------------------------SRR28842716
+|    |  +----| (76)
+|    |       +--SRR6475894
++----| (94)
+     |                    +**SRR058901
+     |                 +--| (100)
+     |                 |  +**SRR4125774
+     |              +--| (99)
+     |              |  +--SRR6475899
+     |           +--| (94)
+     |           |  +--SRR6475896
+     |        +--| (68)
+     |        |  +--SRR6475895
+     |     +--| (83)
+     |     |  +----SRR6475897
+     |  +--| (40)
+     |  |  |  +-----SRR6475898
+     |  |  +--| (98)
+     |  |     +--SRR6475901
+     +--| (23)
+        +----SRR6475913
+
+Tree in newick format:
+
+(DRR030855:0.4912800859,((((((((((((((DRR032472:0.1744452749,((ERR1102659:0.0052735099,(ERR2764753:0.0000010036,SRR3927079:0.0000010036)95:0.0000010036)100:0.1621370872,SRR6475977:0.2215172127)92:0.0574800080)99:0.0882035854,(DRR032476:0.5236453771,((((((DRR063217:0.0183150577,SRR071890:0.0343350844)100:0.0904045034,(SRR4451748:0.1316448784,(SRR6476037:0.2057423212,SRR6476039:0.1366994934)99:0.1678480398)22:0.0085296822)23:0.0208435763,SRR6476041:0.2026200261)65:0.0574921811,((SRR5047288:0.3034679372,SRR6476036:0.2883017731)36:0.0451795494,SRR6475882:0.3805941287)57:0.0667997115)56:0.0525690236,((((SRR5559347:0.0196956633,(SRR6476042:0.0450494342,SRR6476045:0.1442633687)81:0.0250832727)64:0.0186438657,(SRR6475989:0.0062149125,SRR6475997:0.0033132238)99:0.0162256537)100:0.2140613365,(SRR6475998:0.1991547896,SRR6476043:0.2439928650)100:0.1489999553)91:0.0685958014,SRR6476040:0.3320405161)79:0.0940157807)84:0.0768042781,(SRR6475924:0.0179652946,SRR6475927:0.0058143636)100:0.2122737467)51:0.0204018768)83:0.0611935093)59:0.0449299639,(((((DRR032473:0.1095415181,(SRR6475975:0.0455952260,SRR6476010:0.0730977445)65:0.0242873326)82:0.0332717059,(DRR032547:0.1390212207,(SRR5559341:0.0156534709,(SRR6475973:0.0700323212,SRR6475983:0.0506863936)40:0.0060780236)82:0.0348522946)65:0.0270673852)71:0.0407945036,SRR6476009:0.1446400321)81:0.0437520229,(((DRR043254:0.0516106457,SRR6475944:0.0705279673)100:0.1835086735,SRR427168:0.2882233226)40:0.0350152643,(SRR6475855:0.0972708555,SRR6475952:0.0618504346)100:0.0940226330)63:0.0592865114)19:0.0141769268,((((((SRR072065:0.0000010036,SRR3926513:0.0000010036)99:0.0037211115,SRR6148363:0.0124123744)100:0.0850146451,SRR6475945:0.1207988746)74:0.0395359819,((SRR6475947:0.1950940442,SRR6475988:0.0321414707)66:0.0345848795,SRR6475980:0.0203117055)87:0.0523507687)99:0.0720387217,(((SRR6475943:0.0831568430,(SRR6475951:0.0834305821,SRR6475974:0.0541014313)96:0.0448291385)47:0.0121221937,SRR6475946:0.0897374393)95:0.0500253622,SRR6475949:0.1183467592)68:0.0281113405)59:0.0322531177,SRR6475856:0.1227902300)69:0.0355684453)58:0.0713679083)45:0.0476933893,(((DRR032485:0.1988811827,SRR6475948:0.1163499868)56:0.0355116448,SRR6475950:0.2820355552)71:0.0463172543,SRR6475987:0.2802307316)50:0.0449752229)45:0.0456533119,DRR032489:0.2279917714)98:0.0718152624,(((ERR9924606:0.0000010036,SRR3242030:0.0000010036)100:0.0283077697,SRR3228419:0.0162930490)88:0.0457180234,(SRR6475984:0.0088658033,SRR6475992:0.0067451105)75:0.0352765050)100:0.2925376520)45:0.0337667087,(((((((((DRR032475:0.1767757713,((SRR6475888:0.0077135977,SRR6475922:0.0290575257)100:0.0486921995,SRR6475923:0.0273157931)99:0.0575221358)24:0.0211974838,SRR427166:0.0989402657)60:0.0418840228,((((DRR032537:0.1302550560,SRR6475906:0.0819820265)71:0.0190569044,SRR6475999:0.0828121169)100:0.0640164791,SRR6475907:0.1046317651)98:0.0985033696,((DRR037283:0.1762907196,(((ERR946881:0.0000023587,SRR19837491:0.0000029482)100:0.0214272221,(((SRR3594711:0.0000010036,SRR6476023:0.0000010036)100:0.0095213039,SRR6476031:0.0042630050)60:0.0062453659,SRR6475868:0.0218490427)98:0.0276253411)90:0.0412323113,(SRR6475870:0.1412254104,SRR6475871:0.0752575719)78:0.0273822873)68:0.0193257447)78:0.0436017264,(((ERR246509:0.0183922141,((ERR247405:0.0090229722,SRR6476035:0.2306767442)48:0.0251747436,SRR3547558:0.0259256990)26:0.0063316660)59:0.0485889305,SRR6659927:0.1168133906)69:0.0465064393,((SRR10766640:0.0475379566,SRR868710:0.0311999133)100:0.1615182653,((SRR1656204:0.0000010036,SRR28960502:0.0028812300)100:0.0109526487,SRR771366:0.0155693666)100:0.0536608959)89:0.0400035672)96:0.0874564169)61:0.0200394230)41:0.0225240187)66:0.0354601429,((((((DRR032477:0.0713103956,SRR6475890:0.0923223352)83:0.0286031022,((((((((SRR3257847:0.0000023390,SRR3257865:0.0080447331)100:0.0434820542,(((((SRR3257848:0.0053320438,SRR3257850:0.0026748390)84:0.0053424133,(((SRR3257853:0.0026479557,SRR3257884:0.0106834186)34:0.0000022690,SRR3257872:0.0026470770)63:0.0026469044,((SRR3257870:0.0300612587,((SRR3257876:0.0166583516,(SRR5802931:0.0026270384,SRR5802933:0.0026265390)34:0.0000021908)51:0.0027532871,(SRR5802927:0.0026368631,SRR5802929:0.0000026397)96:0.0079576312)74:0.0054668758)94:0.0093828173,SRR5802887:0.0053215443)56:0.0000024008)78:0.0030761788)64:0.0031195330,(SRR3257880:0.0080870114,SRR5802924:0.0081116768)57:0.0025937951)98:0.0186968709,((SRR3257854:0.0082588751,(SRR3257858:0.0000026491,SRR3257868:0.0052616616)86:0.0108231670)100:0.0438849354,((SRR3257879:0.0436100352,SRR5802926:0.0288328033)89:0.0159672383,SRR5806845:0.0126286804)48:0.0028217272)50:0.0056559004)76:0.0154287101,(SRR5802886:0.0821049992,SRR5802922:0.0534710279)45:0.0072225141)65:0.0098795357)80:0.0188232561,((SRR3257864:0.0147018752,SRR3257882:0.0201200253)96:0.0188619730,SRR3257873:0.0292317660)99:0.0271404684)76:0.0319622683,(SRR6061621:0.0296947840,SRR6061622:0.0534425481)100:0.0653468438)100:0.1206437659,(SRR6061619:0.0255730836,SRR6061623:0.0105224276)100:0.1735174478)55:0.0166832507,((SRR400293:0.0986213221,SRR6476018:0.1167200257)100:0.0966033587,SRR6476046:0.1497495168)82:0.0537343910)76:0.0303198371,SRR4125809:0.1890376774)71:0.0276025003,(SRR6476015:0.1318157803,(SRR6476016:0.1048843779,SRR6749948:0.1039454682)97:0.0503485410)68:0.0381995989)72:0.0311692978)58:0.0247816405,(SRR10059691:0.0798469045,(SRR6475942:0.0334681862,SRR6911173:0.0569154098)94:0.0298224207)100:0.1283162754)95:0.0477058391,SRR6476011:0.2133803257)74:0.0297778834,((((((DRR032484:0.0428121845,ERR2067897:0.0138040248)94:0.0294123249,ERR2722036:0.0198200318)100:0.0975940437,SRR6475853:0.0612929912)100:0.0888433136,SRR6476033:0.1850282471)82:0.0529340965,SRR6352886:0.2959417737)83:0.0661236676,((SRR6475859:0.1013468965,SRR6475925:0.0674050771)97:0.0679044840,(SRR6475860:0.1117494313,SRR6475879:0.1846257774)32:0.0096747881)96:0.0566005406)52:0.0197354986)74:0.0315169338,(((((SRR5273181:0.1167651196,SRR6475887:0.2163427203)63:0.0309263930,(SRR6475886:0.0434887910,SRR6475911:0.0901108140)98:0.0558725222)97:0.0819860604,(SRR6476017:0.1905656244,SRR6476025:0.1150987794)98:0.0873429999)44:0.0225253619,SRR6117447:0.1754591911)85:0.0416333093,(SRR6475857:0.1551082399,(SRR6475883:0.0220355054,SRR6475930:0.0770609764)100:0.1418264713)94:0.0861169070)38:0.0133465797)37:0.0162822071)23:0.0116790450,(((((DRR032492:0.0000010036,SRR26351257:0.0000010036)100:0.0427716797,DRR088700:0.0200733641)100:0.1016714476,SRR191910:0.1116675280)100:0.1009908901,(SRR6476029:0.1061431653,(SRR6476030:0.0149304757,SRR6476032:0.0092369523)92:0.0660774178)99:0.0822449981)52:0.0084922552,((SRR427167:0.0689222873,(SRR6476027:0.1163374613,SRR6476028:0.1376919759)48:0.0208056638)87:0.0536942390,SRR6475990:0.2037002527)96:0.0748851066)70:0.0371171936)34:0.0288177789,((SRR3047628:0.0134436923,SRR3047631:0.0101341286)100:0.1496235635,((SRR3047629:0.0538511106,SRR7983514:0.0501200762)75:0.0213966623,(SRR401406:0.0000022241,SRR6653446:0.0000025318)100:0.0539045245)100:0.1154359696)93:0.0611298526)52:0.0193381884,DRR032478:0.2341727537)99:0.0894032945,SRR3928140:0.3142512843)81:0.0759970538,(DRR032490:0.1730603788,((SRR058891:0.1291802614,(SRR5559345:0.0197209771,SRR6475918:0.0095243706)100:0.1539787082)84:0.0323896856,(SRR5559344:0.1598307836,SRR6475979:0.1394775457)99:0.0749996680)75:0.0350591599)90:0.0460812490)59:0.0306364242)36:0.0204188705,(((DRR032487:0.1547126835,SRR6475993:0.0601260320)100:0.1448533967,DRR043257:0.3415171753)45:0.0332014961,((ERR321999:0.0852871185,SRR6475981:0.1284712608)100:0.1381350777,SRR6475982:0.1892141022)81:0.0627655237)50:0.0502154725)34:0.0136875698,((((((((((((((((((((((DRR032482:0.0908029275,SRR6475968:0.0263415724)44:0.0069642145,SRR6475889:0.0624234719)67:0.0168231750,SRR6475941:0.0681754944)65:0.0234770779,SRR6475969:0.0840045754)89:0.0501801452,SRR6475905:0.2232033320)67:0.0315514058,SRR6476014:0.1179393189)37:0.0223608820,(((SRR6475963:0.0697015555,SRR6476047:0.0216967681)100:0.1494393498,SRR892042:0.1815852255)98:0.0742814001,(SRR6475970:0.0079166000,(SRR6475971:0.0118141139,SRR6476044:0.0492685744)65:0.0124882519)91:0.0989938222)99:0.0974163065)96:0.0993970184,(GCF_000313485.1_ASM31348v1_genomic.iss:0.0560724482,SRR072088:0.1135416097)57:0.0272294422)71:0.0515952963,(SRR6475910:0.2198388984,((SRR6475954:0.2137514792,SRR6475996:0.1383932889)92:0.0811450055,SRR6475995:0.2087340859)76:0.0406707620)82:0.0486124508)57:0.0239985404,((SRR6475885:0.0217638988,SRR6475908:0.0481787610)100:0.1266226437,SRR6475903:0.0727029349)99:0.1059333036)79:0.0414276608,(SRR6475904:0.1240960388,SRR6476007:0.1462015514)82:0.0228163075)73:0.0410985315,(((SRR6475926:0.0236539424,SRR6475929:0.0000807621)100:0.0548537787,(SRR6475928:0.0280754904,SRR6475931:0.0286111701)93:0.0407013041)94:0.0662788462,((SRR6475940:0.1138681583,(SRR6476001:0.0297704730,SRR6476003:0.0617862047)99:0.1203383570)32:0.0370038878,SRR6476002:0.0517313056)19:0.0142246967)58:0.0324870392)100:0.3873343742,SRR6475933:0.2061402491)51:0.0285168951,(((ERR664801:0.0966623916,((SRR1924553:0.0660150901,(SRR6475920:0.0250944471,SRR6475978:0.0058787995)96:0.0390929977)100:0.0655609841,SRR6475960:0.0978888079)99:0.0783333549)72:0.0274818061,(SRR6475916:0.0525366037,SRR6475917:0.1106688517)100:0.1633457476)63:0.0246827152,(SRR6475912:0.0698448651,SRR6475991:0.1372983874)100:0.1358787758)49:0.0614864420)26:0.0153505631,((((((((DRR040637:0.0000010036,DRR040654:0.0000020660)95:0.0036588903,((((((DRR040641:0.0000010036,SRR9336600:0.0000010036)47:0.0000023703,DRR040667:0.0000010036)100:0.0223413116,(SRR173084:0.0000028829,SRR5165548:0.0000028070)98:0.0074183018)100:0.0335552545,SRR1594141:0.0187223985)62:0.0107298891,SRR173086:0.0256659525)19:0.0000024798,(ERR2348785:0.0034717554,(SRR173087:0.0000010036,SRR5106252:0.0034869654)56:0.0000023128)98:0.0208309135)76:0.0112838128)49:0.0068328487,SRR4351084:0.0077481003)97:0.1000068186,SRR6475862:0.3269476281)54:0.0566993050,SRR5807887:0.2264562910)54:0.0446548774,SRR6470147:0.1232188939)42:0.0403273090,(((ERR1404484:0.1105830836,(((ERR2886539:0.0030355372,(ERR2886542:0.0030337250,SRR4453455:0.0030258591)60:0.0000010036)97:0.0144625299,ERR993614:0.0168797560)100:0.1672382793,SRR5807840:0.0919533374)38:0.0318702188)35:0.0366440890,SRR5807831:0.0702435208)100:0.1389139546,GCF_000304475.1_Ka_CBS2517_genomic.iss:0.1436321499)76:0.0483317768)35:0.0096715984,(SRR5807861:0.0885602410,SRR5807874:0.0689695053)100:0.1037908669)43:0.0335154346)46:0.0171909786,((((((DRR185904:0.1557182987,GCF_001548555.1_ASM154855v1_genomic.iss:0.2654207461)68:0.0323379063,GCF_000235365.1_ASM23536v1_genomic.iss:0.0694898298)73:0.0510005242,GCA_000710315.1_Eremothecium_coryli_genomic.iss:0.2176886793)100:0.1465277831,(((GCA_001039675.1_AGH_PRJEB150_V1_genomic.iss:0.0477163074,GCA_017309295.1_JHU_Cniv_v1_genomic.iss:0.0335746333)75:0.0353139181,(SRR27912245:0.0000010036,SRR27912247:0.0000010036)100:0.1013415465)99:0.0666736377,SRR6475936:0.2509514885)24:0.0238182479)26:0.0386848822,((((ERR2881732:0.0401754802,SRR6475900:0.0505359786)48:0.0127895348,(ERR9706993:0.0000020796,SRR6660862:0.0000010036)100:0.0702539688)92:0.0768598285,SRR6475893:0.1968975833)98:0.1224750452,((SRR6475864:0.1703656874,(SRR6475869:0.1452772980,SRR6475935:0.2249641758)78:0.0414827269)72:0.0518640009,((SRR6475866:0.1431711313,SRR8838460:0.1975834471)52:0.0335362498,SRR6475938:0.0979579629)64:0.0507515345)28:0.0094131736)28:0.0242621055)36:0.0166185528,(SRR26351259:0.2852406463,(SRR6475863:0.1909801581,((SRR6475865:0.1085167516,SRR6475867:0.0351057738)55:0.0144178856,(SRR6475937:0.0191317193,SRR6475939:0.0273637184)82:0.0131189888)100:0.1453535216)56:0.0373715967)48:0.0552523056)41:0.0224317052)53:0.0369805653,(SRR4733725:0.0817847964,SRR6475891:0.1781833450)96:0.1187099406)24:0.0110789312,((((GCF_000236905.1_ASM23690v1_genomic.iss:0.0633791008,(SRR6475915:0.0434089597,SRR6475921:0.0443307541)87:0.0402857817)98:0.0642740528,SRR6475914:0.0653861424)99:0.1092908368,(SRR6475932:0.1064513028,SRR6475934:0.0595287567)100:0.2257457290)42:0.0267374927,SRR16974700:0.1715726994)11:0.0004310021)54:0.0560264067,((ERR3456267:0.0401115144,(((SRR3927284:0.1001858431,SRR6475964:0.1386719863)89:0.0521716337,SRR6475972:0.1115361291)82:0.0506469390,SRR6475965:0.0494324678)67:0.0228429971)65:0.0152565684,SRR6476013:0.0787489250)100:0.3313392997)83:0.0716641221,(SRR6476020:0.0207539877,SRR8830816:0.0219042025)100:0.1919335807)100:0.2247505399,(SRR5559343:0.0358524246,SRR6475985:0.0519474121)100:0.3940070263)37:0.0278083870,((((DRR032483:0.1052924764,SRR4125827:0.1646759755)56:0.0227981771,SRR5559346:0.1042943741)100:0.1221171027,(DRR042681:0.1288647115,SRR3927538:0.1489319317)100:0.0936644310)100:0.2209336757,(SRR4125838:0.1631155769,SRR4996385:0.2836875918)100:0.1826635497)53:0.1002515322)71:0.0726969969)82:0.0871492547,(SRR3927530:0.0223364672,SRR6475854:0.0124647948)100:0.4654179297)22:0.0348286349,(((((((ERR169335:0.0000010036,ERR1865257:0.0000010036)100:0.0991888594,(SRR6475875:0.1153954163,SRR6475892:0.1034018476)87:0.0705581791)93:0.0649237524,(((SRR4128940:0.1211182296,SRR6475874:0.1314764762)45:0.0182318067,SRR6475880:0.0883781376)83:0.0469935837,(SRR4131951:0.2287796303,SRR6475878:0.1847063317)36:0.0112205226)91:0.0631099705)84:0.0537182928,SRR6475876:0.1648405751)63:0.0410779667,(ERR2799377:0.1539144971,(GCF_001640025.1_ASM164002v2_genomic.iss:0.0882612448,SRR4128931:0.1355265809)100:0.0859970204)80:0.0481268804)68:0.0320413674,((((((ERR2737224:0.0000010036,ERR2752133:0.0000010036)100:0.0583999903,ERR339465:0.0347213425)100:0.2128449356,(ERR2752260:0.0028994688,ERR2752261:0.0000010036)100:0.1662779191)98:0.1279669527,(SRR4171246:0.0632575650,(SRR6475872:0.0473595974,SRR6476024:0.0293694602)100:0.1269566672)96:0.0860586258)93:0.0910747075,(SRR6475994:0.2561900697,(SRR6476006:0.1059094201,SRR6476012:0.1894394572)100:0.1801978462)51:0.0475311563)22:0.0092693172,(SRR6475873:0.1274078657,SRR6475955:0.2302148169)61:0.0645143590)27:0.0184628573)65:0.0632236355,(((SRR4128934:0.0102297355,SRR6476005:0.0299865707)100:0.1482405613,SRR6476008:0.1598445086)96:0.0764669767,SRR6475966:0.2009343712)83:0.0780443766)38:0.0607432254)37:0.0533924874,((((DRR032554:0.0000022717,SRR6475961:0.0190897571)79:0.0097426865,((((DRR032561:0.0000021108,DRR037291:0.0000010036)92:0.0061549370,DRR032583:0.0000022485)84:0.0094552759,(DRR032582:0.0000010036,SRR6475962:0.0064693356)100:0.0403476574)48:0.0026724405,SRR27547032:0.0189343908)60:0.0064332747)99:0.2242173596,SRR6475884:0.2510708715)100:0.2884484872,SRR6475877:0.2654799308)44:0.0794862742)68:0.0583806374,(SRR6475909:0.2179207825,SRR6475958:0.1947757947)100:0.1914982202)38:0.0475533139,((((DRR032488:0.1526536958,(((DRR042669:0.3530421469,SRR6117452:0.2412689906)36:0.0432585538,(ERR2799359:0.0161285465,(ERR2799366:0.1193362575,ERR2799373:0.0188264361)51:0.0328816172)100:0.1742684707)37:0.0952366740,SRR1924581:0.1413247781)33:0.0594309203)71:0.1010471984,SRR4128937:0.1802507779)76:0.0997279433,SRR6475858:0.3008215940)100:0.3918966244,(((SRR065672:0.0151686947,SRR6475959:0.0308354887)99:0.1079865474,SRR6475902:0.3286603941)95:0.1129031262,SRR6475861:0.3021187600)94:0.1918112235)51:0.1057749554)41:0.0451995840,((((((((DRR060260:0.0472021388,SRR25759133:0.1158102514)99:0.0894197559,SRR3928103:0.1017441198)51:0.0036401379,SRR8530937:0.6418991837)80:0.0784833928,(SRR14280050:0.0416028397,SRR3110861:0.0417988750)100:0.1535242973)53:0.0596124436,((SRR22394500:0.1245494524,SRR25343506:0.0885631688)87:0.1625055644,SRR7630458:0.2457648975)32:0.0638726808)29:0.0251649512,(SRR1772870:0.0853055452,(SRR1796786:0.0695584449,(SRR1798060:0.3379918033,SRR28962293:0.0279083662)22:0.0121281035)54:0.1112990455)34:0.0455765884)96:0.1916757438,(SRR28842716:0.9480134558,SRR6475894:0.1116997002)76:0.1745678668)54:0.0327350211,(((((((SRR058901:0.0000010036,SRR4125774:0.0000010036)100:0.0095259297,SRR6475899:0.0063696819)99:0.0115049255,SRR6475896:0.0043793525)94:0.0370952612,SRR6475895:0.0384020914)68:0.0399378027,SRR6475897:0.1608768678)83:0.0627035115,(SRR6475898:0.1957160924,SRR6475901:0.1274236309)98:0.1137975355)40:0.0316624977,SRR6475913:0.1652240640)23:0.0428176362)94:0.1865820638);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -58523.317919
+Robinson-Foulds distance between ML tree and consensus tree: 42
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++---------------DRR030855
+|
+|                                   +----DRR032472
+|                                +--| (99)
+|                                |  |       +--ERR1102659
+|                                |  |  +----| (100)
+|                                |  |  |    |  +--ERR2764753
+|                                |  |  |    +--| (95)
+|                                |  |  |       +--SRR3927079
+|                                |  +--| (92)
+|                                |     +------SRR6475977
+|                             +--| (59)
+|                             |  |  +---------------DRR032476
+|                             |  +--| (83)
+|                             |     |              +--DRR063217
+|                             |     |           +--| (100)
+|                             |     |           |  +--SRR071890
+|                             |     |        +--| (65)
+|                             |     |        |  |  +---SRR4451748
+|                             |     |        |  +--| (42)
+|                             |     |        |     |      +-----SRR6476037
+|                             |     |        |     |  +---| (99)
+|                             |     |        |     |  |   +---SRR6476039
+|                             |     |        |     +--| (41)
+|                             |     |        |        +-----SRR6476041
+|                             |     |     +--| (56)
+|                             |     |     |  |  +---------SRR5047288
+|                             |     |     |  +--| (57)
+|                             |     |     |     |  +----------SRR6475882
+|                             |     |     |     +--| (55)
+|                             |     |     |        +--------SRR6476036
+|                             |     |  +--| (84)
+|                             |     |  |  |              +--SRR5559347
+|                             |     |  |  |           +--| (64)
+|                             |     |  |  |           |  |  +--SRR6476042
+|                             |     |  |  |           |  +--| (81)
+|                             |     |  |  |           |     +---SRR6476045
+|                             |     |  |  |     +-----| (100)
+|                             |     |  |  |     |     |  +--SRR6475989
+|                             |     |  |  |     |     +--| (99)
+|                             |     |  |  |     |        +--SRR6475997
+|                             |     |  |  |  +--| (91)
+|                             |     |  |  |  |  |   +-----SRR6475998
+|                             |     |  |  |  |  +---| (100)
+|                             |     |  |  |  |      +------SRR6476043
+|                             |     |  |  +--| (79)
+|                             |     |  |     +---------SRR6476040
+|                             |     +--| (51)
+|                             |        |     +--SRR6475924
+|                             |        +-----| (100)
+|                             |              +--SRR6475927
+|                          +--| (45)
+|                          |  |           +--DRR032473
+|                          |  |        +--| (82)
+|                          |  |        |  |  +--SRR6475975
+|                          |  |        |  +--| (65)
+|                          |  |        |     +--SRR6476010
+|                          |  |     +--| (71)
+|                          |  |     |  |  +---DRR032547
+|                          |  |     |  +--| (65)
+|                          |  |     |     |     +--SRR5559341
+|                          |  |     |     |  +--| (41)
+|                          |  |     |     |  |  +--SRR6475973
+|                          |  |     |     +--| (82)
+|                          |  |     |        +--SRR6475983
+|                          |  |  +--| (81)
+|                          |  |  |  +---SRR6476009
+|                          |  +--| (58)
+|                          |     |              +--DRR043254
+|                          |     |        +-----| (100)
+|                          |     |        |     +--SRR6475944
+|                          |     |     +--| (51)
+|                          |     |     |  |  +--SRR6475855
+|                          |     |     |  +--| (100)
+|                          |     |     |     +--SRR6475952
+|                          |     |  +--| (63)
+|                          |     |  |  +---------SRR427168
+|                          |     +--| (29)
+|                          |        |                 +--SRR072065
+|                          |        |              +--| (99)
+|                          |        |              |  +--SRR3926513
+|                          |        |           +--| (100)
+|                          |        |           |  +--SRR6148363
+|                          |        |        +--| (74)
+|                          |        |        |  +--SRR6475945
+|                          |        |     +--| (99)
+|                          |        |     |  |     +-----SRR6475947
+|                          |        |     |  |  +--| (66)
+|                          |        |     |  |  |  +--SRR6475988
+|                          |        |     |  +--| (87)
+|                          |        |     |     +--SRR6475980
+|                          |        |  +--| (59)
+|                          |        |  |  |        +--SRR6475943
+|                          |        |  |  |     +--| (47)
+|                          |        |  |  |     |  |  +--SRR6475951
+|                          |        |  |  |     |  +--| (96)
+|                          |        |  |  |     |     +--SRR6475974
+|                          |        |  |  |  +--| (95)
+|                          |        |  |  |  |  +--SRR6475946
+|                          |        |  |  +--| (68)
+|                          |        |  |     +--SRR6475949
+|                          |        +--| (69)
+|                          |           +--SRR6475856
+|                       +--| (45)
+|                       |  |        +-----DRR032485
+|                       |  |     +--| (56)
+|                       |  |     |  +--SRR6475948
+|                       |  |  +--| (71)
+|                       |  |  |  +-------SRR6475950
+|                       |  +--| (50)
+|                       |     +--------SRR6475987
+|                    +--| (98)
+|                    |  +------DRR032489
+|                 +--| (45)
+|                 |  |                 +**ERR9924606
+|                 |  |              +--|
+|                 |  |              |  +**SRR3242032
+|                 |  |           +--| (100)
+|                 |  |           |  +--SRR3242030
+|                 |  |        +--| (88)
+|                 |  |        |  +--SRR3228419
+|                 |  +--------| (100)
+|                 |           |  +--SRR6475984
+|                 |           +--| (75)
+|                 |              +--SRR6475992
+|              +--| (36)
+|              |  |                       +----DRR032475
+|              |  |                    +--| (60)
+|              |  |                    |  |  +--SRR427166
+|              |  |                    |  +--| (43)
+|              |  |                    |     |     +--SRR6475888
+|              |  |                    |     |  +--| (100)
+|              |  |                    |     |  |  +--SRR6475922
+|              |  |                    |     +--| (99)
+|              |  |                    |        +--SRR6475923
+|              |  |                 +--| (66)
+|              |  |                 |  |           +---DRR032537
+|              |  |                 |  |        +--| (71)
+|              |  |                 |  |        |  +--SRR6475906
+|              |  |                 |  |     +--| (100)
+|              |  |                 |  |     |  +--SRR6475999
+|              |  |                 |  |  +--| (98)
+|              |  |                 |  |  |  +--SRR6475907
+|              |  |                 |  +--| (41)
+|              |  |                 |     |     +----DRR037283
+|              |  |                 |     |  +--| (78)
+|              |  |                 |     |  |  |        +--ERR946881
+|              |  |                 |     |  |  |     +--| (100)
+|              |  |                 |     |  |  |     |  +--SRR19837491
+|              |  |                 |     |  |  |  +--| (90)
+|              |  |                 |     |  |  |  |  |        +--SRR3594711
+|              |  |                 |     |  |  |  |  |     +--| (100)
+|              |  |                 |     |  |  |  |  |     |  +--SRR6476023
+|              |  |                 |     |  |  |  |  |  +--| (60)
+|              |  |                 |     |  |  |  |  |  |  +--SRR6476031
+|              |  |                 |     |  |  |  |  +--| (98)
+|              |  |                 |     |  |  |  |     +--SRR6475868
+|              |  |                 |     |  |  +--| (68)
+|              |  |                 |     |  |     |  +---SRR6475870
+|              |  |                 |     |  |     +--| (78)
+|              |  |                 |     |  |        +--SRR6475871
+|              |  |                 |     +--| (61)
+|              |  |                 |        |           +--ERR246509
+|              |  |                 |        |        +--| (26)
+|              |  |                 |        |        |  +--SRR3547558
+|              |  |                 |        |     +--| (59)
+|              |  |                 |        |     |  |  +--ERR247405
+|              |  |                 |        |     |  +--| (48)
+|              |  |                 |        |     |     +------SRR6476035
+|              |  |                 |        |  +--| (69)
+|              |  |                 |        |  |  +--SRR6659927
+|              |  |                 |        +--| (96)
+|              |  |                 |           |       +--SRR10766640
+|              |  |                 |           |  +----| (100)
+|              |  |                 |           |  |    +--SRR868710
+|              |  |                 |           +--| (89)
+|              |  |                 |              |     +--SRR1656204
+|              |  |                 |              |  +--| (100)
+|              |  |                 |              |  |  +--SRR28960502
+|              |  |                 |              +--| (100)
+|              |  |                 |                 +--SRR771366
+|              |  |              +--| (23)
+|              |  |              |  |                 +--DRR032477
+|              |  |              |  |              +--| (83)
+|              |  |              |  |              |  +--SRR6475890
+|              |  |              |  |           +--| (58)
+|              |  |              |  |           |  |                       +--SRR3257847
+|              |  |              |  |           |  |                    +--| (100)
+|              |  |              |  |           |  |                    |  +--SRR3257865
+|              |  |              |  |           |  |                 +--| (80)
+|              |  |              |  |           |  |                 |  |              +--SRR3257848
+|              |  |              |  |           |  |                 |  |           +--| (84)
+|              |  |              |  |           |  |                 |  |           |  +--SRR3257850
+|              |  |              |  |           |  |                 |  |        +--| (64)
+|              |  |              |  |           |  |                 |  |        |  |        +--SRR3257853
+|              |  |              |  |           |  |                 |  |        |  |     +--| (34)
+|              |  |              |  |           |  |                 |  |        |  |     |  +--SRR3257884
+|              |  |              |  |           |  |                 |  |        |  |  +--| (63)
+|              |  |              |  |           |  |                 |  |        |  |  |  +--SRR3257872
+|              |  |              |  |           |  |                 |  |        |  +--| (78)
+|              |  |              |  |           |  |                 |  |        |     |     +--SRR3257870
+|              |  |              |  |           |  |                 |  |        |     |  +--| (94)
+|              |  |              |  |           |  |                 |  |        |     |  |  |     +--SRR3257876
+|              |  |              |  |           |  |                 |  |        |     |  |  |  +--| (51)
+|              |  |              |  |           |  |                 |  |        |     |  |  |  |  |  +--SRR5802931
+|              |  |              |  |           |  |                 |  |        |     |  |  |  |  +--| (34)
+|              |  |              |  |           |  |                 |  |        |     |  |  |  |     +--SRR5802933
+|              |  |              |  |           |  |                 |  |        |     |  |  +--| (74)
+|              |  |              |  |           |  |                 |  |        |     |  |     |  +--SRR5802927
+|              |  |              |  |           |  |                 |  |        |     |  |     +--| (96)
+|              |  |              |  |           |  |                 |  |        |     |  |        +--SRR5802929
+|              |  |              |  |           |  |                 |  |        |     +--| (56)
+|              |  |              |  |           |  |                 |  |        |        +--SRR5802887
+|              |  |              |  |           |  |                 |  |     +--| (98)
+|              |  |              |  |           |  |                 |  |     |  |  +--SRR3257880
+|              |  |              |  |           |  |                 |  |     |  +--| (57)
+|              |  |              |  |           |  |                 |  |     |     +--SRR5802924
+|              |  |              |  |           |  |                 |  |  +--| (76)
+|              |  |              |  |           |  |                 |  |  |  |     +--SRR3257854
+|              |  |              |  |           |  |                 |  |  |  |  +--| (100)
+|              |  |              |  |           |  |                 |  |  |  |  |  |  +--SRR3257858
+|              |  |              |  |           |  |                 |  |  |  |  |  +--| (86)
+|              |  |              |  |           |  |                 |  |  |  |  |     +--SRR3257868
+|              |  |              |  |           |  |                 |  |  |  +--| (50)
+|              |  |              |  |           |  |                 |  |  |     |     +--SRR3257879
+|              |  |              |  |           |  |                 |  |  |     |  +--| (89)
+|              |  |              |  |           |  |                 |  |  |     |  |  +--SRR5802926
+|              |  |              |  |           |  |                 |  |  |     +--| (48)
+|              |  |              |  |           |  |                 |  |  |        +--SRR5806845
+|              |  |              |  |           |  |                 |  +--| (65)
+|              |  |              |  |           |  |                 |     |  +--SRR5802886
+|              |  |              |  |           |  |                 |     +--| (45)
+|              |  |              |  |           |  |                 |        +--SRR5802922
+|              |  |              |  |           |  |              +--| (76)
+|              |  |              |  |           |  |              |  |     +--SRR3257864
+|              |  |              |  |           |  |              |  |  +--| (96)
+|              |  |              |  |           |  |              |  |  |  +--SRR3257882
+|              |  |              |  |           |  |              |  +--| (99)
+|              |  |              |  |           |  |              |     +--SRR3257873
+|              |  |              |  |           |  |           +--| (100)
+|              |  |              |  |           |  |           |  |  +--SRR6061621
+|              |  |              |  |           |  |           |  +--| (100)
+|              |  |              |  |           |  |           |     +--SRR6061622
+|              |  |              |  |           |  |        +--| (55)
+|              |  |              |  |           |  |        |  |    +--SRR6061619
+|              |  |              |  |           |  |        |  +----| (100)
+|              |  |              |  |           |  |        |       +--SRR6061623
+|              |  |              |  |           |  |     +--| (76)
+|              |  |              |  |           |  |     |  |     +--SRR400293
+|              |  |              |  |           |  |     |  |  +--| (100)
+|              |  |              |  |           |  |     |  |  |  +--SRR6476018
+|              |  |              |  |           |  |     |  +--| (82)
+|              |  |              |  |           |  |     |     +---SRR6476046
+|              |  |              |  |           |  |  +--| (71)
+|              |  |              |  |           |  |  |  +-----SRR4125809
+|              |  |              |  |           |  +--| (72)
+|              |  |              |  |           |     |  +---SRR6476015
+|              |  |              |  |           |     +--| (68)
+|              |  |              |  |           |        |  +--SRR6476016
+|              |  |              |  |           |        +--| (97)
+|              |  |              |  |           |           +--SRR6749948
+|              |  |              |  |        +--| (95)
+|              |  |              |  |        |  |   +--SRR10059691
+|              |  |              |  |        |  +---| (100)
+|              |  |              |  |        |      |  +--SRR6475942
+|              |  |              |  |        |      +--| (94)
+|              |  |              |  |        |         +--SRR6911173
+|              |  |              |  |     +--| (74)
+|              |  |              |  |     |  +-----SRR6476011
+|              |  |              |  |  +--| (74)
+|              |  |              |  |  |  |                 +--DRR032484
+|              |  |              |  |  |  |              +--| (94)
+|              |  |              |  |  |  |              |  +--ERR2067897
+|              |  |              |  |  |  |           +--| (100)
+|              |  |              |  |  |  |           |  +--ERR2722036
+|              |  |              |  |  |  |        +--| (100)
+|              |  |              |  |  |  |        |  +--SRR6475853
+|              |  |              |  |  |  |     +--| (82)
+|              |  |              |  |  |  |     |  +----SRR6476033
+|              |  |              |  |  |  |  +--| (83)
+|              |  |              |  |  |  |  |  +--------SRR6352886
+|              |  |              |  |  |  +--| (52)
+|              |  |              |  |  |     |        +--SRR6475859
+|              |  |              |  |  |     |     +--| (97)
+|              |  |              |  |  |     |     |  +--SRR6475925
+|              |  |              |  |  |     |  +--| (48)
+|              |  |              |  |  |     |  |  +----SRR6475879
+|              |  |              |  |  |     +--| (96)
+|              |  |              |  |  |        +--SRR6475860
+|              |  |              |  +--| (37)
+|              |  |              |     |              +--SRR5273181
+|              |  |              |     |           +--| (63)
+|              |  |              |     |           |  +-----SRR6475887
+|              |  |              |     |        +--| (97)
+|              |  |              |     |        |  |  +--SRR6475886
+|              |  |              |     |        |  +--| (98)
+|              |  |              |     |        |     +--SRR6475911
+|              |  |              |     |     +--| (44)
+|              |  |              |     |     |  |  +-----SRR6476017
+|              |  |              |     |     |  +--| (98)
+|              |  |              |     |     |     +--SRR6476025
+|              |  |              |     |  +--| (85)
+|              |  |              |     |  |  +----SRR6117447
+|              |  |              |     +--| (38)
+|              |  |              |        |  +---SRR6475857
+|              |  |              |        +--| (94)
+|              |  |              |           |   +--SRR6475883
+|              |  |              |           +---| (100)
+|              |  |              |               +--SRR6475930
+|              |  |           +--| (34)
+|              |  |           |  |              +--DRR032492
+|              |  |           |  |           +--| (100)
+|              |  |           |  |           |  +--SRR26351257
+|              |  |           |  |        +--| (100)
+|              |  |           |  |        |  +--DRR088700
+|              |  |           |  |     +--| (100)
+|              |  |           |  |     |  +--SRR191910
+|              |  |           |  |  +--| (52)
+|              |  |           |  |  |  |  +--SRR6476029
+|              |  |           |  |  |  +--| (99)
+|              |  |           |  |  |     |  +--SRR6476030
+|              |  |           |  |  |     +--| (92)
+|              |  |           |  |  |        +--SRR6476032
+|              |  |           |  +--| (70)
+|              |  |           |     |     +--SRR427167
+|              |  |           |     |  +--| (87)
+|              |  |           |     |  |  |  +--SRR6476027
+|              |  |           |     |  |  +--| (48)
+|              |  |           |     |  |     +---SRR6476028
+|              |  |           |     +--| (96)
+|              |  |           |        +-----SRR6475990
+|              |  |        +--| (52)
+|              |  |        |  |      +--SRR3047628
+|              |  |        |  |  +---| (100)
+|              |  |        |  |  |   +--SRR3047631
+|              |  |        |  +--| (93)
+|              |  |        |     |     +--SRR3047629
+|              |  |        |     |  +--| (75)
+|              |  |        |     |  |  +--SRR7983514
+|              |  |        |     +--| (100)
+|              |  |        |        |  +--SRR401406
+|              |  |        |        +--| (100)
+|              |  |        |           +--SRR6653446
+|              |  |     +--| (99)
+|              |  |     |  +------DRR032478
+|              |  |  +--| (81)
+|              |  |  |  +---------SRR3928140
+|              |  +--| (59)
+|              |     |  +----DRR032490
+|              |     +--| (90)
+|              |        |     +---SRR058891
+|              |        |  +--| (84)
+|              |        |  |  |   +--SRR5559345
+|              |        |  |  +---| (100)
+|              |        |  |      +--SRR6475918
+|              |        +--| (75)
+|              |           |  +----SRR5559344
+|              |           +--| (99)
+|              |              +---SRR6475979
+|           +--| (34)
+|           |  |         +---DRR032487
+|           |  |     +---| (100)
+|           |  |     |   +--SRR6475993
+|           |  |  +--| (45)
+|           |  |  |  +---------DRR043257
+|           |  +--| (50)
+|           |     |      +--ERR321999
+|           |     |  +---| (100)
+|           |     |  |   +---SRR6475981
+|           |     +--| (81)
+|           |        +-----SRR6475982
+|        +--| (82)
+|        |  |                                                                           +--DRR032482
+|        |  |                                                                        +--| (44)
+|        |  |                                                                        |  +--SRR6475968
+|        |  |                                                                     +--| (67)
+|        |  |                                                                     |  +--SRR6475889
+|        |  |                                                                  +--| (65)
+|        |  |                                                                  |  +--SRR6475941
+|        |  |                                                               +--| (89)
+|        |  |                                                               |  +--SRR6475969
+|        |  |                                                            +--| (67)
+|        |  |                                                            |  +-----SRR6475905
+|        |  |                                                         +--| (96)
+|        |  |                                                         |  |            +--SRR6475963
+|        |  |                                                         |  |        +---| (100)
+|        |  |                                                         |  |        |   +--SRR6476047
+|        |  |                                                         |  |     +--| (98)
+|        |  |                                                         |  |     |  +----SRR892042
+|        |  |                                                         |  |  +--| (99)
+|        |  |                                                         |  |  |  |  +--SRR6475970
+|        |  |                                                         |  |  |  +--| (91)
+|        |  |                                                         |  |  |     |  +--SRR6475971
+|        |  |                                                         |  |  |     +--| (65)
+|        |  |                                                         |  |  |        +--SRR6476044
+|        |  |                                                         |  +--| (38)
+|        |  |                                                         |     +--SRR6476014
+|        |  |                                                      +--| (71)
+|        |  |                                                      |  |  +--GCF_000313485.1_ASM31348v1_genomic.iss
+|        |  |                                                      |  +--| (57)
+|        |  |                                                      |     +--SRR072088
+|        |  |                                                   +--| (57)
+|        |  |                                                   |  |  +-----SRR6475910
+|        |  |                                                   |  +--| (82)
+|        |  |                                                   |     |     +-----SRR6475954
+|        |  |                                                   |     |  +--| (92)
+|        |  |                                                   |     |  |  +---SRR6475996
+|        |  |                                                   |     +--| (76)
+|        |  |                                                   |        +-----SRR6475995
+|        |  |                                                +--| (79)
+|        |  |                                                |  |      +--SRR6475885
+|        |  |                                                |  |  +---| (100)
+|        |  |                                                |  |  |   +--SRR6475908
+|        |  |                                                |  +--| (99)
+|        |  |                                                |     +--SRR6475903
+|        |  |                                             +--| (73)
+|        |  |                                             |  |  +--SRR6475904
+|        |  |                                             |  +--| (82)
+|        |  |                                             |     +---SRR6476007
+|        |  |                                 +-----------| (100)
+|        |  |                                 |           |           +--SRR6475926
+|        |  |                                 |           |        +--| (100)
+|        |  |                                 |           |        |  +--SRR6475929
+|        |  |                                 |           |     +--| (94)
+|        |  |                                 |           |     |  |  +--SRR6475928
+|        |  |                                 |           |     |  +--| (93)
+|        |  |                                 |           |     |     +--SRR6475931
+|        |  |                                 |           |  +--| (37)
+|        |  |                                 |           |  |  +---SRR6475940
+|        |  |                                 |           +--| (58)
+|        |  |                                 |              |      +--SRR6476001
+|        |  |                                 |              |  +---| (99)
+|        |  |                                 |              |  |   +--SRR6476003
+|        |  |                                 |              +--| (33)
+|        |  |                                 |                 +--SRR6476002
+|        |  |                              +--| (51)
+|        |  |                              |  +-----SRR6475933
+|        |  |                           +--| (26)
+|        |  |                           |  |        +--ERR664801
+|        |  |                           |  |     +--| (72)
+|        |  |                           |  |     |  |     +--SRR1924553
+|        |  |                           |  |     |  |  +--| (100)
+|        |  |                           |  |     |  |  |  |  +--SRR6475920
+|        |  |                           |  |     |  |  |  +--| (96)
+|        |  |                           |  |     |  |  |     +--SRR6475978
+|        |  |                           |  |     |  +--| (99)
+|        |  |                           |  |     |     +--SRR6475960
+|        |  |                           |  |  +--| (63)
+|        |  |                           |  |  |  |    +--SRR6475916
+|        |  |                           |  |  |  +----| (100)
+|        |  |                           |  |  |       +--SRR6475917
+|        |  |                           |  +--| (49)
+|        |  |                           |     |   +--SRR6475912
+|        |  |                           |     +---| (100)
+|        |  |                           |         +---SRR6475991
+|        |  |                        +--| (46)
+|        |  |                        |  |                                                              +**DRR040637
+|        |  |                        |  |                                                           +**|
+|        |  |                        |  |                                                           |  +**ERR570072
+|        |  |                        |  |                                                        +**|
+|        |  |                        |  |                                                        |  +**ERR3085720
+|        |  |                        |  |                                                     +**|
+|        |  |                        |  |                                                     |  +**ERR331061
+|        |  |                        |  |                                                  +**|
+|        |  |                        |  |                                                  |  +**SRR28733281
+|        |  |                        |  |                                               +**|
+|        |  |                        |  |                                               |  +**ERR331064
+|        |  |                        |  |                                            +**|
+|        |  |                        |  |                                            |  +**ERR570061
+|        |  |                        |  |                                         +**|
+|        |  |                        |  |                                         |  +**SRR7646974
+|        |  |                        |  |                                      +**|
+|        |  |                        |  |                                      |  +**SRR29541820
+|        |  |                        |  |                                   +**|
+|        |  |                        |  |                                   |  +**SRR28926236
+|        |  |                        |  |                                +**|
+|        |  |                        |  |                                |  +**SRR28733277
+|        |  |                        |  |                             +**|
+|        |  |                        |  |                             |  +**ERR331063
+|        |  |                        |  |                          +**|
+|        |  |                        |  |                          |  +**ERR331065
+|        |  |                        |  |                       +--|
+|        |  |                        |  |                       |  +**ERR570060
+|        |  |                        |  |                    +--| (95)
+|        |  |                        |  |                    |  +--DRR040654
+|        |  |                        |  |                 +--| (49)
+|        |  |                        |  |                 |  |           +--DRR040641
+|        |  |                        |  |                 |  |        +--| (100)
+|        |  |                        |  |                 |  |        |  |  +--DRR040667
+|        |  |                        |  |                 |  |        |  +--| (48)
+|        |  |                        |  |                 |  |        |     +--SRR9336600
+|        |  |                        |  |                 |  |     +--| (100)
+|        |  |                        |  |                 |  |     |  |     +**SRR173084
+|        |  |                        |  |                 |  |     |  |  +--|
+|        |  |                        |  |                 |  |     |  |  |  +**SRR7902666
+|        |  |                        |  |                 |  |     |  +--| (98)
+|        |  |                        |  |                 |  |     |     +--SRR5165548
+|        |  |                        |  |                 |  |  +--| (62)
+|        |  |                        |  |                 |  |  |  +--SRR1594141
+|        |  |                        |  |                 |  +--| (76)
+|        |  |                        |  |                 |     |     +--ERR2348785
+|        |  |                        |  |                 |     |  +--| (98)
+|        |  |                        |  |                 |     |  |  |  +--SRR173087
+|        |  |                        |  |                 |     |  |  +--| (56)
+|        |  |                        |  |                 |     |  |     +--SRR5106252
+|        |  |                        |  |                 |     +--| (21)
+|        |  |                        |  |                 |        +--SRR173086
+|        |  |                        |  |              +--| (97)
+|        |  |                        |  |              |  +--SRR4351084
+|        |  |                        |  |           +--| (54)
+|        |  |                        |  |           |  +---------SRR6475862
+|        |  |                        |  |        +--| (54)
+|        |  |                        |  |        |  +------SRR5807887
+|        |  |                        |  |     +--| (42)
+|        |  |                        |  |     |  +--SRR6470147
+|        |  |                        |  |  +--| (35)
+|        |  |                        |  |  |  |         +--ERR1404484
+|        |  |                        |  |  |  |      +--| (35)
+|        |  |                        |  |  |  |      |  |          +--ERR2886539
+|        |  |                        |  |  |  |      |  |       +--| (97)
+|        |  |                        |  |  |  |      |  |       |  |  +--ERR2886542
+|        |  |                        |  |  |  |      |  |       |  +--| (60)
+|        |  |                        |  |  |  |      |  |       |     +--SRR4453455
+|        |  |                        |  |  |  |      |  |  +----| (100)
+|        |  |                        |  |  |  |      |  |  |    +--ERR993614
+|        |  |                        |  |  |  |      |  +--| (38)
+|        |  |                        |  |  |  |      |     +--SRR5807840
+|        |  |                        |  |  |  |  +---| (100)
+|        |  |                        |  |  |  |  |   +--SRR5807831
+|        |  |                        |  |  |  +--| (76)
+|        |  |                        |  |  |     +---GCF_000304475.1_Ka_CBS2517_genomic.iss
+|        |  |                        |  +--| (43)
+|        |  |                        |     |  +--SRR5807861
+|        |  |                        |     +--| (100)
+|        |  |                        |        +--SRR5807874
+|        |  |                     +--| (53)
+|        |  |                     |  |                  +----DRR185904
+|        |  |                     |  |               +--| (68)
+|        |  |                     |  |               |  +-------GCF_001548555.1_ASM154855v1_genomic.iss
+|        |  |                     |  |            +--| (73)
+|        |  |                     |  |            |  +--GCF_000235365.1_ASM23536v1_genomic.iss
+|        |  |                     |  |        +---| (100)
+|        |  |                     |  |        |   +-----GCA_000710315.1_Eremothecium_coryli_genomic.iss
+|        |  |                     |  |     +--| (31)
+|        |  |                     |  |     |  |     +--GCA_001039675.1_AGH_PRJEB150_V1_genomic.iss
+|        |  |                     |  |     |  |  +--| (75)
+|        |  |                     |  |     |  |  |  +--GCA_017309295.1_JHU_Cniv_v1_genomic.iss
+|        |  |                     |  |     |  +--| (99)
+|        |  |                     |  |     |     |  +--SRR27912245
+|        |  |                     |  |     |     +--| (100)
+|        |  |                     |  |     |        +--SRR27912247
+|        |  |                     |  |  +--| (36)
+|        |  |                     |  |  |  |              +--ERR2881732
+|        |  |                     |  |  |  |           +--| (48)
+|        |  |                     |  |  |  |           |  +--SRR6475900
+|        |  |                     |  |  |  |        +--| (92)
+|        |  |                     |  |  |  |        |  |  +--ERR9706993
+|        |  |                     |  |  |  |        |  +--| (100)
+|        |  |                     |  |  |  |        |     +--SRR6660862
+|        |  |                     |  |  |  |     +--| (98)
+|        |  |                     |  |  |  |     |  +-----SRR6475893
+|        |  |                     |  |  |  |  +--| (28)
+|        |  |                     |  |  |  |  |  |     +----SRR6475864
+|        |  |                     |  |  |  |  |  |  +--| (72)
+|        |  |                     |  |  |  |  |  |  |  |  +---SRR6475869
+|        |  |                     |  |  |  |  |  |  |  +--| (78)
+|        |  |                     |  |  |  |  |  |  |     +------SRR6475935
+|        |  |                     |  |  |  |  |  +--| (28)
+|        |  |                     |  |  |  |  |     |     +---SRR6475866
+|        |  |                     |  |  |  |  |     |  +--| (52)
+|        |  |                     |  |  |  |  |     |  |  +-----SRR8838460
+|        |  |                     |  |  |  |  |     +--| (64)
+|        |  |                     |  |  |  |  |        +--SRR6475938
+|        |  |                     |  |  |  +--| (26)
+|        |  |                     |  |  |     +-------SRR6475936
+|        |  |                     |  +--| (41)
+|        |  |                     |     |  +--------SRR26351259
+|        |  |                     |     +--| (48)
+|        |  |                     |        |  +-----SRR6475863
+|        |  |                     |        +--| (56)
+|        |  |                     |           |      +--SRR6475865
+|        |  |                     |           |   +--| (55)
+|        |  |                     |           |   |  +--SRR6475867
+|        |  |                     |           +---| (100)
+|        |  |                     |               |  +--SRR6475937
+|        |  |                     |               +--| (82)
+|        |  |                     |                  +--SRR6475939
+|        |  |                  +--| (24)
+|        |  |                  |  |  +--SRR4733725
+|        |  |                  |  +--| (96)
+|        |  |                  |     +----SRR6475891
+|        |  |               +--| (54)
+|        |  |               |  |           +--GCF_000236905.1_ASM23690v1_genomic.iss
+|        |  |               |  |        +--| (98)
+|        |  |               |  |        |  |  +--SRR6475915
+|        |  |               |  |        |  +--| (87)
+|        |  |               |  |        |     +--SRR6475921
+|        |  |               |  |     +--| (99)
+|        |  |               |  |     |  +--SRR6475914
+|        |  |               |  |  +--| (42)
+|        |  |               |  |  |  |      +--SRR6475932
+|        |  |               |  |  |  +------| (100)
+|        |  |               |  |  |         +--SRR6475934
+|        |  |               |  +--| (11)
+|        |  |               |     +----SRR16974700
+|        |  |            +--| (83)
+|        |  |            |  |            +--ERR3456267
+|        |  |            |  |         +--| (65)
+|        |  |            |  |         |  |        +--SRR3927284
+|        |  |            |  |         |  |     +--| (89)
+|        |  |            |  |         |  |     |  +---SRR6475964
+|        |  |            |  |         |  |  +--| (82)
+|        |  |            |  |         |  |  |  +--SRR6475972
+|        |  |            |  |         |  +--| (67)
+|        |  |            |  |         |     +--SRR6475965
+|        |  |            |  +---------| (100)
+|        |  |            |            +--SRR6476013
+|        |  |     +------| (100)
+|        |  |     |      |     +--SRR6476020
+|        |  |     |      +-----| (100)
+|        |  |     |            +--SRR8830816
+|        |  |  +--| (40)
+|        |  |  |  |              +--DRR032483
+|        |  |  |  |           +--| (56)
+|        |  |  |  |           |  +----SRR4125827
+|        |  |  |  |        +--| (100)
+|        |  |  |  |        |  +--SRR5559346
+|        |  |  |  |  +-----| (100)
+|        |  |  |  |  |     |  +---DRR042681
+|        |  |  |  |  |     +--| (100)
+|        |  |  |  |  |        +---SRR3927538
+|        |  |  |  +--| (53)
+|        |  |  |     |    +----SRR4125838
+|        |  |  |     +----| (100)
+|        |  |  |          +--------SRR4996385
+|        |  +--| (71)
+|        |     |            +--SRR5559343
+|        |     +------------| (100)
+|        |                  +--SRR6475985
+|     +--| (68)
+|     |  |                        +--DRR032554
+|     |  |                     +--| (79)
+|     |  |                     |  +--SRR6475961
+|     |  |              +------| (99)
+|     |  |              |      |           +--DRR032561
+|     |  |              |      |        +--| (92)
+|     |  |              |      |        |  +--DRR037291
+|     |  |              |      |     +--| (84)
+|     |  |              |      |     |  +--DRR032583
+|     |  |              |      |  +--| (48)
+|     |  |              |      |  |  |  +--DRR032582
+|     |  |              |      |  |  +--| (100)
+|     |  |              |      |  |     +--SRR6475962
+|     |  |              |      +--| (60)
+|     |  |              |         +--SRR27547032
+|     |  |     +--------| (100)
+|     |  |     |        +------SRR6475884
+|     |  |  +--| (44)
+|     |  |  |  +-------SRR6475877
+|     |  +--| (44)
+|     |     |                       +--ERR169335
+|     |     |                    +--| (100)
+|     |     |                    |  +--ERR1865257
+|     |     |                 +--| (93)
+|     |     |                 |  |  +--SRR6475875
+|     |     |                 |  +--| (87)
+|     |     |                 |     +--SRR6475892
+|     |     |              +--| (84)
+|     |     |              |  |        +--SRR4128940
+|     |     |              |  |     +--| (45)
+|     |     |              |  |     |  +---SRR6475874
+|     |     |              |  |  +--| (83)
+|     |     |              |  |  |  +--SRR6475880
+|     |     |              |  +--| (91)
+|     |     |              |     |  +------SRR4131951
+|     |     |              |     +--| (36)
+|     |     |              |        +----SRR6475878
+|     |     |           +--| (63)
+|     |     |           |  +----SRR6475876
+|     |     |        +--| (68)
+|     |     |        |  |  +---ERR2799377
+|     |     |        |  +--| (80)
+|     |     |        |     |  +--GCF_001640025.1_ASM164002v2_genomic.iss
+|     |     |        |     +--| (100)
+|     |     |        |        +---SRR4128931
+|     |     |     +--| (65)
+|     |     |     |  |                     +--ERR2737224
+|     |     |     |  |                  +--| (100)
+|     |     |     |  |                  |  +--ERR2752133
+|     |     |     |  |            +-----| (100)
+|     |     |     |  |            |     +--ERR339465
+|     |     |     |  |        +---| (98)
+|     |     |     |  |        |   |    +--ERR2752260
+|     |     |     |  |        |   +----| (100)
+|     |     |     |  |        |        +--ERR2752261
+|     |     |     |  |     +--| (93)
+|     |     |     |  |     |  |  +--SRR4171246
+|     |     |     |  |     |  +--| (96)
+|     |     |     |  |     |     |   +--SRR6475872
+|     |     |     |  |     |     +---| (100)
+|     |     |     |  |     |         +--SRR6476024
+|     |     |     |  |  +--| (22)
+|     |     |     |  |  |  |  +-------SRR6475994
+|     |     |     |  |  |  +--| (51)
+|     |     |     |  |  |     |    +--SRR6476006
+|     |     |     |  |  |     +----| (100)
+|     |     |     |  |  |          +-----SRR6476012
+|     |     |     |  +--| (27)
+|     |     |     |     |  +---SRR6475873
+|     |     |     |     +--| (61)
+|     |     |     |        +------SRR6475955
+|     |     |  +--| (38)
+|     |     |  |  |         +--SRR4128934
+|     |     |  |  |     +---| (100)
+|     |     |  |  |     |   +--SRR6476005
+|     |     |  |  |  +--| (96)
+|     |     |  |  |  |  +----SRR6476008
+|     |     |  |  +--| (83)
+|     |     |  |     +-----SRR6475966
+|     |     +--| (25)
+|     |        |              +--SRR3927530
+|     |        +--------------| (100)
+|     |                       +--SRR6475854
+|  +--| (38)
+|  |  |     +-----SRR6475909
+|  |  +-----| (100)
+|  |        +-----SRR6475958
++--| (41)
+|  |                    +----DRR032488
+|  |                 +--| (71)
+|  |                 |  |     +----------DRR042669
+|  |                 |  |  +--| (36)
+|  |                 |  |  |  +-------SRR6117452
+|  |                 |  +--| (33)
+|  |                 |     |        +--ERR2799359
+|  |                 |     |  +-----| (100)
+|  |                 |     |  |     |  +--ERR2799366
+|  |                 |     |  |     +--| (51)
+|  |                 |     |  |        +--ERR2799373
+|  |                 |     +--| (42)
+|  |                 |        +----SRR1924581
+|  |              +--| (76)
+|  |              |  +----SRR4128937
+|  |  +-----------| (100)
+|  |  |           +---------SRR6475858
+|  +--| (51)
+|     |           +--SRR065672
+|     |        +--| (99)
+|     |        |  +--SRR6475959
+|     |     +--| (95)
+|     |     |  +---------SRR6475902
+|     +-----| (94)
+|           +--------SRR6475861
+|
+|                            +--DRR060260
+|                         +--| (99)
+|                         |  +--SRR25759133
+|                      +--| (51)
+|                      |  +--SRR3928103
+|                   +--| (80)
+|                   |  +-------------------SRR8530937
+|                +--| (53)
+|                |  |   +--SRR14280050
+|                |  +---| (100)
+|                |      +--SRR3110861
+|             +--| (29)
+|             |  |       +--SRR22394500
+|             |  |  +----| (87)
+|             |  |  |    +--SRR25343506
+|             |  +--| (32)
+|             |     +------SRR7630458
+|       +-----| (96)
+|       |     |  +--SRR1772870
+|       |     +--| (34)
+|       |        |     +--SRR1796786
+|       |        |  +--| (67)
+|       |        |  |  +--SRR28962293
+|       |        +--| (54)
+|       |           +---------SRR1798060
+|    +--| (54)
+|    |  |    +-----------------------------SRR28842716
+|    |  +----| (76)
+|    |       +--SRR6475894
++----| (94)
+     |                    +--SRR058901
+     |                 +--| (100)
+     |                 |  +--SRR4125774
+     |              +--| (99)
+     |              |  +--SRR6475899
+     |           +--| (94)
+     |           |  +--SRR6475896
+     |        +--| (68)
+     |        |  +--SRR6475895
+     |     +--| (83)
+     |     |  +----SRR6475897
+     |  +--| (40)
+     |  |  |  +-----SRR6475898
+     |  |  +--| (98)
+     |  |     +---SRR6475901
+     +--| (23)
+        +----SRR6475913
+
+
+Consensus tree in newick format: 
+
+(DRR030855:0.5061277165,((((((((((((DRR032472:0.1759852605,((ERR1102659:0.0052669607,(ERR2764753:0.0000025526,SRR3927079:0.0000025526)95:0.0000025526)100:0.1622228908,SRR6475977:0.2210030268)92:0.0573471001)99:0.0897002596,(DRR032476:0.5264105481,(((((DRR063217:0.0183019788,SRR071890:0.0343163304)100:0.0865638687,(SRR4451748:0.1349396310,((SRR6476037:0.2041641839,SRR6476039:0.1382152537)99:0.1523894069,SRR6476041:0.1932380292)41:0.0201610197)42:0.0168063408)65:0.0639904631,(SRR5047288:0.3278337446,(SRR6475882:0.3642417149,SRR6476036:0.2857096582)55:0.0492713222)57:0.0676975505)56:0.0519010139,((((SRR5559347:0.0196564708,(SRR6476042:0.0450461842,SRR6476045:0.1442299801)81:0.0251081413)64:0.0185749373,(SRR6475989:0.0062152615,SRR6475997:0.0033108770)99:0.0163330210)100:0.2126434087,(SRR6475998:0.1990709951,SRR6476043:0.2437590245)100:0.1519153056)91:0.0699073217,SRR6476040:0.3300391432)79:0.0882406538)84:0.0857515972,(SRR6475924:0.0183395924,SRR6475927:0.0054208235)100:0.2080223755)51:0.0162956356)83:0.0642919973)59:0.0454327310,((((DRR032473:0.1098850170,(SRR6475975:0.0446492689,SRR6476010:0.0736832019)65:0.0249186159)82:0.0310255654,(DRR032547:0.1363602874,((SRR5559341:0.0172575668,SRR6475973:0.0726280173)41:0.0039270655,SRR6475983:0.0509512410)82:0.0361093220)65:0.0281177835)71:0.0372627013,SRR6476009:0.1533473522)81:0.0427163999,((((DRR043254:0.0520405336,SRR6475944:0.0703694377)100:0.1955764320,(SRR6475855:0.0963757696,SRR6475952:0.0629108825)100:0.0824811945)51:0.0341720170,SRR427168:0.3129880551)63:0.0485725226,((((((SRR072065:0.0000025526,SRR3926513:0.0000025526)99:0.0034693287,SRR6148363:0.0126283560)100:0.0847506840,SRR6475945:0.1209761123)74:0.0387219317,((SRR6475947:0.1946788194,SRR6475988:0.0322569299)66:0.0344321864,SRR6475980:0.0202780954)87:0.0529925048)99:0.0721870308,(((SRR6475943:0.0829821951,(SRR6475951:0.0833668120,SRR6475974:0.0540199501)96:0.0449711031)47:0.0122200297,SRR6475946:0.0895827891)95:0.0486879094,SRR6475949:0.1190490372)68:0.0283113525)59:0.0337019372,SRR6475856:0.1215939868)69:0.0341331575)29:0.0172204573)58:0.0608482201)45:0.0491114502,(((DRR032485:0.1977185352,SRR6475948:0.1174693099)56:0.0344033771,SRR6475950:0.2807139143)71:0.0457295665,SRR6475987:0.2847074267)50:0.0450201447)45:0.0465026596,DRR032489:0.2262170706)98:0.0738688384,((((ERR9924606:0.0000000000,SRR3242032:0.0000000000):0.0000025526,SRR3242030:0.0000025526)100:0.0279655898,SRR3228419:0.0166249721)88:0.0457862518,(SRR6475984:0.0084043342,SRR6475992:0.0071904012)75:0.0350445273)100:0.2920635706)45:0.0344337463,((((((((DRR032475:0.1801810043,(SRR427166:0.0978646390,((SRR6475888:0.0077984336,SRR6475922:0.0289180055)100:0.0478421355,SRR6475923:0.0276337041)99:0.0701992980)43:0.0165731538)60:0.0350287900,((((DRR032537:0.1302158722,SRR6475906:0.0818664618)71:0.0188832458,SRR6475999:0.0827803559)100:0.0637860723,SRR6475907:0.1047694061)98:0.0991482369,((DRR037283:0.1760479502,(((ERR946881:0.0000025526,SRR19837491:0.0000025526)100:0.0212751594,(((SRR3594711:0.0000025526,SRR6476023:0.0000025526)100:0.0095019521,SRR6476031:0.0042710767)60:0.0062382695,SRR6475868:0.0218378090)98:0.0277235896)90:0.0412035637,(SRR6475870:0.1410178524,SRR6475871:0.0752021680)78:0.0275028358)68:0.0193077942)78:0.0420043674,((((ERR246509:0.0215630212,SRR3547558:0.0274948459)26:0.0070189160,(ERR247405:0.0083922098,SRR6476035:0.2307361325)48:0.0218814587)59:0.0469915034,SRR6659927:0.1190192512)69:0.0425991282,((SRR10766640:0.0480072305,SRR868710:0.0306533344)100:0.1609529629,((SRR1656204:0.0000025526,SRR28960502:0.0028775984)100:0.0109975407,SRR771366:0.0154978815)100:0.0533580083)89:0.0402446604)96:0.0899043270)61:0.0208972430)41:0.0235259282)66:0.0357686490,((((((DRR032477:0.0717659729,SRR6475890:0.0918110924)83:0.0294497219,((((((((SRR3257847:0.0000025526,SRR3257865:0.0080376769)100:0.0434475291,(((((SRR3257848:0.0053282058,SRR3257850:0.0026728421)84:0.0053383881,(((SRR3257853:0.0026457366,SRR3257884:0.0106758109)34:0.0000025526,SRR3257872:0.0026448682)63:0.0026446855,((SRR3257870:0.0300384426,((SRR3257876:0.0166450588,(SRR5802931:0.0026247251,SRR5802933:0.0026243253)34:0.0000025526)51:0.0027513047,(SRR5802927:0.0026346794,SRR5802929:0.0000025526)96:0.0079513841)74:0.0054619792)94:0.0093756189,SRR5802887:0.0053176214)56:0.0000021702)78:0.0030739289)64:0.0031160573,(SRR3257880:0.0080810430,SRR5802924:0.0081047397)57:0.0025919329)98:0.0186869527,((SRR3257854:0.0082544889,(SRR3257858:0.0000025526,SRR3257868:0.0052573485)86:0.0108130623)100:0.0438411494,((SRR3257879:0.0435649360,SRR5802926:0.0288050150)89:0.0159551915,SRR5806845:0.0126165235)48:0.0028189784)50:0.0056561682)76:0.0154168885,(SRR5802886:0.0820404996,SRR5802922:0.0534197220)45:0.0072150515)65:0.0098700774)80:0.0188371406,((SRR3257864:0.0146890550,SRR3257882:0.0201031788)96:0.0188439416,SRR3257873:0.0292077014)99:0.0270876507)76:0.0319150007,(SRR6061621:0.0296625022,SRR6061622:0.0533974762)100:0.0653033495)100:0.1204589460,(SRR6061619:0.0255590718,SRR6061623:0.0105060299)100:0.1735927191)55:0.0166112782,((SRR400293:0.0986511423,SRR6476018:0.1165293600)100:0.0966324349,SRR6476046:0.1493183955)82:0.0537004399)76:0.0300892934,SRR4125809:0.1888522530)71:0.0277045520,(SRR6476015:0.1319902559,(SRR6476016:0.1048451598,SRR6749948:0.1037911012)97:0.0500168291)68:0.0383748514)72:0.0297430912)58:0.0247568069,(SRR10059691:0.0796272678,(SRR6475942:0.0334140616,SRR6911173:0.0568961793)94:0.0298975542)100:0.1287795857)95:0.0484657707,SRR6476011:0.2126444209)74:0.0298487337,((((((DRR032484:0.0428003953,ERR2067897:0.0137705604)94:0.0293001306,ERR2722036:0.0199203323)100:0.0972197915,SRR6475853:0.0616600029)100:0.0898385650,SRR6476033:0.1842560741)82:0.0521960243,SRR6352886:0.2949474396)83:0.0678528551,(((SRR6475859:0.1004895568,SRR6475925:0.0680065160)97:0.0664969748,SRR6475879:0.1824922796)48:0.0092637788,SRR6475860:0.1140167004)96:0.0557431015)52:0.0216667577)74:0.0298927063,(((((SRR5273181:0.1170918131,SRR6475887:0.2157813665)63:0.0306227903,(SRR6475886:0.0433301976,SRR6475911:0.0900961361)98:0.0560466374)97:0.0820968969,(SRR6476017:0.1904905526,SRR6476025:0.1149978950)98:0.0875070008)44:0.0225350365,SRR6117447:0.1752724438)85:0.0419175852,(SRR6475857:0.1554167209,(SRR6475883:0.0220225831,SRR6475930:0.0770166668)100:0.1418400304)94:0.0856155061)38:0.0133418409)37:0.0162520570)23:0.0116456386,(((((DRR032492:0.0000025526,SRR26351257:0.0000025526)100:0.0426733688,DRR088700:0.0201272096)100:0.1019559306,SRR191910:0.1113288711)100:0.1013847827,(SRR6476029:0.1065506792,(SRR6476030:0.0149527278,SRR6476032:0.0091783335)92:0.0655136870)99:0.0822254625)52:0.0085933792,((SRR427167:0.0690231236,(SRR6476027:0.1163357296,SRR6476028:0.1375324495)48:0.0206354120)87:0.0533962840,SRR6475990:0.2035591571)96:0.0745178591)70:0.0362102990)34:0.0290878430,((SRR3047628:0.0134366946,SRR3047631:0.0101211850)100:0.1482127455,((SRR3047629:0.0538348397,SRR7983514:0.0501238065)75:0.0213479849,(SRR401406:0.0000025526,SRR6653446:0.0000025526)100:0.0538439682)100:0.1166411225)93:0.0613870369)52:0.0188920007,DRR032478:0.2330650659)99:0.0884971133,SRR3928140:0.3150862930)81:0.0738962875,(DRR032490:0.1721299526,((SRR058891:0.1290689492,(SRR5559345:0.0197616549,SRR6475918:0.0094625191)100:0.1540334162)84:0.0324378266,(SRR5559344:0.1595053970,SRR6475979:0.1395486795)99:0.0752022093)75:0.0350524408)90:0.0490127769)59:0.0314120729)36:0.0209617045,(((DRR032487:0.1528929147,SRR6475993:0.0618242451)100:0.1439231053,DRR043257:0.3422403925)45:0.0315638809,((ERR321999:0.0862215664,SRR6475981:0.1276257291)100:0.1383173778,SRR6475982:0.1883865510)81:0.0633396913)50:0.0479436781)34:0.0140111988,(((((((((((((((((((((DRR032482:0.0917480395,SRR6475968:0.0263679466)44:0.0069261277,SRR6475889:0.0624522687)67:0.0173183281,SRR6475941:0.0679093150)65:0.0220690867,SRR6475969:0.0847028544)89:0.0562068303,SRR6475905:0.2182723867)67:0.0299436819,((((SRR6475963:0.0695026189,SRR6476047:0.0217531108)100:0.1483483408,SRR892042:0.1836797753)98:0.0779382324,(SRR6475970:0.0078577166,(SRR6475971:0.0117950272,SRR6476044:0.0493379429)65:0.0126118625)91:0.0897875004)99:0.1090472963,SRR6476014:0.1141142706)38:0.0154730400)96:0.1026576642,(GCF_000313485.1_ASM31348v1_genomic.iss:0.0572935429,SRR072088:0.1122570537)57:0.0293309651)71:0.0537638177,(SRR6475910:0.2185891620,((SRR6475954:0.2131301144,SRR6475996:0.1391085789)92:0.0795012730,SRR6475995:0.2111086625)76:0.0416131845)82:0.0445475201)57:0.0259414474,((SRR6475885:0.0218670988,SRR6475908:0.0480117595)100:0.1264711129,SRR6475903:0.0722550104)99:0.1088202331)79:0.0399565613,(SRR6475904:0.1246227276,SRR6476007:0.1456225526)82:0.0228004528)73:0.0380613399,((((SRR6475926:0.0238213818,SRR6475929:0.0000027730)100:0.0524287769,(SRR6475928:0.0285996198,SRR6475931:0.0279681930)93:0.0440995963)94:0.0520981895,SRR6475940:0.1333250649)37:0.0183570793,((SRR6476001:0.0271354903,SRR6476003:0.0641790848)99:0.1441582509,SRR6476002:0.0410827422)33:0.0279421732)58:0.0370693270)100:0.3842386248,SRR6475933:0.2083815885)51:0.0270567025,(((ERR664801:0.0968396015,((SRR1924553:0.0661159038,(SRR6475920:0.0250925779,SRR6475978:0.0058887784)96:0.0390341780)100:0.0655123170,SRR6475960:0.0979565834)99:0.0782704190)72:0.0269618890,(SRR6475916:0.0525660023,SRR6475917:0.1106823333)100:0.1637344917)63:0.0233771608,(SRR6475912:0.0698937588,SRR6475991:0.1375396615)100:0.1367416746)49:0.0634474038)26:0.0147526545,(((((((((((((((((((((DRR040637:0.0000000000,ERR570072:0.0000000000):0.0000000000,ERR3085720:0.0000000000):0.0000000000,ERR331061:0.0000000000):0.0000000000,SRR28733281:0.0000000000):0.0000000000,ERR331064:0.0000000000):0.0000000000,ERR570061:0.0000000000):0.0000000000,SRR7646974:0.0000000000):0.0000000000,SRR29541820:0.0000000000):0.0000000000,SRR28926236:0.0000000000):0.0000000000,SRR28733277:0.0000000000):0.0000000000,ERR331063:0.0000000000):0.0000000000,ERR331065:0.0000000000):0.0000000000,ERR570060:0.0000000000):0.0000025526,DRR040654:0.0000025526)95:0.0036565332,((((DRR040641:0.0000025526,(DRR040667:0.0000025526,SRR9336600:0.0000021702)48:0.0000021702)100:0.0223373792,((SRR173084:0.0000000000,SRR7902666:0.0000000000):0.0000025526,SRR5165548:0.0000025526)98:0.0074183666)100:0.0335471717,SRR1594141:0.0187187422)62:0.0107291562,((ERR2348785:0.0034701920,(SRR173087:0.0000025526,SRR5106252:0.0034853577)56:0.0000025526)98:0.0208265653,SRR173086:0.0256577890)21:0.0000025638)76:0.0112833730)49:0.0068244322,SRR4351084:0.0077526275)97:0.1006904838,SRR6475862:0.3251417578)54:0.0567607724,SRR5807887:0.2257669559)54:0.0435782935,SRR6470147:0.1251483507)42:0.0403660250,(((ERR1404484:0.1106135169,(((ERR2886539:0.0030344170,(ERR2886542:0.0030319376,SRR4453455:0.0030240180)60:0.0000025526)97:0.0144201984,ERR993614:0.0169135105)100:0.1670885834,SRR5807840:0.0921350296)38:0.0318704223)35:0.0362925296,SRR5807831:0.0704150088)100:0.1380550545,GCF_000304475.1_Ka_CBS2517_genomic.iss:0.1442502232)76:0.0486024329)35:0.0093791842,(SRR5807861:0.0889179882,SRR5807874:0.0685612522)100:0.1042790845)43:0.0333322643)46:0.0162537626,((((((DRR185904:0.1576433689,GCF_001548555.1_ASM154855v1_genomic.iss:0.2656706052)68:0.0327447489,GCF_000235365.1_ASM23536v1_genomic.iss:0.0682301940)73:0.0512010153,GCA_000710315.1_Eremothecium_coryli_genomic.iss:0.2181341403)100:0.1384200754,((GCA_001039675.1_AGH_PRJEB150_V1_genomic.iss:0.0449676955,GCA_017309295.1_JHU_Cniv_v1_genomic.iss:0.0363025891)75:0.0386531961,(SRR27912245:0.0000025526,SRR27912247:0.0000025526)100:0.0964325144)99:0.0735526529)31:0.0528414242,(((((ERR2881732:0.0399951204,SRR6475900:0.0507496828)48:0.0115753227,(ERR9706993:0.0000025526,SRR6660862:0.0000025526)100:0.0714342535)92:0.0766687766,SRR6475893:0.1967158740)98:0.1205821865,((SRR6475864:0.1708035143,(SRR6475869:0.1460391902,SRR6475935:0.2249995085)78:0.0392445955)72:0.0530183140,((SRR6475866:0.1444091656,SRR8838460:0.1969265596)52:0.0340550829,SRR6475938:0.0955429232)64:0.0515795036)28:0.0090544638)28:0.0127172957,SRR6475936:0.2659883665)26:0.0184816523)36:0.0151621654,(SRR26351259:0.2872701270,(SRR6475863:0.1906439264,((SRR6475865:0.1084693999,SRR6475867:0.0351738802)55:0.0146533192,(SRR6475937:0.0191219639,SRR6475939:0.0273582283)82:0.0127716592)100:0.1452884393)56:0.0371719196)48:0.0547225456)41:0.0207691008)53:0.0373510878,(SRR4733725:0.0815771030,SRR6475891:0.1782470041)96:0.1203831655)24:0.0097054405,((((GCF_000236905.1_ASM23690v1_genomic.iss:0.0633024876,(SRR6475915:0.0434168975,SRR6475921:0.0443134840)87:0.0403051832)98:0.0636906365,SRR6475914:0.0659581065)99:0.1083030637,(SRR6475932:0.1065297601,SRR6475934:0.0594563970)100:0.2260180326)42:0.0263096152,SRR16974700:0.1743003194)11:0.0007745443)54:0.0539188121,((ERR3456267:0.0402187880,(((SRR3927284:0.1008172125,SRR6475964:0.1384798269)89:0.0528599747,SRR6475972:0.1105339077)82:0.0505690494,SRR6475965:0.0494773365)67:0.0228142738)65:0.0152221776,SRR6476013:0.0786386589)100:0.3334180085)83:0.0675242536,(SRR6476020:0.0211572088,SRR8830816:0.0214791796)100:0.1960251141)100:0.2227535715,((((DRR032483:0.1050428920,SRR4125827:0.1635609248)56:0.0267976568,SRR5559346:0.1007717856)100:0.1203846712,(DRR042681:0.1293142274,SRR3927538:0.1478287613)100:0.0940716345)100:0.2107312920,(SRR4125838:0.1621719052,SRR4996385:0.2846712099)100:0.1860656514)53:0.0850962766)40:0.0374206170,(SRR5559343:0.0367771656,SRR6475985:0.0509460503)100:0.4179599172)71:0.0662563941)82:0.0874980626,(((((DRR032554:0.0000025566,SRR6475961:0.0190772484)79:0.0096848864,((((DRR032561:0.0000025526,DRR037291:0.0000025526)92:0.0061499119,DRR032583:0.0000025526)84:0.0094449361,(DRR032582:0.0000025526,SRR6475962:0.0064648409)100:0.0403160788)48:0.0026878783,SRR27547032:0.0189056306)60:0.0064689955)99:0.2272168159,SRR6475884:0.2496220042)100:0.2856711054,SRR6475877:0.2660265819)44:0.1140670616,((((((((ERR169335:0.0000025526,ERR1865257:0.0000025526)100:0.0991283032,(SRR6475875:0.1149726485,SRR6475892:0.1034107815)87:0.0705209293)93:0.0650700753,(((SRR4128940:0.1206516373,SRR6475874:0.1316112167)45:0.0185867389,SRR6475880:0.0881935939)83:0.0467443076,(SRR4131951:0.2284287237,SRR6475878:0.1846010435)36:0.0112727310)91:0.0628179438)84:0.0534474083,SRR6475876:0.1644373425)63:0.0406430661,(ERR2799377:0.1532037309,(GCF_001640025.1_ASM164002v2_genomic.iss:0.0883540047,SRR4128931:0.1352198559)100:0.0869261336)80:0.0485495265)68:0.0312369564,((((((ERR2737224:0.0000025526,ERR2752133:0.0000025526)100:0.0580898425,ERR339465:0.0349855626)100:0.2119631494,(ERR2752260:0.0028968507,ERR2752261:0.0000025526)100:0.1663125840)98:0.1282312589,(SRR4171246:0.0636039983,(SRR6475872:0.0472945523,SRR6476024:0.0293724326)100:0.1261538699)96:0.0856776276)93:0.0920157844,(SRR6475994:0.2561422120,(SRR6476006:0.1062203771,SRR6476012:0.1888811065)100:0.1790314359)51:0.0473131222)22:0.0104014688,(SRR6475873:0.1263765242,SRR6475955:0.2304969238)61:0.0631714345)27:0.0180096684)65:0.0584508774,(((SRR4128934:0.0101443718,SRR6476005:0.0300560282)100:0.1457372234,SRR6476008:0.1615973198)96:0.0759802878,SRR6475966:0.2012171736)83:0.0830312738)38:0.0381014721,(SRR3927530:0.0234233293,SRR6475854:0.0113878383)100:0.4966504465)25:0.0194771234)44:0.0495586116)68:0.0841603583,(SRR6475909:0.2183496137,SRR6475958:0.1930386246)100:0.1945205617)38:0.0421794446,((((DRR032488:0.1780227321,((DRR042669:0.3656940981,SRR6117452:0.2527556117)36:0.0667701841,((ERR2799359:0.0207687881,(ERR2799366:0.1200748067,ERR2799373:0.0175679155)51:0.0293948008)100:0.2126115935,SRR1924581:0.1604349729)42:0.0350360207)33:0.0600838760)71:0.0973369342,SRR4128937:0.1678273087)76:0.1051492377,SRR6475858:0.3155768638)100:0.4041858125,(((SRR065672:0.0150814142,SRR6475959:0.0308980805)99:0.1038483400,SRR6475902:0.3327995986)95:0.1137971435,SRR6475861:0.3039721965)94:0.1982338706)51:0.0976014759)41:0.0456667061,((((((((DRR060260:0.0471840632,SRR25759133:0.1156247919)99:0.0895317286,SRR3928103:0.1012669596)51:0.0059087611,SRR8530937:0.6398125799)80:0.0749469291,(SRR14280050:0.0415454510,SRR3110861:0.0416077096)100:0.1537345307)53:0.0617038077,((SRR22394500:0.1244227258,SRR25343506:0.0886768837)87:0.1616420017,SRR7630458:0.2470628421)32:0.0626266182)29:0.0180520780,(SRR1772870:0.0898721594,((SRR1796786:0.0759611496,SRR28962293:0.0337882135)67:0.0000026089,SRR1798060:0.3360037419)54:0.1127470604)34:0.0478549185)96:0.1983119787,(SRR28842716:0.9418776494,SRR6475894:0.1135642658)76:0.1755885306)54:0.0350820913,(((((((SRR058901:0.0000025526,SRR4125774:0.0000025526)100:0.0095099526,SRR6475899:0.0063581866)99:0.0115201222,SRR6475896:0.0043380835)94:0.0374755003,SRR6475895:0.0378825518)68:0.0411844108,SRR6475897:0.1590975568)83:0.0622787562,(SRR6475898:0.1961443397,SRR6475901:0.1258735544)98:0.1151577206)40:0.0254425660,SRR6475913:0.1699643326)23:0.0404190111)94:0.1792148613);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t run_iqtree.treefile -p run_iqtree.best_model.nex
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s <alignment.phy> --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s <alignment.phy> --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Sep 19 03:02:56 2024
+Total CPU time used: 105228.629 seconds (29h:13m:48s)
+Total wall-clock time used: 34960.19271 seconds (9h:42m:40s)
+
