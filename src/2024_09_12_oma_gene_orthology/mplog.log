@@ -1840,3 +1840,7 @@
 2024-09-25 16:04:54,537 - read2tree.Mapper - INFO - A_farauti_SRR1302210_1: Mapping to DRONM_OGs.fa references took 964.0478575229645.
 2024-09-25 16:04:59,734 - read2tree.Mapper - INFO - A_farauti_SRR1302210_1: --- Mapping of reads to DROVI reference species ---
 2024-09-25 16:04:59,736 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_61gzv1ev/DROVI_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles/reads/A_farauti_SRR1302210_1.fastq -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles/reads/A_farauti_SRR1302210_2.fastq -o /tmp/ngm_61gzv1ev/DROVI_OGs.fa.bam
+2024-09-25 16:09:22,845 - read2tree.Mapper - INFO - A_culici_combined_1: Mapped 46368 / 63254422 reads to DROOB_OGs.fa
+2024-09-25 16:09:22,873 - read2tree.Mapper - INFO - A_culici_combined_1: Mapping to DROOB_OGs.fa references took 1601.5184738636017.
+2024-09-25 16:09:24,798 - read2tree.Mapper - INFO - A_culici_combined_1: --- Mapping of reads to DROMI reference species ---
+2024-09-25 16:09:24,800 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_rqjf8dfq/DROMI_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles/reads/A_culici_combined_1.fastq -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles/reads/A_culici_combined_2.fastq -o /tmp/ngm_rqjf8dfq/DROMI_OGs.fa.bam
