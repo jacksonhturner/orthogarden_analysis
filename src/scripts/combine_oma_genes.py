@@ -1,3 +1,9 @@
+"""
+given an unaltered OMA directory of fna and fa files, iterate over files
+and create a separate entry for each species protein file (the original
+files are per-gene, and this aggregates by species the sequences)
+"""
+
 import os
 import sys
 
