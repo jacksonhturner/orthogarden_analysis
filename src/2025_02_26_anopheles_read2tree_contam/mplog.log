@@ -1,0 +1,869 @@
+2025-02-26 15:46:20,641 - read2tree.OGSet - INFO - --- Load ogs and find their corresponding DNA seq from /pickett_centaur/project/orthogarden_analysis/data/derived/2025_02_26_anopheles_read2tree_contam/dna_ref.fa ---
+2025-02-26 15:46:20,641 - read2tree.OGSet - INFO - Loading dna_ref.fa into memory. This might take a while . . . 
+2025-02-26 15:46:20,787 - read2tree.OGSet - INFO - : Gathering of DNA seq for 200 OGs took 0.1363694667816162.
+2025-02-26 15:46:20,789 - read2tree.ReferenceSet - INFO - : Extracted 4 reference species form 200 ogs took 0.0009949207305908203
+2025-02-26 15:46:20,888 - read2tree.Aligner - DEBUG - aligning OG OG861720 with 4 proteins
+2025-02-26 15:46:20,890 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpld2ngno0
+2025-02-26 15:46:21,445 - read2tree.Aligner - DEBUG - aligning OG OG676343 with 4 proteins
+2025-02-26 15:46:21,446 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp6x_c94e_
+2025-02-26 15:46:21,746 - read2tree.Aligner - DEBUG - aligning OG OG951333 with 4 proteins
+2025-02-26 15:46:21,747 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp82s8c5io
+2025-02-26 15:46:21,929 - read2tree.Aligner - DEBUG - aligning OG OG960910 with 4 proteins
+2025-02-26 15:46:21,930 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpf2ur0m1t
+2025-02-26 15:46:22,131 - read2tree.Aligner - DEBUG - aligning OG OG848281 with 4 proteins
+2025-02-26 15:46:22,132 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp_nmw3brt
+2025-02-26 15:46:22,360 - read2tree.Aligner - DEBUG - aligning OG OG1221639 with 4 proteins
+2025-02-26 15:46:22,361 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpdecnj7x8
+2025-02-26 15:46:22,542 - read2tree.Aligner - DEBUG - aligning OG OG964633 with 4 proteins
+2025-02-26 15:46:22,542 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpvxiwbi54
+2025-02-26 15:46:22,780 - read2tree.Aligner - DEBUG - aligning OG OG718578 with 4 proteins
+2025-02-26 15:46:22,781 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpee08tgl5
+2025-02-26 15:46:23,006 - read2tree.Aligner - DEBUG - aligning OG OG961398 with 4 proteins
+2025-02-26 15:46:23,006 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpp2sm81e0
+2025-02-26 15:46:23,215 - read2tree.Aligner - DEBUG - aligning OG OG411836 with 4 proteins
+2025-02-26 15:46:23,215 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpl0absrkk
+2025-02-26 15:46:23,443 - read2tree.Aligner - DEBUG - aligning OG OG1241986 with 4 proteins
+2025-02-26 15:46:23,443 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmptmmupnbb
+2025-02-26 15:46:23,655 - read2tree.Aligner - DEBUG - aligning OG OG698904 with 4 proteins
+2025-02-26 15:46:23,655 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpmvwu34s4
+2025-02-26 15:46:23,994 - read2tree.Aligner - DEBUG - aligning OG OG1157040 with 4 proteins
+2025-02-26 15:46:23,995 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpevshpuxh
+2025-02-26 15:46:24,188 - read2tree.Aligner - DEBUG - aligning OG OG958126 with 4 proteins
+2025-02-26 15:46:24,189 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpciiu_c8f
+2025-02-26 15:46:24,381 - read2tree.Aligner - DEBUG - aligning OG OG842298 with 4 proteins
+2025-02-26 15:46:24,382 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp210svnl1
+2025-02-26 15:46:24,822 - read2tree.Aligner - DEBUG - aligning OG OG1174245 with 4 proteins
+2025-02-26 15:46:24,822 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmptuyxp_ua
+2025-02-26 15:46:25,059 - read2tree.Aligner - DEBUG - aligning OG OG456351 with 4 proteins
+2025-02-26 15:46:25,060 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp93amc4ek
+2025-02-26 15:46:25,742 - read2tree.Aligner - DEBUG - aligning OG OG1251511 with 4 proteins
+2025-02-26 15:46:25,742 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpabsv1nnh
+2025-02-26 15:46:25,985 - read2tree.Aligner - DEBUG - aligning OG OG961602 with 4 proteins
+2025-02-26 15:46:25,985 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp8_8ii08h
+2025-02-26 15:46:26,172 - read2tree.Aligner - DEBUG - aligning OG OG953187 with 4 proteins
+2025-02-26 15:46:26,172 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp2lg1bjxr
+2025-02-26 15:46:26,355 - read2tree.Aligner - DEBUG - aligning OG OG814084 with 4 proteins
+2025-02-26 15:46:26,356 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpcmc0t3dn
+2025-02-26 15:46:26,554 - read2tree.Aligner - DEBUG - aligning OG OG699681 with 4 proteins
+2025-02-26 15:46:26,554 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmphnp0gmip
+2025-02-26 15:46:26,735 - read2tree.Aligner - DEBUG - aligning OG OG946387 with 4 proteins
+2025-02-26 15:46:26,735 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmprxfn24vk
+2025-02-26 15:46:26,978 - read2tree.Aligner - DEBUG - aligning OG OG946885 with 4 proteins
+2025-02-26 15:46:26,979 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpuqpjt9e_
+2025-02-26 15:46:27,179 - read2tree.Aligner - DEBUG - aligning OG OG1214309 with 4 proteins
+2025-02-26 15:46:27,180 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpejn_m57v
+2025-02-26 15:46:27,354 - read2tree.Aligner - DEBUG - aligning OG OG341995 with 4 proteins
+2025-02-26 15:46:27,355 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpp1ght2kx
+2025-02-26 15:46:29,170 - read2tree.Aligner - DEBUG - aligning OG OG1079985 with 4 proteins
+2025-02-26 15:46:29,171 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp28fysoea
+2025-02-26 15:46:29,621 - read2tree.Aligner - DEBUG - aligning OG OG976835 with 4 proteins
+2025-02-26 15:46:29,622 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp1r5rc_t7
+2025-02-26 15:46:29,850 - read2tree.Aligner - DEBUG - aligning OG OG675570 with 4 proteins
+2025-02-26 15:46:29,850 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpprr6zu6_
+2025-02-26 15:46:30,047 - read2tree.Aligner - DEBUG - aligning OG OG971355 with 4 proteins
+2025-02-26 15:46:30,047 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpbki39y0r
+2025-02-26 15:46:30,263 - read2tree.Aligner - DEBUG - aligning OG OG1223272 with 4 proteins
+2025-02-26 15:46:30,263 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp2tzdob3t
+2025-02-26 15:46:30,521 - read2tree.Aligner - DEBUG - aligning OG OG1224967 with 4 proteins
+2025-02-26 15:46:30,521 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpc0lxh6m8
+2025-02-26 15:46:30,739 - read2tree.Aligner - DEBUG - aligning OG OG457329 with 4 proteins
+2025-02-26 15:46:30,739 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmptumqzoax
+2025-02-26 15:46:30,929 - read2tree.Aligner - DEBUG - aligning OG OG961439 with 4 proteins
+2025-02-26 15:46:30,929 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpnxh3zzyu
+2025-02-26 15:46:31,137 - read2tree.Aligner - DEBUG - aligning OG OG998211 with 4 proteins
+2025-02-26 15:46:31,138 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpd9vxwq1x
+2025-02-26 15:46:31,605 - read2tree.Aligner - DEBUG - aligning OG OG673136 with 4 proteins
+2025-02-26 15:46:31,606 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmphlq1zk9u
+2025-02-26 15:46:31,812 - read2tree.Aligner - DEBUG - aligning OG OG1139777 with 4 proteins
+2025-02-26 15:46:31,813 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp6p9vam_k
+2025-02-26 15:46:31,990 - read2tree.Aligner - DEBUG - aligning OG OG1221689 with 4 proteins
+2025-02-26 15:46:31,990 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp_8txcay2
+2025-02-26 15:46:32,237 - read2tree.Aligner - DEBUG - aligning OG OG1222683 with 4 proteins
+2025-02-26 15:46:32,238 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpfg6us84v
+2025-02-26 15:46:32,466 - read2tree.Aligner - DEBUG - aligning OG OG1215812 with 4 proteins
+2025-02-26 15:46:32,466 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp7e7ltzjg
+2025-02-26 15:46:32,644 - read2tree.Aligner - DEBUG - aligning OG OG896170 with 4 proteins
+2025-02-26 15:46:32,644 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpi26dpqpr
+2025-02-26 15:46:32,866 - read2tree.Aligner - DEBUG - aligning OG OG1231177 with 4 proteins
+2025-02-26 15:46:32,867 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp5r_tak9t
+2025-02-26 15:46:33,084 - read2tree.Aligner - DEBUG - aligning OG OG961115 with 4 proteins
+2025-02-26 15:46:33,084 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp3jbx1e06
+2025-02-26 15:46:33,276 - read2tree.Aligner - DEBUG - aligning OG OG911937 with 4 proteins
+2025-02-26 15:46:33,276 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmps5_wm3ga
+2025-02-26 15:46:33,505 - read2tree.Aligner - DEBUG - aligning OG OG924410 with 4 proteins
+2025-02-26 15:46:33,506 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpn7ttrt0d
+2025-02-26 15:46:34,374 - read2tree.Aligner - DEBUG - aligning OG OG792952 with 4 proteins
+2025-02-26 15:46:34,374 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp93qdndfj
+2025-02-26 15:46:34,565 - read2tree.Aligner - DEBUG - aligning OG OG792914 with 4 proteins
+2025-02-26 15:46:34,566 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp1n5niny5
+2025-02-26 15:46:34,761 - read2tree.Aligner - DEBUG - aligning OG OG1244115 with 4 proteins
+2025-02-26 15:46:34,762 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpyrdoynoz
+2025-02-26 15:46:34,940 - read2tree.Aligner - DEBUG - aligning OG OG1170587 with 4 proteins
+2025-02-26 15:46:34,940 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpz6upxomi
+2025-02-26 15:46:35,330 - read2tree.Aligner - DEBUG - aligning OG OG1226379 with 4 proteins
+2025-02-26 15:46:35,330 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpx74spw5s
+2025-02-26 15:46:35,544 - read2tree.Aligner - DEBUG - aligning OG OG458150 with 4 proteins
+2025-02-26 15:46:35,545 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpgrirwbk8
+2025-02-26 15:46:35,722 - read2tree.Aligner - DEBUG - aligning OG OG975279 with 4 proteins
+2025-02-26 15:46:35,723 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpu1sqei5j
+2025-02-26 15:46:35,935 - read2tree.Aligner - DEBUG - aligning OG OG1174891 with 4 proteins
+2025-02-26 15:46:35,935 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpcq15am6o
+2025-02-26 15:46:36,124 - read2tree.Aligner - DEBUG - aligning OG OG455346 with 4 proteins
+2025-02-26 15:46:36,124 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpuacu67zr
+2025-02-26 15:46:36,321 - read2tree.Aligner - DEBUG - aligning OG OG1240929 with 4 proteins
+2025-02-26 15:46:36,322 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpw_7v_pao
+2025-02-26 15:46:36,514 - read2tree.Aligner - DEBUG - aligning OG OG822311 with 4 proteins
+2025-02-26 15:46:36,514 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpn0ummjll
+2025-02-26 15:46:36,796 - read2tree.Aligner - DEBUG - aligning OG OG420493 with 4 proteins
+2025-02-26 15:46:36,796 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp5ml1qdob
+2025-02-26 15:46:36,978 - read2tree.Aligner - DEBUG - aligning OG OG665560 with 4 proteins
+2025-02-26 15:46:36,978 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp83o_n28i
+2025-02-26 15:46:37,366 - read2tree.Aligner - DEBUG - aligning OG OG420768 with 4 proteins
+2025-02-26 15:46:37,366 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp0vyndzvd
+2025-02-26 15:46:37,666 - read2tree.Aligner - DEBUG - aligning OG OG1181227 with 4 proteins
+2025-02-26 15:46:37,666 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmplmffun4p
+2025-02-26 15:46:37,893 - read2tree.Aligner - DEBUG - aligning OG OG342477 with 4 proteins
+2025-02-26 15:46:37,893 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpdt2xisfw
+2025-02-26 15:46:38,284 - read2tree.Aligner - DEBUG - aligning OG OG966098 with 4 proteins
+2025-02-26 15:46:38,284 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpz5f7_2qt
+2025-02-26 15:46:38,554 - read2tree.Aligner - DEBUG - aligning OG OG419349 with 4 proteins
+2025-02-26 15:46:38,554 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp6a3cff1v
+2025-02-26 15:46:38,883 - read2tree.Aligner - DEBUG - aligning OG OG736122 with 4 proteins
+2025-02-26 15:46:38,883 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp513z1mon
+2025-02-26 15:46:39,073 - read2tree.Aligner - DEBUG - aligning OG OG1251119 with 4 proteins
+2025-02-26 15:46:39,074 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpat63d6zf
+2025-02-26 15:46:39,278 - read2tree.Aligner - DEBUG - aligning OG OG796653 with 4 proteins
+2025-02-26 15:46:39,279 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp7__2h3oz
+2025-02-26 15:46:39,588 - read2tree.Aligner - DEBUG - aligning OG OG793899 with 4 proteins
+2025-02-26 15:46:39,589 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpk_a3cpbs
+2025-02-26 15:46:39,767 - read2tree.Aligner - DEBUG - aligning OG OG899270 with 4 proteins
+2025-02-26 15:46:39,768 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpn9nuiyp5
+2025-02-26 15:46:39,988 - read2tree.Aligner - DEBUG - aligning OG OG456648 with 4 proteins
+2025-02-26 15:46:39,989 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpd_s7xdlb
+2025-02-26 15:46:40,220 - read2tree.Aligner - DEBUG - aligning OG OG1251552 with 4 proteins
+2025-02-26 15:46:40,220 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpm3tvchyx
+2025-02-26 15:46:40,397 - read2tree.Aligner - DEBUG - aligning OG OG1189787 with 4 proteins
+2025-02-26 15:46:40,398 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp1b41ie_7
+2025-02-26 15:46:40,578 - read2tree.Aligner - DEBUG - aligning OG OG962019 with 4 proteins
+2025-02-26 15:46:40,579 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpg4mzhatt
+2025-02-26 15:46:40,769 - read2tree.Aligner - DEBUG - aligning OG OG967514 with 4 proteins
+2025-02-26 15:46:40,770 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpqq8vyd7i
+2025-02-26 15:46:41,087 - read2tree.Aligner - DEBUG - aligning OG OG762076 with 4 proteins
+2025-02-26 15:46:41,087 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpg3ccgop9
+2025-02-26 15:46:41,274 - read2tree.Aligner - DEBUG - aligning OG OG1198488 with 4 proteins
+2025-02-26 15:46:41,275 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpxvndyaal
+2025-02-26 15:46:41,495 - read2tree.Aligner - DEBUG - aligning OG OG456691 with 4 proteins
+2025-02-26 15:46:41,496 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpp0ifm6ue
+2025-02-26 15:46:41,708 - read2tree.Aligner - DEBUG - aligning OG OG1203459 with 4 proteins
+2025-02-26 15:46:41,709 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpq2j4fpvg
+2025-02-26 15:46:41,896 - read2tree.Aligner - DEBUG - aligning OG OG1139996 with 4 proteins
+2025-02-26 15:46:41,897 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpzwbjmk66
+2025-02-26 15:46:42,111 - read2tree.Aligner - DEBUG - aligning OG OG1208321 with 4 proteins
+2025-02-26 15:46:42,112 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpaxd1coqf
+2025-02-26 15:46:42,439 - read2tree.Aligner - DEBUG - aligning OG OG1240968 with 4 proteins
+2025-02-26 15:46:42,440 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpxin10j6p
+2025-02-26 15:46:42,649 - read2tree.Aligner - DEBUG - aligning OG OG961322 with 4 proteins
+2025-02-26 15:46:42,649 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp7z_42jch
+2025-02-26 15:46:42,827 - read2tree.Aligner - DEBUG - aligning OG OG698997 with 4 proteins
+2025-02-26 15:46:42,828 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpkgp9lxmc
+2025-02-26 15:46:43,192 - read2tree.Aligner - DEBUG - aligning OG OG1219581 with 4 proteins
+2025-02-26 15:46:43,193 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpdgfpxp70
+2025-02-26 15:46:43,415 - read2tree.Aligner - DEBUG - aligning OG OG823022 with 4 proteins
+2025-02-26 15:46:43,416 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpnsj6r6ri
+2025-02-26 15:46:43,622 - read2tree.Aligner - DEBUG - aligning OG OG1174608 with 4 proteins
+2025-02-26 15:46:43,622 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp76bmkxa9
+2025-02-26 15:46:43,801 - read2tree.Aligner - DEBUG - aligning OG OG839253 with 4 proteins
+2025-02-26 15:46:43,802 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpztq0g65e
+2025-02-26 15:46:43,981 - read2tree.Aligner - DEBUG - aligning OG OG1150674 with 4 proteins
+2025-02-26 15:46:43,981 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp5asuos6a
+2025-02-26 15:46:44,168 - read2tree.Aligner - DEBUG - aligning OG OG348620 with 4 proteins
+2025-02-26 15:46:44,169 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpl3nzx2r5
+2025-02-26 15:46:44,373 - read2tree.Aligner - DEBUG - aligning OG OG674682 with 4 proteins
+2025-02-26 15:46:44,373 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpw9ntwhk9
+2025-02-26 15:46:44,565 - read2tree.Aligner - DEBUG - aligning OG OG964673 with 4 proteins
+2025-02-26 15:46:44,565 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp167ql48k
+2025-02-26 15:46:44,750 - read2tree.Aligner - DEBUG - aligning OG OG373241 with 4 proteins
+2025-02-26 15:46:44,750 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpg9i9kl6m
+2025-02-26 15:46:44,926 - read2tree.Aligner - DEBUG - aligning OG OG960979 with 4 proteins
+2025-02-26 15:46:44,927 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp1elo7rhb
+2025-02-26 15:46:45,125 - read2tree.Aligner - DEBUG - aligning OG OG1240325 with 4 proteins
+2025-02-26 15:46:45,125 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp6g32z0lm
+2025-02-26 15:46:45,314 - read2tree.Aligner - DEBUG - aligning OG OG1240328 with 4 proteins
+2025-02-26 15:46:45,314 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp2vqhgtvw
+2025-02-26 15:46:45,508 - read2tree.Aligner - DEBUG - aligning OG OG1231901 with 4 proteins
+2025-02-26 15:46:45,509 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp02z85j1n
+2025-02-26 15:46:45,788 - read2tree.Aligner - DEBUG - aligning OG OG1194738 with 4 proteins
+2025-02-26 15:46:45,789 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpur93zhib
+2025-02-26 15:46:45,995 - read2tree.Aligner - DEBUG - aligning OG OG1214658 with 4 proteins
+2025-02-26 15:46:45,995 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmptyvq7n9r
+2025-02-26 15:46:46,180 - read2tree.Aligner - DEBUG - aligning OG OG344070 with 4 proteins
+2025-02-26 15:46:46,181 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpqkyx6wwt
+2025-02-26 15:46:46,738 - read2tree.Aligner - DEBUG - aligning OG OG925865 with 4 proteins
+2025-02-26 15:46:46,739 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpu_abqxoq
+2025-02-26 15:46:46,926 - read2tree.Aligner - DEBUG - aligning OG OG1202204 with 4 proteins
+2025-02-26 15:46:46,926 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpkl2rufhs
+2025-02-26 15:46:47,110 - read2tree.Aligner - DEBUG - aligning OG OG977782 with 4 proteins
+2025-02-26 15:46:47,110 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpdh76nq_l
+2025-02-26 15:46:47,363 - read2tree.Aligner - DEBUG - aligning OG OG351572 with 4 proteins
+2025-02-26 15:46:47,363 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp7b7d22xq
+2025-02-26 15:46:47,559 - read2tree.Aligner - DEBUG - aligning OG OG1218157 with 4 proteins
+2025-02-26 15:46:47,560 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpsakfcawr
+2025-02-26 15:46:47,744 - read2tree.Aligner - DEBUG - aligning OG OG926503 with 4 proteins
+2025-02-26 15:46:47,745 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpuihsj902
+2025-02-26 15:46:47,920 - read2tree.Aligner - DEBUG - aligning OG OG817086 with 4 proteins
+2025-02-26 15:46:47,920 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpn4q55okf
+2025-02-26 15:46:48,106 - read2tree.Aligner - DEBUG - aligning OG OG949490 with 4 proteins
+2025-02-26 15:46:48,106 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpc4repkxp
+2025-02-26 15:46:48,296 - read2tree.Aligner - DEBUG - aligning OG OG451043 with 4 proteins
+2025-02-26 15:46:48,296 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpuz6wvicn
+2025-02-26 15:46:48,483 - read2tree.Aligner - DEBUG - aligning OG OG451038 with 4 proteins
+2025-02-26 15:46:48,483 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpgwta6q1t
+2025-02-26 15:46:48,667 - read2tree.Aligner - DEBUG - aligning OG OG784747 with 4 proteins
+2025-02-26 15:46:48,668 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpjgem7b2q
+2025-02-26 15:46:48,851 - read2tree.Aligner - DEBUG - aligning OG OG978616 with 4 proteins
+2025-02-26 15:46:48,852 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp7ri6x8hl
+2025-02-26 15:46:49,131 - read2tree.Aligner - DEBUG - aligning OG OG1218158 with 4 proteins
+2025-02-26 15:46:49,131 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp0hmgl8ql
+2025-02-26 15:46:49,318 - read2tree.Aligner - DEBUG - aligning OG OG1236745 with 4 proteins
+2025-02-26 15:46:49,318 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpwlg2ip21
+2025-02-26 15:46:49,508 - read2tree.Aligner - DEBUG - aligning OG OG1190683 with 4 proteins
+2025-02-26 15:46:49,509 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp4ph6awjc
+2025-02-26 15:46:49,707 - read2tree.Aligner - DEBUG - aligning OG OG853434 with 4 proteins
+2025-02-26 15:46:49,707 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpbcww81aa
+2025-02-26 15:46:49,886 - read2tree.Aligner - DEBUG - aligning OG OG962230 with 4 proteins
+2025-02-26 15:46:49,886 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpb69krv63
+2025-02-26 15:46:50,067 - read2tree.Aligner - DEBUG - aligning OG OG1230391 with 4 proteins
+2025-02-26 15:46:50,068 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp0g7gwgoa
+2025-02-26 15:46:50,262 - read2tree.Aligner - DEBUG - aligning OG OG352732 with 4 proteins
+2025-02-26 15:46:50,263 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpccraso2d
+2025-02-26 15:46:50,469 - read2tree.Aligner - DEBUG - aligning OG OG823037 with 4 proteins
+2025-02-26 15:46:50,470 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp__4xwofs
+2025-02-26 15:46:50,672 - read2tree.Aligner - DEBUG - aligning OG OG964344 with 4 proteins
+2025-02-26 15:46:50,672 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpkgqucftn
+2025-02-26 15:46:50,877 - read2tree.Aligner - DEBUG - aligning OG OG456720 with 4 proteins
+2025-02-26 15:46:50,877 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp_c23tukt
+2025-02-26 15:46:51,064 - read2tree.Aligner - DEBUG - aligning OG OG1146505 with 4 proteins
+2025-02-26 15:46:51,064 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpb7s8v36c
+2025-02-26 15:46:51,357 - read2tree.Aligner - DEBUG - aligning OG OG671266 with 4 proteins
+2025-02-26 15:46:51,358 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpoloh4vaf
+2025-02-26 15:46:51,908 - read2tree.Aligner - DEBUG - aligning OG OG664391 with 4 proteins
+2025-02-26 15:46:51,909 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp4g0mqlak
+2025-02-26 15:46:52,123 - read2tree.Aligner - DEBUG - aligning OG OG722946 with 4 proteins
+2025-02-26 15:46:52,123 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpaociimw3
+2025-02-26 15:46:52,320 - read2tree.Aligner - DEBUG - aligning OG OG961377 with 4 proteins
+2025-02-26 15:46:52,321 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpez16g7b4
+2025-02-26 15:46:52,515 - read2tree.Aligner - DEBUG - aligning OG OG1146507 with 4 proteins
+2025-02-26 15:46:52,515 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpo09cbrkr
+2025-02-26 15:46:52,820 - read2tree.Aligner - DEBUG - aligning OG OG986274 with 4 proteins
+2025-02-26 15:46:52,820 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpxm74fxkh
+2025-02-26 15:46:53,041 - read2tree.Aligner - DEBUG - aligning OG OG988784 with 4 proteins
+2025-02-26 15:46:53,042 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpi0f5u43e
+2025-02-26 15:46:53,918 - read2tree.Aligner - DEBUG - aligning OG OG362633 with 4 proteins
+2025-02-26 15:46:53,918 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpxnmctxty
+2025-02-26 15:46:54,145 - read2tree.Aligner - DEBUG - aligning OG OG375937 with 4 proteins
+2025-02-26 15:46:54,146 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp4p8s8s6s
+2025-02-26 15:46:54,346 - read2tree.Aligner - DEBUG - aligning OG OG949414 with 4 proteins
+2025-02-26 15:46:54,347 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpmu5h_ubj
+2025-02-26 15:46:54,530 - read2tree.Aligner - DEBUG - aligning OG OG917347 with 4 proteins
+2025-02-26 15:46:54,530 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmppj4mapk2
+2025-02-26 15:46:54,722 - read2tree.Aligner - DEBUG - aligning OG OG1081004 with 4 proteins
+2025-02-26 15:46:54,722 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpggqyjgaa
+2025-02-26 15:46:55,000 - read2tree.Aligner - DEBUG - aligning OG OG960945 with 4 proteins
+2025-02-26 15:46:55,001 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpdwuyu8ot
+2025-02-26 15:46:55,217 - read2tree.Aligner - DEBUG - aligning OG OG968775 with 4 proteins
+2025-02-26 15:46:55,217 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmphj7oen5d
+2025-02-26 15:46:55,469 - read2tree.Aligner - DEBUG - aligning OG OG708597 with 4 proteins
+2025-02-26 15:46:55,469 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp04ul3hrw
+2025-02-26 15:46:55,785 - read2tree.Aligner - DEBUG - aligning OG OG1197765 with 4 proteins
+2025-02-26 15:46:55,785 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpsito3as8
+2025-02-26 15:46:55,972 - read2tree.Aligner - DEBUG - aligning OG OG1168476 with 4 proteins
+2025-02-26 15:46:55,973 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpo9b1rma5
+2025-02-26 15:46:56,177 - read2tree.Aligner - DEBUG - aligning OG OG971123 with 4 proteins
+2025-02-26 15:46:56,177 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpdpzf44_l
+2025-02-26 15:46:56,449 - read2tree.Aligner - DEBUG - aligning OG OG761976 with 4 proteins
+2025-02-26 15:46:56,449 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp31uj6lgg
+2025-02-26 15:46:56,678 - read2tree.Aligner - DEBUG - aligning OG OG979200 with 4 proteins
+2025-02-26 15:46:56,679 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpdv_yw5ps
+2025-02-26 15:46:56,915 - read2tree.Aligner - DEBUG - aligning OG OG814870 with 4 proteins
+2025-02-26 15:46:56,915 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp3ji8rqtu
+2025-02-26 15:46:57,685 - read2tree.Aligner - DEBUG - aligning OG OG1225085 with 4 proteins
+2025-02-26 15:46:57,686 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp85ieyitu
+2025-02-26 15:46:58,200 - read2tree.Aligner - DEBUG - aligning OG OG1229017 with 4 proteins
+2025-02-26 15:46:58,200 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpygiezlit
+2025-02-26 15:46:58,500 - read2tree.Aligner - DEBUG - aligning OG OG1204971 with 4 proteins
+2025-02-26 15:46:58,501 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpu_k44rhf
+2025-02-26 15:46:59,512 - read2tree.Aligner - DEBUG - aligning OG OG369576 with 4 proteins
+2025-02-26 15:46:59,513 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp24tius9x
+2025-02-26 15:46:59,698 - read2tree.Aligner - DEBUG - aligning OG OG457572 with 4 proteins
+2025-02-26 15:46:59,698 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp4v90pfda
+2025-02-26 15:46:59,883 - read2tree.Aligner - DEBUG - aligning OG OG1191966 with 4 proteins
+2025-02-26 15:46:59,883 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp1hbwle3s
+2025-02-26 15:47:00,112 - read2tree.Aligner - DEBUG - aligning OG OG456338 with 4 proteins
+2025-02-26 15:47:00,112 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpobyo30ht
+2025-02-26 15:47:00,880 - read2tree.Aligner - DEBUG - aligning OG OG1246006 with 4 proteins
+2025-02-26 15:47:00,881 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpkkzsqrcu
+2025-02-26 15:47:01,074 - read2tree.Aligner - DEBUG - aligning OG OG1198490 with 4 proteins
+2025-02-26 15:47:01,074 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpcarbjwb_
+2025-02-26 15:47:01,283 - read2tree.Aligner - DEBUG - aligning OG OG1168250 with 4 proteins
+2025-02-26 15:47:01,284 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpllriz7so
+2025-02-26 15:47:01,464 - read2tree.Aligner - DEBUG - aligning OG OG1216622 with 4 proteins
+2025-02-26 15:47:01,464 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp7lejlj2b
+2025-02-26 15:47:01,666 - read2tree.Aligner - DEBUG - aligning OG OG1202789 with 4 proteins
+2025-02-26 15:47:01,667 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp8otcr4p8
+2025-02-26 15:47:02,017 - read2tree.Aligner - DEBUG - aligning OG OG1223886 with 4 proteins
+2025-02-26 15:47:02,017 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpym5mkfzc
+2025-02-26 15:47:02,203 - read2tree.Aligner - DEBUG - aligning OG OG790850 with 4 proteins
+2025-02-26 15:47:02,203 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpzlkmim6y
+2025-02-26 15:47:02,402 - read2tree.Aligner - DEBUG - aligning OG OG978865 with 4 proteins
+2025-02-26 15:47:02,403 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpe7wolhp9
+2025-02-26 15:47:02,598 - read2tree.Aligner - DEBUG - aligning OG OG1192905 with 4 proteins
+2025-02-26 15:47:02,599 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpzqi_u47g
+2025-02-26 15:47:02,794 - read2tree.Aligner - DEBUG - aligning OG OG456479 with 4 proteins
+2025-02-26 15:47:02,795 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpdshxv8sj
+2025-02-26 15:47:03,052 - read2tree.Aligner - DEBUG - aligning OG OG1212040 with 4 proteins
+2025-02-26 15:47:03,053 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpcpry4n6c
+2025-02-26 15:47:03,738 - read2tree.Aligner - DEBUG - aligning OG OG1218490 with 4 proteins
+2025-02-26 15:47:03,739 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp5gs25nt2
+2025-02-26 15:47:03,945 - read2tree.Aligner - DEBUG - aligning OG OG961011 with 4 proteins
+2025-02-26 15:47:03,946 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp_n1iele8
+2025-02-26 15:47:04,290 - read2tree.Aligner - DEBUG - aligning OG OG964929 with 4 proteins
+2025-02-26 15:47:04,291 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmps_n0fztg
+2025-02-26 15:47:04,538 - read2tree.Aligner - DEBUG - aligning OG OG877291 with 4 proteins
+2025-02-26 15:47:04,539 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpntic2kkk
+2025-02-26 15:47:04,756 - read2tree.Aligner - DEBUG - aligning OG OG961299 with 4 proteins
+2025-02-26 15:47:04,757 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp9otnfn8v
+2025-02-26 15:47:05,053 - read2tree.Aligner - DEBUG - aligning OG OG719374 with 4 proteins
+2025-02-26 15:47:05,053 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpj1rrbijp
+2025-02-26 15:47:05,497 - read2tree.Aligner - DEBUG - aligning OG OG1183200 with 4 proteins
+2025-02-26 15:47:05,497 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp_dvl293o
+2025-02-26 15:47:05,690 - read2tree.Aligner - DEBUG - aligning OG OG916860 with 4 proteins
+2025-02-26 15:47:05,691 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp0duip49s
+2025-02-26 15:47:05,884 - read2tree.Aligner - DEBUG - aligning OG OG1179969 with 4 proteins
+2025-02-26 15:47:05,885 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpa41c9hiz
+2025-02-26 15:47:06,205 - read2tree.Aligner - DEBUG - aligning OG OG846448 with 4 proteins
+2025-02-26 15:47:06,205 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpiffwhp6g
+2025-02-26 15:47:06,397 - read2tree.Aligner - DEBUG - aligning OG OG944937 with 4 proteins
+2025-02-26 15:47:06,398 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp1clh_d97
+2025-02-26 15:47:06,601 - read2tree.Aligner - DEBUG - aligning OG OG1162063 with 4 proteins
+2025-02-26 15:47:06,601 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpz3f97bqx
+2025-02-26 15:47:06,812 - read2tree.Aligner - DEBUG - aligning OG OG823032 with 4 proteins
+2025-02-26 15:47:06,813 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp9fqv0e2_
+2025-02-26 15:47:07,017 - read2tree.Aligner - DEBUG - aligning OG OG932017 with 4 proteins
+2025-02-26 15:47:07,017 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp99dgipnl
+2025-02-26 15:47:07,230 - read2tree.Aligner - DEBUG - aligning OG OG970502 with 4 proteins
+2025-02-26 15:47:07,230 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpvsbl0eji
+2025-02-26 15:47:07,425 - read2tree.Aligner - DEBUG - aligning OG OG1242667 with 4 proteins
+2025-02-26 15:47:07,426 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpuuvcz4ee
+2025-02-26 15:47:07,702 - read2tree.Aligner - DEBUG - aligning OG OG961440 with 4 proteins
+2025-02-26 15:47:07,702 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp1dr908fe
+2025-02-26 15:47:07,909 - read2tree.Aligner - DEBUG - aligning OG OG963232 with 4 proteins
+2025-02-26 15:47:07,910 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpxwwomcbg
+2025-02-26 15:47:08,107 - read2tree.Aligner - DEBUG - aligning OG OG1176412 with 4 proteins
+2025-02-26 15:47:08,107 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpkkp11hv3
+2025-02-26 15:47:08,433 - read2tree.Aligner - DEBUG - aligning OG OG1179948 with 4 proteins
+2025-02-26 15:47:08,433 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpfoav6kjf
+2025-02-26 15:47:08,617 - read2tree.Aligner - DEBUG - aligning OG OG454890 with 4 proteins
+2025-02-26 15:47:08,618 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpzrx9oejo
+2025-02-26 15:47:08,813 - read2tree.Aligner - DEBUG - aligning OG OG828830 with 4 proteins
+2025-02-26 15:47:08,813 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpcha1rb26
+2025-02-26 15:47:08,996 - read2tree.Aligner - DEBUG - aligning OG OG1150857 with 4 proteins
+2025-02-26 15:47:08,996 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp_q2fdq61
+2025-02-26 15:47:09,218 - read2tree.Aligner - DEBUG - aligning OG OG703365 with 4 proteins
+2025-02-26 15:47:09,219 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpntsf4gez
+2025-02-26 15:47:09,430 - read2tree.Aligner - DEBUG - aligning OG OG961013 with 4 proteins
+2025-02-26 15:47:09,431 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp90xedmi0
+2025-02-26 15:47:09,653 - read2tree.Aligner - DEBUG - aligning OG OG1235653 with 4 proteins
+2025-02-26 15:47:09,654 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpwzvzdt1k
+2025-02-26 15:47:09,883 - read2tree.Aligner - DEBUG - aligning OG OG457108 with 4 proteins
+2025-02-26 15:47:09,883 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpalasvxwm
+2025-02-26 15:47:10,071 - read2tree.Aligner - DEBUG - aligning OG OG932104 with 4 proteins
+2025-02-26 15:47:10,072 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp0hql9yq6
+2025-02-26 15:47:10,286 - read2tree.Aligner - DEBUG - aligning OG OG661167 with 4 proteins
+2025-02-26 15:47:10,287 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp4h3t8y6l
+2025-02-26 15:47:10,479 - read2tree.Aligner - DEBUG - aligning OG OG931899 with 4 proteins
+2025-02-26 15:47:10,480 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpfbuqp0fm
+2025-02-26 15:47:10,692 - read2tree.Aligner - DEBUG - aligning OG OG1138880 with 4 proteins
+2025-02-26 15:47:10,692 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpfpqitabz
+2025-02-26 15:47:10,881 - read2tree.Aligner - DEBUG - aligning OG OG953548 with 4 proteins
+2025-02-26 15:47:10,881 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpfvcs3s7i
+2025-02-26 15:47:11,107 - read2tree.Aligner - DEBUG - aligning OG OG986805 with 4 proteins
+2025-02-26 15:47:11,108 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpohoq7m44
+2025-02-26 15:47:11,865 - read2tree.Aligner - DEBUG - aligning OG OG961564 with 4 proteins
+2025-02-26 15:47:11,865 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp1wn03l1o
+2025-02-26 15:47:12,095 - read2tree.Aligner - DEBUG - aligning OG OG1144131 with 4 proteins
+2025-02-26 15:47:12,095 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpjimc9w1u
+2025-02-26 15:47:12,350 - read2tree.Aligner - DEBUG - aligning OG OG696447 with 4 proteins
+2025-02-26 15:47:12,350 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp3w6gha8z
+2025-02-26 15:47:12,540 - read2tree.Aligner - DEBUG - aligning OG OG460076 with 4 proteins
+2025-02-26 15:47:12,540 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp3sexdxbm
+2025-02-26 15:47:12,835 - read2tree.Aligner - DEBUG - aligning OG OG1152239 with 4 proteins
+2025-02-26 15:47:12,836 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpin7k1mh4
+2025-02-26 15:47:13,028 - read2tree.Aligner - DEBUG - aligning OG OG968364 with 4 proteins
+2025-02-26 15:47:13,029 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmp58_m0aya
+2025-02-26 15:47:13,271 - read2tree.Aligner - DEBUG - aligning OG OG362545 with 4 proteins
+2025-02-26 15:47:13,271 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/mafft --auto --maxiterate 1000 --amino /tmp/tmpaegbg_4w
+2025-02-26 15:47:13,486 - read2tree.Aligner - INFO - : Alignment of 200 OGs took 52.647783279418945.
+2025-02-26 16:02:37,834 - read2tree.Mapper - DEBUG - --- Creating tmp directory on local node ---
+2025-02-26 16:02:37,840 - read2tree.Mapper - INFO - 1_A_aegypti_1: --- Mapping of reads to ANOST reference species ---
+2025-02-26 16:02:37,841 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_0n8gqx2g/ANOST_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/1_A_aegypti_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/1_A_aegypti_2.fastq.gz -o /tmp/ngm_0n8gqx2g/ANOST_OGs.fa.bam
+2025-02-26 16:02:37,857 - read2tree.Mapper - DEBUG - --- Creating tmp directory on local node ---
+2025-02-26 16:02:37,862 - read2tree.Mapper - INFO - 2_A_albimanus_1: --- Mapping of reads to ANOST reference species ---
+2025-02-26 16:02:37,863 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_j6bzatoj/ANOST_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/2_A_albimanus_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/2_A_albimanus_2.fastq.gz -o /tmp/ngm_j6bzatoj/ANOST_OGs.fa.bam
+2025-02-26 16:02:37,962 - read2tree.Mapper - DEBUG - --- Creating tmp directory on local node ---
+2025-02-26 16:02:37,968 - read2tree.Mapper - INFO - 8_A_dirus_1: --- Mapping of reads to ANOST reference species ---
+2025-02-26 16:02:37,968 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_110jthc4/ANOST_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/8_A_dirus_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/8_A_dirus_2.fastq.gz -o /tmp/ngm_110jthc4/ANOST_OGs.fa.bam
+2025-02-26 16:02:37,999 - read2tree.Mapper - DEBUG - --- Creating tmp directory on local node ---
+2025-02-26 16:02:37,999 - read2tree.Mapper - DEBUG - --- Creating tmp directory on local node ---
+2025-02-26 16:02:38,004 - read2tree.Mapper - INFO - 4_A_atroparvus_1: --- Mapping of reads to ANOST reference species ---
+2025-02-26 16:02:38,005 - read2tree.Mapper - INFO - 6_A_culici_1: --- Mapping of reads to ANOST reference species ---
+2025-02-26 16:02:38,005 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_ms26n_dg/ANOST_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/4_A_atroparvus_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/4_A_atroparvus_2.fastq.gz -o /tmp/ngm_ms26n_dg/ANOST_OGs.fa.bam
+2025-02-26 16:02:38,006 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_hsg358b6/ANOST_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/6_A_culici_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/6_A_culici_2.fastq.gz -o /tmp/ngm_hsg358b6/ANOST_OGs.fa.bam
+2025-02-26 16:02:38,054 - read2tree.Mapper - DEBUG - --- Creating tmp directory on local node ---
+2025-02-26 16:02:38,060 - read2tree.Mapper - INFO - 17_A_quad_combined_1: --- Mapping of reads to ANOST reference species ---
+2025-02-26 16:02:38,062 - read2tree.Mapper - DEBUG - --- Creating tmp directory on local node ---
+2025-02-26 16:02:38,068 - read2tree.Mapper - INFO - 19_A_stephensi_1: --- Mapping of reads to ANOST reference species ---
+2025-02-26 16:02:38,062 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_31dzdyyb/ANOST_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/17_A_quad_combined_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/17_A_quad_combined_2.fastq.gz -o /tmp/ngm_31dzdyyb/ANOST_OGs.fa.bam
+2025-02-26 16:02:38,069 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm__be_vwhz/ANOST_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/19_A_stephensi_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/19_A_stephensi_2.fastq.gz -o /tmp/ngm__be_vwhz/ANOST_OGs.fa.bam
+2025-02-26 16:02:38,202 - read2tree.Mapper - DEBUG - --- Creating tmp directory on local node ---
+2025-02-26 16:02:38,208 - read2tree.Mapper - INFO - 12_A_gambiae_1: --- Mapping of reads to ANOST reference species ---
+2025-02-26 16:02:38,215 - read2tree.Mapper - DEBUG - --- Creating tmp directory on local node ---
+2025-02-26 16:02:38,210 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_jeatrd0l/ANOST_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/12_A_gambiae_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/12_A_gambiae_2.fastq.gz -o /tmp/ngm_jeatrd0l/ANOST_OGs.fa.bam
+2025-02-26 16:02:38,221 - read2tree.Mapper - INFO - 5_A_christyi_1: --- Mapping of reads to ANOST reference species ---
+2025-02-26 16:02:38,222 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_7a_j22o3/ANOST_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/5_A_christyi_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/5_A_christyi_2.fastq.gz -o /tmp/ngm_7a_j22o3/ANOST_OGs.fa.bam
+2025-02-26 16:02:38,247 - read2tree.Mapper - DEBUG - --- Creating tmp directory on local node ---
+2025-02-26 16:02:38,253 - read2tree.Mapper - INFO - 11_A_funestris_1: --- Mapping of reads to ANOST reference species ---
+2025-02-26 16:02:38,254 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_i70dyles/ANOST_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/11_A_funestris_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/11_A_funestris_2.fastq.gz -o /tmp/ngm_i70dyles/ANOST_OGs.fa.bam
+2025-02-26 16:02:38,275 - read2tree.Mapper - DEBUG - --- Creating tmp directory on local node ---
+2025-02-26 16:02:38,281 - read2tree.Mapper - INFO - 13_A_maculatus_1: --- Mapping of reads to ANOST reference species ---
+2025-02-26 16:02:38,282 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_k0s6rk33/ANOST_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/13_A_maculatus_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/13_A_maculatus_2.fastq.gz -o /tmp/ngm_k0s6rk33/ANOST_OGs.fa.bam
+2025-02-26 16:02:38,322 - read2tree.Mapper - DEBUG - --- Creating tmp directory on local node ---
+2025-02-26 16:02:38,329 - read2tree.Mapper - INFO - 10_A_farauti_1: --- Mapping of reads to ANOST reference species ---
+2025-02-26 16:02:38,331 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_kl6va65y/ANOST_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/10_A_farauti_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/10_A_farauti_2.fastq.gz -o /tmp/ngm_kl6va65y/ANOST_OGs.fa.bam
+2025-02-26 16:02:38,345 - read2tree.Mapper - DEBUG - --- Creating tmp directory on local node ---
+2025-02-26 16:02:38,352 - read2tree.Mapper - INFO - 15_A_merus_1: --- Mapping of reads to ANOST reference species ---
+2025-02-26 16:02:38,356 - read2tree.Mapper - DEBUG - --- Creating tmp directory on local node ---
+2025-02-26 16:02:38,354 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_gv62gjrs/ANOST_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/15_A_merus_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/15_A_merus_2.fastq.gz -o /tmp/ngm_gv62gjrs/ANOST_OGs.fa.bam
+2025-02-26 16:02:38,364 - read2tree.Mapper - INFO - 21_C_quinquefasciatus_1: --- Mapping of reads to ANOST reference species ---
+2025-02-26 16:02:38,367 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_83vn76e2/ANOST_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/21_C_quinquefasciatus_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/21_C_quinquefasciatus_2.fastq.gz -o /tmp/ngm_83vn76e2/ANOST_OGs.fa.bam
+2025-02-26 16:02:38,421 - read2tree.Mapper - DEBUG - --- Creating tmp directory on local node ---
+2025-02-26 16:02:38,428 - read2tree.Mapper - INFO - 7_A_darlingi_1: --- Mapping of reads to ANOST reference species ---
+2025-02-26 16:02:38,430 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_j5u2nx8i/ANOST_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/7_A_darlingi_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/7_A_darlingi_2.fastq.gz -o /tmp/ngm_j5u2nx8i/ANOST_OGs.fa.bam
+2025-02-26 16:02:38,506 - read2tree.Mapper - DEBUG - --- Creating tmp directory on local node ---
+2025-02-26 16:02:38,512 - read2tree.Mapper - INFO - 16_A_minimus_1: --- Mapping of reads to ANOST reference species ---
+2025-02-26 16:02:38,513 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_924q5cb0/ANOST_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/16_A_minimus_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/16_A_minimus_2.fastq.gz -o /tmp/ngm_924q5cb0/ANOST_OGs.fa.bam
+2025-02-26 16:02:38,538 - read2tree.Mapper - DEBUG - --- Creating tmp directory on local node ---
+2025-02-26 16:02:38,544 - read2tree.Mapper - INFO - 14_A_melas_1: --- Mapping of reads to ANOST reference species ---
+2025-02-26 16:02:38,564 - read2tree.Mapper - DEBUG - --- Creating tmp directory on local node ---
+2025-02-26 16:02:38,571 - read2tree.Mapper - INFO - 3_A_arabiensis_1: --- Mapping of reads to ANOST reference species ---
+2025-02-26 16:02:38,546 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_7t3ruwn7/ANOST_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/14_A_melas_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/14_A_melas_2.fastq.gz -o /tmp/ngm_7t3ruwn7/ANOST_OGs.fa.bam
+2025-02-26 16:02:38,572 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_8_q5wx1s/ANOST_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/3_A_arabiensis_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/3_A_arabiensis_2.fastq.gz -o /tmp/ngm_8_q5wx1s/ANOST_OGs.fa.bam
+2025-02-26 16:02:38,682 - read2tree.Mapper - DEBUG - --- Creating tmp directory on local node ---
+2025-02-26 16:02:38,689 - read2tree.Mapper - INFO - 20_D_melanogaster_1: --- Mapping of reads to ANOST reference species ---
+2025-02-26 16:02:38,729 - read2tree.Mapper - DEBUG - --- Creating tmp directory on local node ---
+2025-02-26 16:02:38,690 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_b_5ujwx5/ANOST_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/20_D_melanogaster_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/20_D_melanogaster_2.fastq.gz -o /tmp/ngm_b_5ujwx5/ANOST_OGs.fa.bam
+2025-02-26 16:02:38,735 - read2tree.Mapper - INFO - 18_A_sinensis_1: --- Mapping of reads to ANOST reference species ---
+2025-02-26 16:02:38,737 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_qsf5bimb/ANOST_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/18_A_sinensis_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/18_A_sinensis_2.fastq.gz -o /tmp/ngm_qsf5bimb/ANOST_OGs.fa.bam
+2025-02-26 17:50:44,598 - read2tree.Mapper - INFO - 6_A_culici_1: Mapped 183717 / 155631346 reads to ANOST_OGs.fa
+2025-02-26 17:50:44,613 - read2tree.Mapper - INFO - 6_A_culici_1: Mapping to ANOST_OGs.fa references took 6486.607093334198.
+2025-02-26 17:50:51,453 - read2tree.Mapper - INFO - 6_A_culici_1: --- Mapping of reads to ANOGA reference species ---
+2025-02-26 17:50:51,454 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_hsg358b6/ANOGA_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/6_A_culici_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/6_A_culici_2.fastq.gz -o /tmp/ngm_hsg358b6/ANOGA_OGs.fa.bam
+2025-02-26 18:42:48,791 - read2tree.Mapper - INFO - 10_A_farauti_1: Mapped 793754 / 132843832 reads to ANOST_OGs.fa
+2025-02-26 18:42:48,824 - read2tree.Mapper - INFO - 10_A_farauti_1: Mapping to ANOST_OGs.fa references took 9610.493220806122.
+2025-02-26 18:42:57,840 - read2tree.Mapper - INFO - 10_A_farauti_1: --- Mapping of reads to ANOGA reference species ---
+2025-02-26 18:42:57,842 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_kl6va65y/ANOGA_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/10_A_farauti_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/10_A_farauti_2.fastq.gz -o /tmp/ngm_kl6va65y/ANOGA_OGs.fa.bam
+2025-02-26 19:05:26,088 - read2tree.Mapper - INFO - 5_A_christyi_1: Mapped 191152 / 104006724 reads to ANOST_OGs.fa
+2025-02-26 19:05:26,096 - read2tree.Mapper - INFO - 5_A_christyi_1: Mapping to ANOST_OGs.fa references took 10967.87423992157.
+2025-02-26 19:05:33,371 - read2tree.Mapper - INFO - 5_A_christyi_1: --- Mapping of reads to ANOGA reference species ---
+2025-02-26 19:05:33,372 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_7a_j22o3/ANOGA_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/5_A_christyi_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/5_A_christyi_2.fastq.gz -o /tmp/ngm_7a_j22o3/ANOGA_OGs.fa.bam
+2025-02-26 19:40:44,915 - read2tree.Mapper - INFO - 11_A_funestris_1: Mapped 120601 / 98526258 reads to ANOST_OGs.fa
+2025-02-26 19:40:44,922 - read2tree.Mapper - INFO - 11_A_funestris_1: Mapping to ANOST_OGs.fa references took 13086.668335437775.
+2025-02-26 19:40:54,645 - read2tree.Mapper - INFO - 11_A_funestris_1: --- Mapping of reads to ANOGA reference species ---
+2025-02-26 19:40:54,646 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_i70dyles/ANOGA_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/11_A_funestris_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/11_A_funestris_2.fastq.gz -o /tmp/ngm_i70dyles/ANOGA_OGs.fa.bam
+2025-02-26 19:48:43,396 - read2tree.Mapper - INFO - 6_A_culici_1: Mapped 233282 / 155631346 reads to ANOGA_OGs.fa
+2025-02-26 19:48:43,421 - read2tree.Mapper - INFO - 6_A_culici_1: Mapping to ANOGA_OGs.fa references took 7071.966996908188.
+2025-02-26 19:48:50,447 - read2tree.Mapper - INFO - 6_A_culici_1: --- Mapping of reads to ANOSI reference species ---
+2025-02-26 19:48:50,449 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_hsg358b6/ANOSI_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/6_A_culici_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/6_A_culici_2.fastq.gz -o /tmp/ngm_hsg358b6/ANOSI_OGs.fa.bam
+2025-02-26 20:10:32,165 - read2tree.Mapper - INFO - 7_A_darlingi_1: Mapped 86927 / 77261026 reads to ANOST_OGs.fa
+2025-02-26 20:10:32,174 - read2tree.Mapper - INFO - 7_A_darlingi_1: Mapping to ANOST_OGs.fa references took 14873.744446754456.
+2025-02-26 20:10:37,604 - read2tree.Mapper - INFO - 7_A_darlingi_1: --- Mapping of reads to ANOGA reference species ---
+2025-02-26 20:10:37,606 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_j5u2nx8i/ANOGA_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/7_A_darlingi_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/7_A_darlingi_2.fastq.gz -o /tmp/ngm_j5u2nx8i/ANOGA_OGs.fa.bam
+2025-02-26 20:12:42,298 - read2tree.Mapper - INFO - 12_A_gambiae_1: Mapped 64871 / 120842116 reads to ANOST_OGs.fa
+2025-02-26 20:12:42,307 - read2tree.Mapper - INFO - 12_A_gambiae_1: Mapping to ANOST_OGs.fa references took 15004.09722995758.
+2025-02-26 20:12:46,373 - read2tree.Mapper - INFO - 12_A_gambiae_1: --- Mapping of reads to ANOGA reference species ---
+2025-02-26 20:12:46,375 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_jeatrd0l/ANOGA_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/12_A_gambiae_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/12_A_gambiae_2.fastq.gz -o /tmp/ngm_jeatrd0l/ANOGA_OGs.fa.bam
+2025-02-26 20:20:35,135 - read2tree.Mapper - INFO - 1_A_aegypti_1: Mapped 37947 / 133378116 reads to ANOST_OGs.fa
+2025-02-26 20:20:35,150 - read2tree.Mapper - INFO - 1_A_aegypti_1: Mapping to ANOST_OGs.fa references took 15477.309301376343.
+2025-02-26 20:20:37,335 - read2tree.Mapper - INFO - 1_A_aegypti_1: --- Mapping of reads to ANOGA reference species ---
+2025-02-26 20:20:37,337 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_0n8gqx2g/ANOGA_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/1_A_aegypti_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/1_A_aegypti_2.fastq.gz -o /tmp/ngm_0n8gqx2g/ANOGA_OGs.fa.bam
+2025-02-26 20:52:26,404 - read2tree.Mapper - INFO - 4_A_atroparvus_1: Mapped 74544 / 88599024 reads to ANOST_OGs.fa
+2025-02-26 20:52:26,417 - read2tree.Mapper - INFO - 4_A_atroparvus_1: Mapping to ANOST_OGs.fa references took 17388.412864923477.
+2025-02-26 20:52:28,245 - read2tree.Mapper - INFO - 4_A_atroparvus_1: --- Mapping of reads to ANOGA reference species ---
+2025-02-26 20:52:28,247 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_ms26n_dg/ANOGA_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/4_A_atroparvus_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/4_A_atroparvus_2.fastq.gz -o /tmp/ngm_ms26n_dg/ANOGA_OGs.fa.bam
+2025-02-26 21:14:21,922 - read2tree.Mapper - INFO - 14_A_melas_1: Mapped 100615 / 69058168 reads to ANOST_OGs.fa
+2025-02-26 21:14:21,931 - read2tree.Mapper - INFO - 14_A_melas_1: Mapping to ANOST_OGs.fa references took 18703.385961055756.
+2025-02-26 21:14:27,102 - read2tree.Mapper - INFO - 14_A_melas_1: --- Mapping of reads to ANOGA reference species ---
+2025-02-26 21:14:27,103 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_7t3ruwn7/ANOGA_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/14_A_melas_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/14_A_melas_2.fastq.gz -o /tmp/ngm_7t3ruwn7/ANOGA_OGs.fa.bam
+2025-02-26 21:20:37,160 - read2tree.Mapper - INFO - 10_A_farauti_1: Mapped 894388 / 132843832 reads to ANOGA_OGs.fa
+2025-02-26 21:20:37,185 - read2tree.Mapper - INFO - 10_A_farauti_1: Mapping to ANOGA_OGs.fa references took 9459.3433573246.
+2025-02-26 21:20:46,865 - read2tree.Mapper - INFO - 10_A_farauti_1: --- Mapping of reads to ANOSI reference species ---
+2025-02-26 21:20:46,866 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_kl6va65y/ANOSI_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/10_A_farauti_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/10_A_farauti_2.fastq.gz -o /tmp/ngm_kl6va65y/ANOSI_OGs.fa.bam
+2025-02-26 21:30:28,215 - read2tree.Mapper - INFO - 6_A_culici_1: Mapped 191644 / 155631346 reads to ANOSI_OGs.fa
+2025-02-26 21:30:28,240 - read2tree.Mapper - INFO - 6_A_culici_1: Mapping to ANOSI_OGs.fa references took 6097.791783094406.
+2025-02-26 21:30:34,278 - read2tree.Mapper - INFO - 6_A_culici_1: --- Mapping of reads to ANODA reference species ---
+2025-02-26 21:30:34,279 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_hsg358b6/ANODA_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/6_A_culici_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/6_A_culici_2.fastq.gz -o /tmp/ngm_hsg358b6/ANODA_OGs.fa.bam
+2025-02-26 22:02:23,960 - read2tree.Mapper - INFO - 8_A_dirus_1: Mapped 50513 / 50943298 reads to ANOST_OGs.fa
+2025-02-26 22:02:23,977 - read2tree.Mapper - INFO - 8_A_dirus_1: Mapping to ANOST_OGs.fa references took 21586.008553743362.
+2025-02-26 22:02:28,448 - read2tree.Mapper - INFO - 8_A_dirus_1: --- Mapping of reads to ANOGA reference species ---
+2025-02-26 22:02:28,450 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_110jthc4/ANOGA_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/8_A_dirus_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/8_A_dirus_2.fastq.gz -o /tmp/ngm_110jthc4/ANOGA_OGs.fa.bam
+2025-02-26 22:08:34,201 - read2tree.Mapper - INFO - 5_A_christyi_1: Mapped 242539 / 104006724 reads to ANOGA_OGs.fa
+2025-02-26 22:08:34,225 - read2tree.Mapper - INFO - 5_A_christyi_1: Mapping to ANOGA_OGs.fa references took 10980.853477954865.
+2025-02-26 22:08:43,496 - read2tree.Mapper - INFO - 5_A_christyi_1: --- Mapping of reads to ANOSI reference species ---
+2025-02-26 22:08:43,497 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_7a_j22o3/ANOSI_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/5_A_christyi_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/5_A_christyi_2.fastq.gz -o /tmp/ngm_7a_j22o3/ANOSI_OGs.fa.bam
+2025-02-26 22:33:25,995 - read2tree.Mapper - INFO - 17_A_quad_combined_1: Mapped 148374 / 92766632 reads to ANOST_OGs.fa
+2025-02-26 22:33:26,006 - read2tree.Mapper - INFO - 17_A_quad_combined_1: Mapping to ANOST_OGs.fa references took 23447.944668769836.
+2025-02-26 22:33:32,930 - read2tree.Mapper - INFO - 17_A_quad_combined_1: --- Mapping of reads to ANOGA reference species ---
+2025-02-26 22:33:32,932 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_31dzdyyb/ANOGA_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/17_A_quad_combined_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/17_A_quad_combined_2.fastq.gz -o /tmp/ngm_31dzdyyb/ANOGA_OGs.fa.bam
+2025-02-26 22:35:29,485 - read2tree.Mapper - INFO - 13_A_maculatus_1: Mapped 105634 / 101427754 reads to ANOST_OGs.fa
+2025-02-26 22:35:29,493 - read2tree.Mapper - INFO - 13_A_maculatus_1: Mapping to ANOST_OGs.fa references took 23571.211564064026.
+2025-02-26 22:35:34,370 - read2tree.Mapper - INFO - 13_A_maculatus_1: --- Mapping of reads to ANOGA reference species ---
+2025-02-26 22:35:34,372 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_k0s6rk33/ANOGA_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/13_A_maculatus_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/13_A_maculatus_2.fastq.gz -o /tmp/ngm_k0s6rk33/ANOGA_OGs.fa.bam
+2025-02-26 23:09:12,249 - read2tree.Mapper - INFO - 6_A_culici_1: Mapped 147938 / 155631346 reads to ANODA_OGs.fa
+2025-02-26 23:09:12,274 - read2tree.Mapper - INFO - 6_A_culici_1: Mapping to ANODA_OGs.fa references took 5917.994773387909.
+2025-02-26 23:09:16,489 - read2tree.Mapper - INFO - 6_A_culici_1: Mapping to all references took 25598.5263736248.
+2025-02-26 23:09:16,765 - read2tree.OGSet - INFO - 6_A_culici_1: Appending 200 reconstructed sequences to present OG took 0.006582975387573242.
+2025-02-26 23:09:17,580 - read2tree.Aligner - INFO - 6_A_culici_1: Appending 200 reconstructed sequences to present Alignments took 0.6656341552734375.
+2025-02-26 23:09:24,651 - read2tree.Mapper - DEBUG - --- Creating tmp directory on local node ---
+2025-02-26 23:09:24,657 - read2tree.Mapper - INFO - 9_A_epiroctus_1: --- Mapping of reads to ANOST reference species ---
+2025-02-26 23:09:24,658 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_smzqt2q2/ANOST_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/9_A_epiroctus_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/9_A_epiroctus_2.fastq.gz -o /tmp/ngm_smzqt2q2/ANOST_OGs.fa.bam
+2025-02-26 23:15:45,211 - read2tree.Mapper - INFO - 11_A_funestris_1: Mapped 117658 / 98526258 reads to ANOGA_OGs.fa
+2025-02-26 23:15:45,238 - read2tree.Mapper - INFO - 11_A_funestris_1: Mapping to ANOGA_OGs.fa references took 12890.591491222382.
+2025-02-26 23:15:53,265 - read2tree.Mapper - INFO - 11_A_funestris_1: --- Mapping of reads to ANOSI reference species ---
+2025-02-26 23:15:53,266 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_i70dyles/ANOSI_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/11_A_funestris_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/11_A_funestris_2.fastq.gz -o /tmp/ngm_i70dyles/ANOSI_OGs.fa.bam
+2025-02-26 23:19:29,732 - read2tree.Mapper - INFO - 18_A_sinensis_1: Mapped 406932 / 260256660 reads to ANOST_OGs.fa
+2025-02-26 23:19:29,750 - read2tree.Mapper - INFO - 18_A_sinensis_1: Mapping to ANOST_OGs.fa references took 26211.013018369675.
+2025-02-26 23:19:45,781 - read2tree.Mapper - INFO - 18_A_sinensis_1: --- Mapping of reads to ANOGA reference species ---
+2025-02-26 23:19:45,783 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_qsf5bimb/ANOGA_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/18_A_sinensis_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/18_A_sinensis_2.fastq.gz -o /tmp/ngm_qsf5bimb/ANOGA_OGs.fa.bam
+2025-02-26 23:49:45,501 - read2tree.Mapper - INFO - 16_A_minimus_1: Mapped 178972 / 112841632 reads to ANOST_OGs.fa
+2025-02-26 23:49:45,511 - read2tree.Mapper - INFO - 16_A_minimus_1: Mapping to ANOST_OGs.fa references took 28026.99839282036.
+2025-02-26 23:49:54,496 - read2tree.Mapper - INFO - 16_A_minimus_1: --- Mapping of reads to ANOGA reference species ---
+2025-02-26 23:49:54,497 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_924q5cb0/ANOGA_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/16_A_minimus_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/16_A_minimus_2.fastq.gz -o /tmp/ngm_924q5cb0/ANOGA_OGs.fa.bam
+2025-02-27 00:06:32,140 - read2tree.Mapper - INFO - 10_A_farauti_1: Mapped 833491 / 132843832 reads to ANOSI_OGs.fa
+2025-02-27 00:06:32,166 - read2tree.Mapper - INFO - 10_A_farauti_1: Mapping to ANOSI_OGs.fa references took 9945.300294160843.
+2025-02-27 00:06:40,811 - read2tree.Mapper - INFO - 10_A_farauti_1: --- Mapping of reads to ANODA reference species ---
+2025-02-27 00:06:40,812 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_kl6va65y/ANODA_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/10_A_farauti_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/10_A_farauti_2.fastq.gz -o /tmp/ngm_kl6va65y/ANODA_OGs.fa.bam
+2025-02-27 00:10:29,725 - read2tree.Mapper - INFO - 20_D_melanogaster_1: Mapped 226968 / 123900948 reads to ANOST_OGs.fa
+2025-02-27 00:10:29,733 - read2tree.Mapper - INFO - 20_D_melanogaster_1: Mapping to ANOST_OGs.fa references took 29271.04334449768.
+2025-02-27 00:10:34,333 - read2tree.Mapper - INFO - 20_D_melanogaster_1: --- Mapping of reads to ANOGA reference species ---
+2025-02-27 00:10:34,334 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_b_5ujwx5/ANOGA_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/20_D_melanogaster_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/20_D_melanogaster_2.fastq.gz -o /tmp/ngm_b_5ujwx5/ANOGA_OGs.fa.bam
+2025-02-27 00:26:08,329 - read2tree.Mapper - INFO - 1_A_aegypti_1: Mapped 60256 / 133378116 reads to ANOGA_OGs.fa
+2025-02-27 00:26:08,354 - read2tree.Mapper - INFO - 1_A_aegypti_1: Mapping to ANOGA_OGs.fa references took 14731.016969203949.
+2025-02-27 00:26:11,019 - read2tree.Mapper - INFO - 1_A_aegypti_1: --- Mapping of reads to ANOSI reference species ---
+2025-02-27 00:26:11,021 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_0n8gqx2g/ANOSI_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/1_A_aegypti_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/1_A_aegypti_2.fastq.gz -o /tmp/ngm_0n8gqx2g/ANOSI_OGs.fa.bam
+2025-02-27 00:32:27,851 - read2tree.Mapper - INFO - 12_A_gambiae_1: Mapped 90104 / 120842116 reads to ANOGA_OGs.fa
+2025-02-27 00:32:27,877 - read2tree.Mapper - INFO - 12_A_gambiae_1: Mapping to ANOGA_OGs.fa references took 15581.502696037292.
+2025-02-27 00:32:33,599 - read2tree.Mapper - INFO - 12_A_gambiae_1: --- Mapping of reads to ANOSI reference species ---
+2025-02-27 00:32:33,600 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_jeatrd0l/ANOSI_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/12_A_gambiae_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/12_A_gambiae_2.fastq.gz -o /tmp/ngm_jeatrd0l/ANOSI_OGs.fa.bam
+2025-02-27 00:43:00,034 - read2tree.Mapper - INFO - 19_A_stephensi_1: Mapped 173547 / 97375090 reads to ANOST_OGs.fa
+2025-02-27 00:43:00,050 - read2tree.Mapper - INFO - 19_A_stephensi_1: Mapping to ANOST_OGs.fa references took 31221.98099589348.
+2025-02-27 00:43:15,610 - read2tree.Mapper - INFO - 19_A_stephensi_1: --- Mapping of reads to ANOGA reference species ---
+2025-02-27 00:43:15,611 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm__be_vwhz/ANOGA_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/19_A_stephensi_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/19_A_stephensi_2.fastq.gz -o /tmp/ngm__be_vwhz/ANOGA_OGs.fa.bam
+2025-02-27 00:51:40,709 - read2tree.Mapper - INFO - 7_A_darlingi_1: Mapped 114703 / 77261026 reads to ANOGA_OGs.fa
+2025-02-27 00:51:40,735 - read2tree.Mapper - INFO - 7_A_darlingi_1: Mapping to ANOGA_OGs.fa references took 16863.129771709442.
+2025-02-27 00:51:46,561 - read2tree.Mapper - INFO - 7_A_darlingi_1: --- Mapping of reads to ANOSI reference species ---
+2025-02-27 00:51:46,562 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_j5u2nx8i/ANOSI_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/7_A_darlingi_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/7_A_darlingi_2.fastq.gz -o /tmp/ngm_j5u2nx8i/ANOSI_OGs.fa.bam
+2025-02-27 00:58:49,849 - read2tree.Mapper - INFO - 2_A_albimanus_1: Mapped 217992 / 188326222 reads to ANOST_OGs.fa
+2025-02-27 00:58:49,866 - read2tree.Mapper - INFO - 2_A_albimanus_1: Mapping to ANOST_OGs.fa references took 32172.002955675125.
+2025-02-27 00:59:03,263 - read2tree.Mapper - INFO - 2_A_albimanus_1: --- Mapping of reads to ANOGA reference species ---
+2025-02-27 00:59:03,265 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_j6bzatoj/ANOGA_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/2_A_albimanus_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/2_A_albimanus_2.fastq.gz -o /tmp/ngm_j6bzatoj/ANOGA_OGs.fa.bam
+2025-02-27 01:00:32,270 - read2tree.Mapper - INFO - 5_A_christyi_1: Mapped 153109 / 104006724 reads to ANOSI_OGs.fa
+2025-02-27 01:00:32,295 - read2tree.Mapper - INFO - 5_A_christyi_1: Mapping to ANOSI_OGs.fa references took 10308.798133134842.
+2025-02-27 01:00:37,291 - read2tree.Mapper - INFO - 5_A_christyi_1: --- Mapping of reads to ANODA reference species ---
+2025-02-27 01:00:37,293 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_7a_j22o3/ANODA_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/5_A_christyi_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/5_A_christyi_2.fastq.gz -o /tmp/ngm_7a_j22o3/ANODA_OGs.fa.bam
+2025-02-27 01:36:22,550 - read2tree.Mapper - INFO - 4_A_atroparvus_1: Mapped 94463 / 88599024 reads to ANOGA_OGs.fa
+2025-02-27 01:36:22,575 - read2tree.Mapper - INFO - 4_A_atroparvus_1: Mapping to ANOGA_OGs.fa references took 17034.328731298447.
+2025-02-27 01:36:24,863 - read2tree.Mapper - INFO - 4_A_atroparvus_1: --- Mapping of reads to ANOSI reference species ---
+2025-02-27 01:36:24,864 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_ms26n_dg/ANOSI_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/4_A_atroparvus_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/4_A_atroparvus_2.fastq.gz -o /tmp/ngm_ms26n_dg/ANOSI_OGs.fa.bam
+2025-02-27 02:07:56,708 - read2tree.Mapper - INFO - 9_A_epiroctus_1: Mapped 71628 / 50374490 reads to ANOST_OGs.fa
+2025-02-27 02:07:56,732 - read2tree.Mapper - INFO - 9_A_epiroctus_1: Mapping to ANOST_OGs.fa references took 10712.07461643219.
+2025-02-27 02:08:00,787 - read2tree.Mapper - INFO - 9_A_epiroctus_1: --- Mapping of reads to ANOGA reference species ---
+2025-02-27 02:08:00,788 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_smzqt2q2/ANOGA_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/9_A_epiroctus_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/9_A_epiroctus_2.fastq.gz -o /tmp/ngm_smzqt2q2/ANOGA_OGs.fa.bam
+2025-02-27 02:34:12,898 - read2tree.Mapper - INFO - 14_A_melas_1: Mapped 132802 / 69058168 reads to ANOGA_OGs.fa
+2025-02-27 02:34:12,925 - read2tree.Mapper - INFO - 14_A_melas_1: Mapping to ANOGA_OGs.fa references took 19185.82195496559.
+2025-02-27 02:34:19,658 - read2tree.Mapper - INFO - 14_A_melas_1: --- Mapping of reads to ANOSI reference species ---
+2025-02-27 02:34:19,659 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_7t3ruwn7/ANOSI_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/14_A_melas_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/14_A_melas_2.fastq.gz -o /tmp/ngm_7t3ruwn7/ANOSI_OGs.fa.bam
+2025-02-27 02:42:14,405 - read2tree.Mapper - INFO - 11_A_funestris_1: Mapped 82444 / 98526258 reads to ANOSI_OGs.fa
+2025-02-27 02:42:14,431 - read2tree.Mapper - INFO - 11_A_funestris_1: Mapping to ANOSI_OGs.fa references took 12381.164845705032.
+2025-02-27 02:42:20,149 - read2tree.Mapper - INFO - 11_A_funestris_1: --- Mapping of reads to ANODA reference species ---
+2025-02-27 02:42:20,150 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_i70dyles/ANODA_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/11_A_funestris_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/11_A_funestris_2.fastq.gz -o /tmp/ngm_i70dyles/ANODA_OGs.fa.bam
+2025-02-27 02:45:52,278 - read2tree.Mapper - INFO - 10_A_farauti_1: Mapped 774454 / 132843832 reads to ANODA_OGs.fa
+2025-02-27 02:45:52,304 - read2tree.Mapper - INFO - 10_A_farauti_1: Mapping to ANODA_OGs.fa references took 9551.492371559143.
+2025-02-27 02:46:00,250 - read2tree.Mapper - INFO - 10_A_farauti_1: Mapping to all references took 38602.07357668877.
+2025-02-27 02:46:00,572 - read2tree.OGSet - INFO - 10_A_farauti_1: Appending 200 reconstructed sequences to present OG took 0.006223917007446289.
+2025-02-27 02:46:01,284 - read2tree.Aligner - INFO - 10_A_farauti_1: Appending 199 reconstructed sequences to present Alignments took 0.6717870235443115.
+2025-02-27 02:48:56,447 - read2tree.Mapper - INFO - 21_C_quinquefasciatus_1: Mapped 47653 / 151575156 reads to ANOST_OGs.fa
+2025-02-27 02:48:56,462 - read2tree.Mapper - INFO - 21_C_quinquefasciatus_1: Mapping to ANOST_OGs.fa references took 38778.09642791748.
+2025-02-27 02:48:59,938 - read2tree.Mapper - INFO - 21_C_quinquefasciatus_1: --- Mapping of reads to ANOGA reference species ---
+2025-02-27 02:48:59,939 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_83vn76e2/ANOGA_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/21_C_quinquefasciatus_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/21_C_quinquefasciatus_2.fastq.gz -o /tmp/ngm_83vn76e2/ANOGA_OGs.fa.bam
+2025-02-27 03:45:13,120 - read2tree.Mapper - INFO - 3_A_arabiensis_1: Mapped 121443 / 110764868 reads to ANOST_OGs.fa
+2025-02-27 03:45:13,135 - read2tree.Mapper - INFO - 3_A_arabiensis_1: Mapping to ANOST_OGs.fa references took 42154.56389665604.
+2025-02-27 03:45:21,839 - read2tree.Mapper - INFO - 3_A_arabiensis_1: --- Mapping of reads to ANOGA reference species ---
+2025-02-27 03:45:21,841 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_8_q5wx1s/ANOGA_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/3_A_arabiensis_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/3_A_arabiensis_2.fastq.gz -o /tmp/ngm_8_q5wx1s/ANOGA_OGs.fa.bam
+2025-02-27 03:52:45,807 - read2tree.Mapper - INFO - 5_A_christyi_1: Mapped 174525 / 104006724 reads to ANODA_OGs.fa
+2025-02-27 03:52:45,813 - read2tree.Mapper - INFO - 5_A_christyi_1: Mapping to ANODA_OGs.fa references took 10328.520951986313.
+2025-02-27 03:52:50,935 - read2tree.Mapper - INFO - 5_A_christyi_1: Mapping to all references took 42612.75884127617.
+2025-02-27 03:52:51,215 - read2tree.OGSet - INFO - 5_A_christyi_1: Appending 200 reconstructed sequences to present OG took 0.00836801528930664.
+2025-02-27 03:52:52,145 - read2tree.Aligner - INFO - 5_A_christyi_1: Appending 200 reconstructed sequences to present Alignments took 0.7040486335754395.
+2025-02-27 04:00:58,484 - read2tree.Mapper - INFO - 15_A_merus_1: Mapped 277774 / 179894282 reads to ANOST_OGs.fa
+2025-02-27 04:00:58,500 - read2tree.Mapper - INFO - 15_A_merus_1: Mapping to ANOST_OGs.fa references took 43100.14586043358.
+2025-02-27 04:01:07,862 - read2tree.Mapper - INFO - 15_A_merus_1: --- Mapping of reads to ANOGA reference species ---
+2025-02-27 04:01:07,863 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_gv62gjrs/ANOGA_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/15_A_merus_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/15_A_merus_2.fastq.gz -o /tmp/ngm_gv62gjrs/ANOGA_OGs.fa.bam
+2025-02-27 04:26:28,582 - read2tree.Mapper - INFO - 8_A_dirus_1: Mapped 62724 / 50943298 reads to ANOGA_OGs.fa
+2025-02-27 04:26:28,593 - read2tree.Mapper - INFO - 8_A_dirus_1: Mapping to ANOGA_OGs.fa references took 23040.143358945847.
+2025-02-27 04:26:33,908 - read2tree.Mapper - INFO - 8_A_dirus_1: --- Mapping of reads to ANOSI reference species ---
+2025-02-27 04:26:33,910 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_110jthc4/ANOSI_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/8_A_dirus_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/8_A_dirus_2.fastq.gz -o /tmp/ngm_110jthc4/ANOSI_OGs.fa.bam
+2025-02-27 04:30:29,053 - read2tree.Mapper - INFO - 1_A_aegypti_1: Mapped 38602 / 133378116 reads to ANOSI_OGs.fa
+2025-02-27 04:30:29,060 - read2tree.Mapper - INFO - 1_A_aegypti_1: Mapping to ANOSI_OGs.fa references took 14658.040118217468.
+2025-02-27 04:30:31,173 - read2tree.Mapper - INFO - 1_A_aegypti_1: --- Mapping of reads to ANODA reference species ---
+2025-02-27 04:30:31,174 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_0n8gqx2g/ANODA_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/1_A_aegypti_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/1_A_aegypti_2.fastq.gz -o /tmp/ngm_0n8gqx2g/ANODA_OGs.fa.bam
+2025-02-27 04:37:47,825 - read2tree.Mapper - INFO - 12_A_gambiae_1: Mapped 56858 / 120842116 reads to ANOSI_OGs.fa
+2025-02-27 04:37:47,832 - read2tree.Mapper - INFO - 12_A_gambiae_1: Mapping to ANOSI_OGs.fa references took 14714.232261180878.
+2025-02-27 04:37:51,203 - read2tree.Mapper - INFO - 12_A_gambiae_1: --- Mapping of reads to ANODA reference species ---
+2025-02-27 04:37:51,204 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_jeatrd0l/ANODA_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/12_A_gambiae_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/12_A_gambiae_2.fastq.gz -o /tmp/ngm_jeatrd0l/ANODA_OGs.fa.bam
+2025-02-27 04:38:32,891 - read2tree.Mapper - INFO - 7_A_darlingi_1: Mapped 86704 / 77261026 reads to ANOSI_OGs.fa
+2025-02-27 04:38:32,898 - read2tree.Mapper - INFO - 7_A_darlingi_1: Mapping to ANOSI_OGs.fa references took 13606.336291790009.
+2025-02-27 04:38:37,735 - read2tree.Mapper - INFO - 7_A_darlingi_1: --- Mapping of reads to ANODA reference species ---
+2025-02-27 04:38:37,736 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_j5u2nx8i/ANODA_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/7_A_darlingi_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/7_A_darlingi_2.fastq.gz -o /tmp/ngm_j5u2nx8i/ANODA_OGs.fa.bam
+2025-02-27 04:47:10,091 - read2tree.Mapper - INFO - 9_A_epiroctus_1: Mapped 76234 / 50374490 reads to ANOGA_OGs.fa
+2025-02-27 04:47:10,099 - read2tree.Mapper - INFO - 9_A_epiroctus_1: Mapping to ANOGA_OGs.fa references took 9549.310826539993.
+2025-02-27 04:47:14,408 - read2tree.Mapper - INFO - 9_A_epiroctus_1: --- Mapping of reads to ANOSI reference species ---
+2025-02-27 04:47:14,409 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_smzqt2q2/ANOSI_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/9_A_epiroctus_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/9_A_epiroctus_2.fastq.gz -o /tmp/ngm_smzqt2q2/ANOSI_OGs.fa.bam
+2025-02-27 05:13:56,884 - read2tree.Mapper - INFO - 13_A_maculatus_1: Mapped 121899 / 101427754 reads to ANOGA_OGs.fa
+2025-02-27 05:13:56,891 - read2tree.Mapper - INFO - 13_A_maculatus_1: Mapping to ANOGA_OGs.fa references took 23902.519637823105.
+2025-02-27 05:14:00,923 - read2tree.Mapper - INFO - 13_A_maculatus_1: --- Mapping of reads to ANOSI reference species ---
+2025-02-27 05:14:00,925 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_k0s6rk33/ANOSI_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/13_A_maculatus_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/13_A_maculatus_2.fastq.gz -o /tmp/ngm_k0s6rk33/ANOSI_OGs.fa.bam
+2025-02-27 05:21:23,861 - read2tree.Mapper - INFO - 17_A_quad_combined_1: Mapped 229719 / 92766632 reads to ANOGA_OGs.fa
+2025-02-27 05:21:23,868 - read2tree.Mapper - INFO - 17_A_quad_combined_1: Mapping to ANOGA_OGs.fa references took 24470.936906576157.
+2025-02-27 05:21:34,174 - read2tree.Mapper - INFO - 17_A_quad_combined_1: --- Mapping of reads to ANOSI reference species ---
+2025-02-27 05:21:34,175 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_31dzdyyb/ANOSI_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/17_A_quad_combined_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/17_A_quad_combined_2.fastq.gz -o /tmp/ngm_31dzdyyb/ANOSI_OGs.fa.bam
+2025-02-27 05:46:59,489 - read2tree.Mapper - INFO - 11_A_funestris_1: Mapped 80014 / 98526258 reads to ANODA_OGs.fa
+2025-02-27 05:46:59,496 - read2tree.Mapper - INFO - 11_A_funestris_1: Mapping to ANODA_OGs.fa references took 11079.345962285995.
+2025-02-27 05:47:04,330 - read2tree.Mapper - INFO - 11_A_funestris_1: Mapping to all references took 49466.152613162994.
+2025-02-27 05:47:04,593 - read2tree.OGSet - INFO - 11_A_funestris_1: Appending 200 reconstructed sequences to present OG took 0.006680727005004883.
+2025-02-27 05:47:05,395 - read2tree.Aligner - INFO - 11_A_funestris_1: Appending 200 reconstructed sequences to present Alignments took 0.6633138656616211.
+2025-02-27 06:20:07,519 - read2tree.Mapper - INFO - 18_A_sinensis_1: Mapped 483465 / 260256660 reads to ANOGA_OGs.fa
+2025-02-27 06:20:07,528 - read2tree.Mapper - INFO - 18_A_sinensis_1: Mapping to ANOGA_OGs.fa references took 25221.742804527283.
+2025-02-27 06:20:25,183 - read2tree.Mapper - INFO - 18_A_sinensis_1: --- Mapping of reads to ANOSI reference species ---
+2025-02-27 06:20:25,185 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_qsf5bimb/ANOSI_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/18_A_sinensis_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/18_A_sinensis_2.fastq.gz -o /tmp/ngm_qsf5bimb/ANOSI_OGs.fa.bam
+2025-02-27 06:36:43,083 - read2tree.Mapper - INFO - 4_A_atroparvus_1: Mapped 81843 / 88599024 reads to ANOSI_OGs.fa
+2025-02-27 06:36:43,090 - read2tree.Mapper - INFO - 4_A_atroparvus_1: Mapping to ANOSI_OGs.fa references took 18018.2265458107.
+2025-02-27 06:36:45,118 - read2tree.Mapper - INFO - 4_A_atroparvus_1: --- Mapping of reads to ANODA reference species ---
+2025-02-27 06:36:45,119 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_ms26n_dg/ANODA_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/4_A_atroparvus_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/4_A_atroparvus_2.fastq.gz -o /tmp/ngm_ms26n_dg/ANODA_OGs.fa.bam
+2025-02-27 07:09:57,511 - read2tree.Mapper - INFO - 16_A_minimus_1: Mapped 175375 / 112841632 reads to ANOGA_OGs.fa
+2025-02-27 07:09:57,518 - read2tree.Mapper - INFO - 16_A_minimus_1: Mapping to ANOGA_OGs.fa references took 26403.020876169205.
+2025-02-27 07:10:05,118 - read2tree.Mapper - INFO - 16_A_minimus_1: --- Mapping of reads to ANOSI reference species ---
+2025-02-27 07:10:05,119 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_924q5cb0/ANOSI_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/16_A_minimus_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/16_A_minimus_2.fastq.gz -o /tmp/ngm_924q5cb0/ANOSI_OGs.fa.bam
+2025-02-27 07:13:23,726 - read2tree.Mapper - INFO - 14_A_melas_1: Mapped 90860 / 69058168 reads to ANOSI_OGs.fa
+2025-02-27 07:13:23,733 - read2tree.Mapper - INFO - 14_A_melas_1: Mapping to ANOSI_OGs.fa references took 16744.074541330338.
+2025-02-27 07:13:27,897 - read2tree.Mapper - INFO - 14_A_melas_1: --- Mapping of reads to ANODA reference species ---
+2025-02-27 07:13:27,899 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_7t3ruwn7/ANODA_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/14_A_melas_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/14_A_melas_2.fastq.gz -o /tmp/ngm_7t3ruwn7/ANODA_OGs.fa.bam
+2025-02-27 07:55:33,602 - read2tree.Mapper - INFO - 20_D_melanogaster_1: Mapped 269372 / 123900948 reads to ANOGA_OGs.fa
+2025-02-27 07:55:33,614 - read2tree.Mapper - INFO - 20_D_melanogaster_1: Mapping to ANOGA_OGs.fa references took 27899.279843091965.
+2025-02-27 07:55:38,814 - read2tree.Mapper - INFO - 20_D_melanogaster_1: --- Mapping of reads to ANOSI reference species ---
+2025-02-27 07:55:38,816 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_b_5ujwx5/ANOSI_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/20_D_melanogaster_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/20_D_melanogaster_2.fastq.gz -o /tmp/ngm_b_5ujwx5/ANOSI_OGs.fa.bam
+2025-02-27 07:55:54,923 - read2tree.Mapper - INFO - 9_A_epiroctus_1: Mapped 61742 / 50374490 reads to ANOSI_OGs.fa
+2025-02-27 07:55:54,949 - read2tree.Mapper - INFO - 9_A_epiroctus_1: Mapping to ANOSI_OGs.fa references took 11320.539865016937.
+2025-02-27 07:55:58,423 - read2tree.Mapper - INFO - 9_A_epiroctus_1: --- Mapping of reads to ANODA reference species ---
+2025-02-27 07:55:58,424 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_smzqt2q2/ANODA_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/9_A_epiroctus_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/9_A_epiroctus_2.fastq.gz -o /tmp/ngm_smzqt2q2/ANODA_OGs.fa.bam
+2025-02-27 08:00:52,735 - read2tree.Mapper - INFO - 1_A_aegypti_1: Mapped 45255 / 133378116 reads to ANODA_OGs.fa
+2025-02-27 08:00:52,760 - read2tree.Mapper - INFO - 1_A_aegypti_1: Mapping to ANODA_OGs.fa references took 12621.58601474762.
+2025-02-27 08:00:54,646 - read2tree.Mapper - INFO - 1_A_aegypti_1: Mapping to all references took 57496.879066705704.
+2025-02-27 08:00:55,002 - read2tree.OGSet - INFO - 1_A_aegypti_1: Appending 193 reconstructed sequences to present OG took 0.006292104721069336.
+2025-02-27 08:00:55,757 - read2tree.Aligner - INFO - 1_A_aegypti_1: Appending 151 reconstructed sequences to present Alignments took 0.5031342506408691.
+2025-02-27 08:02:44,117 - read2tree.Mapper - INFO - 7_A_darlingi_1: Mapped 126291 / 77261026 reads to ANODA_OGs.fa
+2025-02-27 08:02:44,143 - read2tree.Mapper - INFO - 7_A_darlingi_1: Mapping to ANODA_OGs.fa references took 12246.406574487686.
+2025-02-27 08:02:53,756 - read2tree.Mapper - INFO - 7_A_darlingi_1: Mapping to all references took 57615.57027721405.
+2025-02-27 08:02:54,026 - read2tree.OGSet - INFO - 7_A_darlingi_1: Appending 200 reconstructed sequences to present OG took 0.006729841232299805.
+2025-02-27 08:02:54,994 - read2tree.Aligner - INFO - 7_A_darlingi_1: Appending 200 reconstructed sequences to present Alignments took 0.6707255840301514.
+2025-02-27 08:05:39,485 - read2tree.Mapper - INFO - 12_A_gambiae_1: Mapped 56016 / 120842116 reads to ANODA_OGs.fa
+2025-02-27 08:05:39,511 - read2tree.Mapper - INFO - 12_A_gambiae_1: Mapping to ANODA_OGs.fa references took 12468.307244062424.
+2025-02-27 08:05:42,648 - read2tree.Mapper - INFO - 12_A_gambiae_1: Mapping to all references took 57784.47601556778.
+2025-02-27 08:05:42,955 - read2tree.OGSet - INFO - 12_A_gambiae_1: Appending 200 reconstructed sequences to present OG took 0.009948492050170898.
+2025-02-27 08:05:43,944 - read2tree.Aligner - INFO - 12_A_gambiae_1: Appending 200 reconstructed sequences to present Alignments took 0.7628495693206787.
+2025-02-27 08:47:31,041 - read2tree.Mapper - INFO - 19_A_stephensi_1: Mapped 175776 / 97375090 reads to ANOGA_OGs.fa
+2025-02-27 08:47:31,048 - read2tree.Mapper - INFO - 19_A_stephensi_1: Mapping to ANOGA_OGs.fa references took 29055.436908245087.
+2025-02-27 08:47:43,514 - read2tree.Mapper - INFO - 19_A_stephensi_1: --- Mapping of reads to ANOSI reference species ---
+2025-02-27 08:47:43,515 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm__be_vwhz/ANOSI_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/19_A_stephensi_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/19_A_stephensi_2.fastq.gz -o /tmp/ngm__be_vwhz/ANOSI_OGs.fa.bam
+2025-02-27 09:25:30,328 - read2tree.Mapper - INFO - 8_A_dirus_1: Mapped 66673 / 50943298 reads to ANOSI_OGs.fa
+2025-02-27 09:25:30,353 - read2tree.Mapper - INFO - 8_A_dirus_1: Mapping to ANOSI_OGs.fa references took 17936.443343639374.
+2025-02-27 09:25:34,499 - read2tree.Mapper - INFO - 8_A_dirus_1: --- Mapping of reads to ANODA reference species ---
+2025-02-27 09:25:34,501 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_110jthc4/ANODA_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/8_A_dirus_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/8_A_dirus_2.fastq.gz -o /tmp/ngm_110jthc4/ANODA_OGs.fa.bam
+2025-02-27 09:46:24,672 - read2tree.Mapper - INFO - 2_A_albimanus_1: Mapped 297918 / 188326222 reads to ANOGA_OGs.fa
+2025-02-27 09:46:24,679 - read2tree.Mapper - INFO - 2_A_albimanus_1: Mapping to ANOGA_OGs.fa references took 31641.41432452202.
+2025-02-27 09:46:40,946 - read2tree.Mapper - INFO - 2_A_albimanus_1: --- Mapping of reads to ANOSI reference species ---
+2025-02-27 09:46:40,947 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_j6bzatoj/ANOSI_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/2_A_albimanus_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/2_A_albimanus_2.fastq.gz -o /tmp/ngm_j6bzatoj/ANOSI_OGs.fa.bam
+2025-02-27 09:58:39,651 - read2tree.Mapper - INFO - 9_A_epiroctus_1: Mapped 56739 / 50374490 reads to ANODA_OGs.fa
+2025-02-27 09:58:39,678 - read2tree.Mapper - INFO - 9_A_epiroctus_1: Mapping to ANODA_OGs.fa references took 7361.253503084183.
+2025-02-27 09:58:43,057 - read2tree.Mapper - INFO - 9_A_epiroctus_1: Mapping to all references took 38958.40674519539.
+2025-02-27 09:58:43,325 - read2tree.OGSet - INFO - 9_A_epiroctus_1: Appending 200 reconstructed sequences to present OG took 0.005280017852783203.
+2025-02-27 09:58:44,133 - read2tree.Aligner - INFO - 9_A_epiroctus_1: Appending 197 reconstructed sequences to present Alignments took 0.6634337902069092.
+2025-02-27 10:10:16,274 - read2tree.Mapper - INFO - 4_A_atroparvus_1: Mapped 76937 / 88599024 reads to ANODA_OGs.fa
+2025-02-27 10:10:16,299 - read2tree.Mapper - INFO - 4_A_atroparvus_1: Mapping to ANODA_OGs.fa references took 12811.180520296097.
+2025-02-27 10:10:18,061 - read2tree.Mapper - INFO - 4_A_atroparvus_1: Mapping to all references took 65260.07838821411.
+2025-02-27 10:10:18,435 - read2tree.OGSet - INFO - 4_A_atroparvus_1: Appending 194 reconstructed sequences to present OG took 0.006392478942871094.
+2025-02-27 10:10:19,306 - read2tree.Aligner - INFO - 4_A_atroparvus_1: Appending 164 reconstructed sequences to present Alignments took 0.5926878452301025.
+2025-02-27 10:17:52,424 - read2tree.Mapper - INFO - 13_A_maculatus_1: Mapped 93019 / 101427754 reads to ANOSI_OGs.fa
+2025-02-27 10:17:52,450 - read2tree.Mapper - INFO - 13_A_maculatus_1: Mapping to ANOSI_OGs.fa references took 18231.52605032921.
+2025-02-27 10:17:55,238 - read2tree.Mapper - INFO - 13_A_maculatus_1: --- Mapping of reads to ANODA reference species ---
+2025-02-27 10:17:55,239 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_k0s6rk33/ANODA_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/13_A_maculatus_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/13_A_maculatus_2.fastq.gz -o /tmp/ngm_k0s6rk33/ANODA_OGs.fa.bam
+2025-02-27 10:19:06,231 - read2tree.Mapper - INFO - 17_A_quad_combined_1: Mapped 128699 / 92766632 reads to ANOSI_OGs.fa
+2025-02-27 10:19:06,258 - read2tree.Mapper - INFO - 17_A_quad_combined_1: Mapping to ANOSI_OGs.fa references took 17852.08317065239.
+2025-02-27 10:19:11,575 - read2tree.Mapper - INFO - 17_A_quad_combined_1: --- Mapping of reads to ANODA reference species ---
+2025-02-27 10:19:11,576 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_31dzdyyb/ANODA_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/17_A_quad_combined_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/17_A_quad_combined_2.fastq.gz -o /tmp/ngm_31dzdyyb/ANODA_OGs.fa.bam
+2025-02-27 10:47:36,510 - read2tree.Mapper - INFO - 14_A_melas_1: Mapped 83832 / 69058168 reads to ANODA_OGs.fa
+2025-02-27 10:47:36,535 - read2tree.Mapper - INFO - 14_A_melas_1: Mapping to ANODA_OGs.fa references took 12848.636675357819.
+2025-02-27 10:47:40,239 - read2tree.Mapper - INFO - 14_A_melas_1: Mapping to all references took 67502.03113746643.
+2025-02-27 10:47:40,500 - read2tree.OGSet - INFO - 14_A_melas_1: Appending 200 reconstructed sequences to present OG took 0.005520343780517578.
+2025-02-27 10:47:41,409 - read2tree.Aligner - INFO - 14_A_melas_1: Appending 199 reconstructed sequences to present Alignments took 0.67262864112854.
+2025-02-27 11:13:37,152 - read2tree.Mapper - INFO - 21_C_quinquefasciatus_1: Mapped 64034 / 151575156 reads to ANOGA_OGs.fa
+2025-02-27 11:13:37,159 - read2tree.Mapper - INFO - 21_C_quinquefasciatus_1: Mapping to ANOGA_OGs.fa references took 30277.21977329254.
+2025-02-27 11:13:40,549 - read2tree.Mapper - INFO - 21_C_quinquefasciatus_1: --- Mapping of reads to ANOSI reference species ---
+2025-02-27 11:13:40,551 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_83vn76e2/ANOSI_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/21_C_quinquefasciatus_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/21_C_quinquefasciatus_2.fastq.gz -o /tmp/ngm_83vn76e2/ANOSI_OGs.fa.bam
+2025-02-27 11:39:55,710 - read2tree.Mapper - INFO - 18_A_sinensis_1: Mapped 569038 / 260256660 reads to ANOSI_OGs.fa
+2025-02-27 11:39:55,736 - read2tree.Mapper - INFO - 18_A_sinensis_1: Mapping to ANOSI_OGs.fa references took 19170.552119731903.
+2025-02-27 11:40:22,396 - read2tree.Mapper - INFO - 18_A_sinensis_1: --- Mapping of reads to ANODA reference species ---
+2025-02-27 11:40:22,397 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_qsf5bimb/ANODA_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/18_A_sinensis_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/18_A_sinensis_2.fastq.gz -o /tmp/ngm_qsf5bimb/ANODA_OGs.fa.bam
+2025-02-27 12:13:48,019 - read2tree.Mapper - INFO - 16_A_minimus_1: Mapped 134004 / 112841632 reads to ANOSI_OGs.fa
+2025-02-27 12:13:48,045 - read2tree.Mapper - INFO - 16_A_minimus_1: Mapping to ANOSI_OGs.fa references took 18222.925555467606.
+2025-02-27 12:13:54,118 - read2tree.Mapper - INFO - 16_A_minimus_1: --- Mapping of reads to ANODA reference species ---
+2025-02-27 12:13:54,119 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_924q5cb0/ANODA_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/16_A_minimus_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/16_A_minimus_2.fastq.gz -o /tmp/ngm_924q5cb0/ANODA_OGs.fa.bam
+2025-02-27 12:27:59,464 - read2tree.Mapper - INFO - 3_A_arabiensis_1: Mapped 165854 / 110764868 reads to ANOGA_OGs.fa
+2025-02-27 12:27:59,470 - read2tree.Mapper - INFO - 3_A_arabiensis_1: Mapping to ANOGA_OGs.fa references took 31357.630320310593.
+2025-02-27 12:28:11,834 - read2tree.Mapper - INFO - 3_A_arabiensis_1: --- Mapping of reads to ANOSI reference species ---
+2025-02-27 12:28:11,835 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_8_q5wx1s/ANOSI_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/3_A_arabiensis_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/3_A_arabiensis_2.fastq.gz -o /tmp/ngm_8_q5wx1s/ANOSI_OGs.fa.bam
+2025-02-27 12:45:12,817 - read2tree.Mapper - INFO - 8_A_dirus_1: Mapped 36506 / 50943298 reads to ANODA_OGs.fa
+2025-02-27 12:45:12,842 - read2tree.Mapper - INFO - 8_A_dirus_1: Mapping to ANODA_OGs.fa references took 11978.341575622559.
+2025-02-27 12:45:16,120 - read2tree.Mapper - INFO - 8_A_dirus_1: Mapping to all references took 74558.16061973572.
+2025-02-27 12:45:16,381 - read2tree.OGSet - INFO - 8_A_dirus_1: Appending 198 reconstructed sequences to present OG took 0.0068759918212890625.
+2025-02-27 12:45:17,421 - read2tree.Aligner - INFO - 8_A_dirus_1: Appending 197 reconstructed sequences to present Alignments took 0.682403564453125.
+2025-02-27 12:50:08,281 - read2tree.Mapper - INFO - 20_D_melanogaster_1: Mapped 222788 / 123900948 reads to ANOSI_OGs.fa
+2025-02-27 12:50:08,307 - read2tree.Mapper - INFO - 20_D_melanogaster_1: Mapping to ANOSI_OGs.fa references took 17669.491200208664.
+2025-02-27 12:50:12,666 - read2tree.Mapper - INFO - 20_D_melanogaster_1: --- Mapping of reads to ANODA reference species ---
+2025-02-27 12:50:12,667 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_b_5ujwx5/ANODA_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/20_D_melanogaster_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/20_D_melanogaster_2.fastq.gz -o /tmp/ngm_b_5ujwx5/ANODA_OGs.fa.bam
+2025-02-27 12:56:29,631 - read2tree.Mapper - INFO - 15_A_merus_1: Mapped 367921 / 179894282 reads to ANOGA_OGs.fa
+2025-02-27 12:56:29,657 - read2tree.Mapper - INFO - 15_A_merus_1: Mapping to ANOGA_OGs.fa references took 32121.79375076294.
+2025-02-27 12:56:42,449 - read2tree.Mapper - INFO - 15_A_merus_1: --- Mapping of reads to ANOSI reference species ---
+2025-02-27 12:56:42,451 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_gv62gjrs/ANOSI_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/15_A_merus_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/15_A_merus_2.fastq.gz -o /tmp/ngm_gv62gjrs/ANOSI_OGs.fa.bam
+2025-02-27 13:43:50,719 - read2tree.Mapper - INFO - 19_A_stephensi_1: Mapped 144110 / 97375090 reads to ANOSI_OGs.fa
+2025-02-27 13:43:50,744 - read2tree.Mapper - INFO - 19_A_stephensi_1: Mapping to ANOSI_OGs.fa references took 17767.229476451874.
+2025-02-27 13:43:59,984 - read2tree.Mapper - INFO - 19_A_stephensi_1: --- Mapping of reads to ANODA reference species ---
+2025-02-27 13:43:59,985 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm__be_vwhz/ANODA_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/19_A_stephensi_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/19_A_stephensi_2.fastq.gz -o /tmp/ngm__be_vwhz/ANODA_OGs.fa.bam
+2025-02-27 13:46:08,300 - read2tree.Mapper - INFO - 13_A_maculatus_1: Mapped 86360 / 101427754 reads to ANODA_OGs.fa
+2025-02-27 13:46:08,326 - read2tree.Mapper - INFO - 13_A_maculatus_1: Mapping to ANODA_OGs.fa references took 12493.087743759155.
+2025-02-27 13:46:11,077 - read2tree.Mapper - INFO - 13_A_maculatus_1: Mapping to all references took 78212.88988542557.
+2025-02-27 13:46:11,392 - read2tree.OGSet - INFO - 13_A_maculatus_1: Appending 200 reconstructed sequences to present OG took 0.005473136901855469.
+2025-02-27 13:46:12,488 - read2tree.Aligner - INFO - 13_A_maculatus_1: Appending 200 reconstructed sequences to present Alignments took 0.8142139911651611.
+2025-02-27 13:46:19,060 - read2tree.Mapper - INFO - 17_A_quad_combined_1: Mapped 117540 / 92766632 reads to ANODA_OGs.fa
+2025-02-27 13:46:19,083 - read2tree.Mapper - INFO - 17_A_quad_combined_1: Mapping to ANODA_OGs.fa references took 12427.507187128067.
+2025-02-27 13:46:24,202 - read2tree.Mapper - INFO - 17_A_quad_combined_1: Mapping to all references took 78226.23094773293.
+2025-02-27 13:46:24,449 - read2tree.OGSet - INFO - 17_A_quad_combined_1: Appending 200 reconstructed sequences to present OG took 0.005434989929199219.
+2025-02-27 13:46:25,367 - read2tree.Aligner - INFO - 17_A_quad_combined_1: Appending 200 reconstructed sequences to present Alignments took 0.6884393692016602.
+2025-02-27 14:27:52,210 - read2tree.Mapper - INFO - 2_A_albimanus_1: Mapped 220921 / 188326222 reads to ANOSI_OGs.fa
+2025-02-27 14:27:52,237 - read2tree.Mapper - INFO - 2_A_albimanus_1: Mapping to ANOSI_OGs.fa references took 16871.2904920578.
+2025-02-27 14:28:06,913 - read2tree.Mapper - INFO - 2_A_albimanus_1: --- Mapping of reads to ANODA reference species ---
+2025-02-27 14:28:06,915 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_j6bzatoj/ANODA_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/2_A_albimanus_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/2_A_albimanus_2.fastq.gz -o /tmp/ngm_j6bzatoj/ANODA_OGs.fa.bam
+2025-02-27 15:29:42,444 - read2tree.Mapper - INFO - 18_A_sinensis_1: Mapped 404240 / 260256660 reads to ANODA_OGs.fa
+2025-02-27 15:29:42,474 - read2tree.Mapper - INFO - 18_A_sinensis_1: Mapping to ANODA_OGs.fa references took 13760.077125787735.
+2025-02-27 15:29:56,669 - read2tree.Mapper - INFO - 18_A_sinensis_1: Mapping to all references took 84437.9741036892.
+2025-02-27 15:29:56,907 - read2tree.OGSet - INFO - 18_A_sinensis_1: Appending 200 reconstructed sequences to present OG took 0.005372285842895508.
+2025-02-27 15:29:57,915 - read2tree.Aligner - INFO - 18_A_sinensis_1: Appending 200 reconstructed sequences to present Alignments took 0.7041540145874023.
+2025-02-27 15:42:59,482 - read2tree.Mapper - INFO - 16_A_minimus_1: Mapped 136855 / 112841632 reads to ANODA_OGs.fa
+2025-02-27 15:42:59,513 - read2tree.Mapper - INFO - 16_A_minimus_1: Mapping to ANODA_OGs.fa references took 12545.394680261612.
+2025-02-27 15:43:04,497 - read2tree.Mapper - INFO - 16_A_minimus_1: Mapping to all references took 85226.31644201279.
+2025-02-27 15:43:04,776 - read2tree.OGSet - INFO - 16_A_minimus_1: Appending 200 reconstructed sequences to present OG took 0.005208492279052734.
+2025-02-27 15:43:05,598 - read2tree.Aligner - INFO - 16_A_minimus_1: Appending 199 reconstructed sequences to present Alignments took 0.6684656143188477.
+2025-02-27 16:05:50,114 - read2tree.Mapper - INFO - 20_D_melanogaster_1: Mapped 231301 / 123900948 reads to ANODA_OGs.fa
+2025-02-27 16:05:50,139 - read2tree.Mapper - INFO - 20_D_melanogaster_1: Mapping to ANODA_OGs.fa references took 11737.472389936447.
+2025-02-27 16:05:54,194 - read2tree.Mapper - INFO - 20_D_melanogaster_1: Mapping to all references took 86595.53013944626.
+2025-02-27 16:05:54,481 - read2tree.OGSet - INFO - 20_D_melanogaster_1: Appending 136 reconstructed sequences to present OG took 0.0038688182830810547.
+2025-02-27 16:05:54,892 - read2tree.Aligner - INFO - 20_D_melanogaster_1: Appending 50 reconstructed sequences to present Alignments took 0.187605619430542.
+2025-02-27 16:28:31,106 - read2tree.Mapper - INFO - 21_C_quinquefasciatus_1: Mapped 48016 / 151575156 reads to ANOSI_OGs.fa
+2025-02-27 16:28:31,130 - read2tree.Mapper - INFO - 21_C_quinquefasciatus_1: Mapping to ANOSI_OGs.fa references took 18890.57983469963.
+2025-02-27 16:28:34,065 - read2tree.Mapper - INFO - 21_C_quinquefasciatus_1: --- Mapping of reads to ANODA reference species ---
+2025-02-27 16:28:34,118 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_83vn76e2/ANODA_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/21_C_quinquefasciatus_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/21_C_quinquefasciatus_2.fastq.gz -o /tmp/ngm_83vn76e2/ANODA_OGs.fa.bam
+2025-02-27 16:33:55,919 - read2tree.Mapper - INFO - 3_A_arabiensis_1: Mapped 112490 / 110764868 reads to ANOSI_OGs.fa
+2025-02-27 16:33:55,942 - read2tree.Mapper - INFO - 3_A_arabiensis_1: Mapping to ANOSI_OGs.fa references took 14744.106940746307.
+2025-02-27 16:34:02,750 - read2tree.Mapper - INFO - 3_A_arabiensis_1: --- Mapping of reads to ANODA reference species ---
+2025-02-27 16:34:02,781 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_8_q5wx1s/ANODA_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/3_A_arabiensis_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/3_A_arabiensis_2.fastq.gz -o /tmp/ngm_8_q5wx1s/ANODA_OGs.fa.bam
+2025-02-27 16:40:04,792 - read2tree.Mapper - INFO - 19_A_stephensi_1: Mapped 108354 / 97375090 reads to ANODA_OGs.fa
+2025-02-27 16:40:04,817 - read2tree.Mapper - INFO - 19_A_stephensi_1: Mapping to ANODA_OGs.fa references took 10564.832537174225.
+2025-02-27 16:40:12,361 - read2tree.Mapper - INFO - 19_A_stephensi_1: Mapping to all references took 88654.34347438812.
+2025-02-27 16:40:12,606 - read2tree.OGSet - INFO - 19_A_stephensi_1: Appending 200 reconstructed sequences to present OG took 0.0058803558349609375.
+2025-02-27 16:40:13,426 - read2tree.Aligner - INFO - 19_A_stephensi_1: Appending 200 reconstructed sequences to present Alignments took 0.6835470199584961.
+2025-02-27 17:17:51,834 - read2tree.Mapper - INFO - 15_A_merus_1: Mapped 249259 / 179894282 reads to ANOSI_OGs.fa
+2025-02-27 17:17:51,860 - read2tree.Mapper - INFO - 15_A_merus_1: Mapping to ANOSI_OGs.fa references took 15669.40927028656.
+2025-02-27 17:17:58,772 - read2tree.Mapper - INFO - 15_A_merus_1: --- Mapping of reads to ANODA reference species ---
+2025-02-27 17:17:58,774 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/ngm -t 1 --no-unal -b -r /tmp/ngm_gv62gjrs/ANODA_OGs.fa -1 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/15_A_merus_1.fastq.gz -2 /pickett_centaur/project/orthogarden_analysis/data/anopheles_contam/reads/15_A_merus_2.fastq.gz -o /tmp/ngm_gv62gjrs/ANODA_OGs.fa.bam
+2025-02-27 17:42:23,096 - read2tree.Mapper - INFO - 2_A_albimanus_1: Mapped 320167 / 188326222 reads to ANODA_OGs.fa
+2025-02-27 17:42:23,122 - read2tree.Mapper - INFO - 2_A_albimanus_1: Mapping to ANODA_OGs.fa references took 11656.207164049149.
+2025-02-27 17:42:47,115 - read2tree.Mapper - INFO - 2_A_albimanus_1: Mapping to all references took 92409.30905270576.
+2025-02-27 17:42:47,372 - read2tree.OGSet - INFO - 2_A_albimanus_1: Appending 200 reconstructed sequences to present OG took 0.005359649658203125.
+2025-02-27 17:42:48,277 - read2tree.Aligner - INFO - 2_A_albimanus_1: Appending 200 reconstructed sequences to present Alignments took 0.7311794757843018.
+2025-02-27 18:29:32,520 - read2tree.Mapper - INFO - 3_A_arabiensis_1: Mapped 95882 / 110764868 reads to ANODA_OGs.fa
+2025-02-27 18:29:32,545 - read2tree.Mapper - INFO - 3_A_arabiensis_1: Mapping to ANODA_OGs.fa references took 6929.793636798859.
+2025-02-27 18:29:38,314 - read2tree.Mapper - INFO - 3_A_arabiensis_1: Mapping to all references took 95220.06157231331.
+2025-02-27 18:29:38,549 - read2tree.OGSet - INFO - 3_A_arabiensis_1: Appending 200 reconstructed sequences to present OG took 0.004915475845336914.
+2025-02-27 18:29:39,494 - read2tree.Aligner - INFO - 3_A_arabiensis_1: Appending 200 reconstructed sequences to present Alignments took 0.6730349063873291.
+2025-02-27 18:49:33,871 - read2tree.Mapper - INFO - 21_C_quinquefasciatus_1: Mapped 83257 / 151575156 reads to ANODA_OGs.fa
+2025-02-27 18:49:33,897 - read2tree.Mapper - INFO - 21_C_quinquefasciatus_1: Mapping to ANODA_OGs.fa references took 8459.806940078735.
+2025-02-27 18:49:36,843 - read2tree.Mapper - INFO - 21_C_quinquefasciatus_1: Mapping to all references took 96418.66645622253.
+2025-02-27 18:49:37,176 - read2tree.OGSet - INFO - 21_C_quinquefasciatus_1: Appending 199 reconstructed sequences to present OG took 0.00481104850769043.
+2025-02-27 18:49:38,026 - read2tree.Aligner - INFO - 21_C_quinquefasciatus_1: Appending 168 reconstructed sequences to present Alignments took 0.5641844272613525.
+2025-02-27 19:22:49,287 - read2tree.Mapper - INFO - 15_A_merus_1: Mapped 236081 / 179894282 reads to ANODA_OGs.fa
+2025-02-27 19:22:49,312 - read2tree.Mapper - INFO - 15_A_merus_1: Mapping to ANODA_OGs.fa references took 7490.538698673248.
+2025-02-27 19:22:55,307 - read2tree.Mapper - INFO - 15_A_merus_1: Mapping to all references took 98417.13201928139.
+2025-02-27 19:22:55,562 - read2tree.OGSet - INFO - 15_A_merus_1: Appending 200 reconstructed sequences to present OG took 0.005105018615722656.
+2025-02-27 19:22:56,554 - read2tree.Aligner - INFO - 15_A_merus_1: Appending 198 reconstructed sequences to present Alignments took 0.6688525676727295.
+2025-02-27 22:23:46,199 - read2tree.OGSet - INFO - merge: Appending 193 reconstructed sequences to present OG took 0.004950284957885742.
+2025-02-27 22:23:46,714 - read2tree.Aligner - INFO - merge: Appending 151 reconstructed sequences to present Alignments took 0.5139944553375244.
+2025-02-27 22:23:47,007 - read2tree.OGSet - INFO - merge: Appending 200 reconstructed sequences to present OG took 0.005043506622314453.
+2025-02-27 22:23:47,702 - read2tree.Aligner - INFO - merge: Appending 200 reconstructed sequences to present Alignments took 0.6942794322967529.
+2025-02-27 22:23:47,983 - read2tree.OGSet - INFO - merge: Appending 198 reconstructed sequences to present OG took 0.0049707889556884766.
+2025-02-27 22:23:48,665 - read2tree.Aligner - INFO - merge: Appending 197 reconstructed sequences to present Alignments took 0.682016134262085.
+2025-02-27 22:23:49,089 - read2tree.OGSet - INFO - merge: Appending 200 reconstructed sequences to present OG took 0.005189418792724609.
+2025-02-27 22:23:49,781 - read2tree.Aligner - INFO - merge: Appending 200 reconstructed sequences to present Alignments took 0.6926093101501465.
+2025-02-27 22:23:50,247 - read2tree.OGSet - INFO - merge: Appending 194 reconstructed sequences to present OG took 0.004650592803955078.
+2025-02-27 22:23:50,850 - read2tree.Aligner - INFO - merge: Appending 164 reconstructed sequences to present Alignments took 0.6032264232635498.
+2025-02-27 22:23:51,140 - read2tree.OGSet - INFO - merge: Appending 200 reconstructed sequences to present OG took 0.005437374114990234.
+2025-02-27 22:23:51,840 - read2tree.Aligner - INFO - merge: Appending 200 reconstructed sequences to present Alignments took 0.6998677253723145.
+2025-02-27 22:23:52,160 - read2tree.OGSet - INFO - merge: Appending 200 reconstructed sequences to present OG took 0.005285978317260742.
+2025-02-27 22:23:52,858 - read2tree.Aligner - INFO - merge: Appending 200 reconstructed sequences to present Alignments took 0.698479175567627.
+2025-02-27 22:23:53,151 - read2tree.OGSet - INFO - merge: Appending 200 reconstructed sequences to present OG took 0.005372047424316406.
+2025-02-27 22:23:53,857 - read2tree.Aligner - INFO - merge: Appending 200 reconstructed sequences to present Alignments took 0.7058298587799072.
+2025-02-27 22:23:54,378 - read2tree.OGSet - INFO - merge: Appending 200 reconstructed sequences to present OG took 0.005649566650390625.
+2025-02-27 22:23:55,087 - read2tree.Aligner - INFO - merge: Appending 200 reconstructed sequences to present Alignments took 0.7087430953979492.
+2025-02-27 22:23:55,430 - read2tree.OGSet - INFO - merge: Appending 200 reconstructed sequences to present OG took 0.005573749542236328.
+2025-02-27 22:23:56,126 - read2tree.Aligner - INFO - merge: Appending 200 reconstructed sequences to present Alignments took 0.6961400508880615.
+2025-02-27 22:23:56,499 - read2tree.OGSet - INFO - merge: Appending 200 reconstructed sequences to present OG took 0.00551295280456543.
+2025-02-27 22:23:57,195 - read2tree.Aligner - INFO - merge: Appending 200 reconstructed sequences to present Alignments took 0.6957342624664307.
+2025-02-27 22:23:57,643 - read2tree.OGSet - INFO - merge: Appending 200 reconstructed sequences to present OG took 0.0055615901947021484.
+2025-02-27 22:23:58,351 - read2tree.Aligner - INFO - merge: Appending 199 reconstructed sequences to present Alignments took 0.7073330879211426.
+2025-02-27 22:23:58,625 - read2tree.OGSet - INFO - merge: Appending 200 reconstructed sequences to present OG took 0.005738973617553711.
+2025-02-27 22:23:59,331 - read2tree.Aligner - INFO - merge: Appending 198 reconstructed sequences to present Alignments took 0.7060794830322266.
+2025-02-27 22:23:59,709 - read2tree.OGSet - INFO - merge: Appending 199 reconstructed sequences to present OG took 0.005267620086669922.
+2025-02-27 22:24:00,371 - read2tree.Aligner - INFO - merge: Appending 168 reconstructed sequences to present Alignments took 0.6615612506866455.
+2025-02-27 22:24:00,699 - read2tree.OGSet - INFO - merge: Appending 200 reconstructed sequences to present OG took 0.005807399749755859.
+2025-02-27 22:24:01,405 - read2tree.Aligner - INFO - merge: Appending 200 reconstructed sequences to present Alignments took 0.7058806419372559.
+2025-02-27 22:24:01,740 - read2tree.OGSet - INFO - merge: Appending 200 reconstructed sequences to present OG took 0.005984306335449219.
+2025-02-27 22:24:02,443 - read2tree.Aligner - INFO - merge: Appending 199 reconstructed sequences to present Alignments took 0.7026488780975342.
+2025-02-27 22:24:02,802 - read2tree.OGSet - INFO - merge: Appending 200 reconstructed sequences to present OG took 0.006013393402099609.
+2025-02-27 22:24:03,514 - read2tree.Aligner - INFO - merge: Appending 199 reconstructed sequences to present Alignments took 0.712094783782959.
+2025-02-27 22:24:03,830 - read2tree.OGSet - INFO - merge: Appending 200 reconstructed sequences to present OG took 0.0059626102447509766.
+2025-02-27 22:24:04,536 - read2tree.Aligner - INFO - merge: Appending 200 reconstructed sequences to present Alignments took 0.7055556774139404.
+2025-02-27 22:24:04,854 - read2tree.OGSet - INFO - merge: Appending 136 reconstructed sequences to present OG took 0.0026891231536865234.
+2025-02-27 22:24:05,048 - read2tree.Aligner - INFO - merge: Appending 50 reconstructed sequences to present Alignments took 0.19393420219421387.
+2025-02-27 22:24:05,408 - read2tree.OGSet - INFO - merge: Appending 200 reconstructed sequences to present OG took 0.0061609745025634766.
+2025-02-27 22:24:06,115 - read2tree.Aligner - INFO - merge: Appending 200 reconstructed sequences to present Alignments took 0.7068085670471191.
+2025-02-27 22:24:06,481 - read2tree.OGSet - INFO - merge: Appending 200 reconstructed sequences to present OG took 0.006430625915527344.
+2025-02-27 22:24:07,193 - read2tree.Aligner - INFO - merge: Appending 197 reconstructed sequences to present Alignments took 0.7112586498260498.
+2025-02-27 22:24:08,941 - read2tree.wrappers.abstract_cli - DEBUG - Running following command: /opt/conda/envs/read2tree_env/bin/iqtree -nt 1 -m LG -mem 4G -pre /tmp/iqtree_u8an7e_a/tmp_output -s /tmp/iqtree_u8an7e_a/tmp_output.phy
+2025-02-27 22:52:41,131 - read2tree.TreeInference - INFO - merge: Tree inference took 1712.3132593631744.

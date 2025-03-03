@@ -62,7 +62,6 @@ def main():
 
     with open(sys.argv[2]) as f:
         tree = f.read()
-
     names_ls = get_newick_names(tree)
     names_ls, tree = prune_names(names_ls, tree)
     print_not_found(names_dt, names_ls)
