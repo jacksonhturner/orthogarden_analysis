@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+READS_DIR=/pickett_centaur/project/Moulton_JHT/trimming/Henckelia_OG_manuscript/reads/
+ATRAM_LIB=/pickett_centaur/project/Moulton_JHT/trimming/Henckelia_OG_manuscript/aTRAM/aTRAM_library
+ATRAM_OUT=/pickett_centaur/project/Moulton_JHT/trimming/Henckelia_OG_manuscript/aTRAM/aTRAM_output
+STITCHED_DIR=/pickett_centaur/project/Moulton_JHT/trimming/Henckelia_OG_manuscript/aTRAM/exonerate/complete
+NUCL_SEQS=/pickett_centaur/project/Moulton_JHT/trimming/Henckelia_OG_manuscript/aTRAM/exonerate/complete/1_nucl_seqs
+AA_SEQS=/pickett_centaur/project/Moulton_JHT/trimming/Henckelia_OG_manuscript/aTRAM/exonerate/complete/2_aa_seqs
+ALIGNED_AA=/pickett_centaur/project/Moulton_JHT/trimming/Henckelia_OG_manuscript/aTRAM/exonerate/complete/3_mafft
+ALIGNED_NUCL_IN=/pickett_centaur/project/Moulton_JHT/trimming/Henckelia_OG_manuscript/aTRAM/exonerate/complete/4_translatorx
+ALIGNED_NUCL_OUT=/pickett_centaur/project/Moulton_JHT/trimming/Henckelia_OG_manuscript/aTRAM/exonerate/complete/5_trimal_input
+ALIGNED_MASKED=/pickett_centaur/project/Moulton_JHT/trimming/Henckelia_OG_manuscript/aTRAM/exonerate/complete/6_trimal_output
+THIRDS_REMOVED=/pickett_centaur/project/Moulton_JHT/trimming/Henckelia_OG_manuscript/aTRAM/exonerate/complete/7_no_3rds
+ATRAM_REF=/pickett_centaur/project/Moulton_JHT/trimming/Henckelia_OG_manuscript/aTRAM/exonerate/complete/0_exonerate/Rorcoceras_hygrometricum_OrthoDB_1000_subset.faa
+ATRAM_STITCH=/pickett_centaur/project/Moulton_JHT/trimming/Henckelia_OG_manuscript/aTRAM/exonerate/complete/0_exonerate/assemblies
